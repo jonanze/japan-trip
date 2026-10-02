@@ -25,6 +25,10 @@ day headings, the hotel each night, and Google Maps travel modes. The scheduled 
 5. Run `python3 tools/sync.py apply /tmp/patch.json`, then `node tools/build.js`. If `ops` was empty, still apply it, so that `sheetRevision` advances.
 6. Commit `data/ index.html sw.js manifest.webmanifest` with a message listing what changed, and push to `main`.
    Pages publishes within a couple of minutes.
+7. Only when ops were applied: refresh the view-only Claude-app copy.
+   - Run `node tools/build.js --artifact /tmp/japan-artifact.html`.
+   - Publish it with the Artifact tool to https://claude.ai/artifact/28vtak4L17FNue2WPbvhC6 . Read that URL first, then use `capabilities: {}` so it stays view-only.
+   - Skip this step if the Artifact tool is unavailable.
 
 ## Sheet layout → app fields
 

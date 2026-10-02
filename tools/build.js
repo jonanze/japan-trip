@@ -30,4 +30,14 @@ fs.writeFileSync(O('manifest.webmanifest'), JSON.stringify({
   background_color: '#f3f5f9', theme_color: '#1d3a8f',
   icons: [{ src: 'apple-touch-icon.png', sizes: '180x180', type: 'image/png' }]
 }));
+// Claude-app copy (view-only page body for the Artifact at claude.ai/artifact/28vtak4L17FNue2WPbvhC6)
+const ai = process.argv.indexOf('--artifact');
+if (ai > 0) {
+  const note = '<p style="margin:0;padding:.6rem 16px;background:#1d3a8f;color:#fff;font:600 15px/1.4 system-ui,sans-serif;text-align:center">' +
+    'View only. For phones use <a style="color:#fff" href="https://jonanze.github.io/japan-trip/" target="_blank" rel="noopener">jonanze.github.io/japan-trip</a>. To change the plan, edit the Google Sheet.</p>\n';
+  fs.writeFileSync(process.argv[ai + 1], '<title>' + data.title + '</title>\n' +
+    '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=BIZ+UDPGothic:wght@400;700&display=swap">\n' +
+    '<style id="app-style">' + css + '</style>\n' + note + '<div id="app"></div><div id="layer"></div>\n' +
+    '<script type="application/json" id="trip-data">' + json + '</script>\n<script id="app-script">' + js + '</script>\n');
+}
 console.log('built version', ver, '·', data.days.reduce((n, d) => n + d.items.length, 0), 'stops ·', Object.keys(data.places).length, 'places ·', data.todo.length, 'to-dos');
