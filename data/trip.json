@@ -804,6 +804,42 @@
    "lng": 139.5571134,
    "mc": "",
    "tel": "0467-22-0753"
+  },
+  "inakaya": {
+   "en": "Wappa-meshi Inakaya Furumachi Honten",
+   "ja": "わっぱ飯 田舎家",
+   "addr": "新潟県新潟市中央区古町通9-1457",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "025-223-1266"
+  },
+  "ushikozou": {
+   "en": "Ushikozou (wagyu yakiniku)",
+   "ja": "うしこぞう",
+   "addr": "神奈川県川崎市川崎区小川町5-10 1F",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "050-5456-4317"
+  },
+  "sushi_midori": {
+   "en": "Umegaoka Sushi no Midori Ginza",
+   "ja": "梅丘寿司の美登利 銀座店",
+   "addr": "東京都中央区銀座8-3 東京高速道路山下ビル1F",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "03-5568-1212"
+  },
+  "ginza_maru": {
+   "en": "Ginza Maru (grilled-fish teishoku)",
+   "ja": "銀座 圓",
+   "addr": "東京都中央区銀座6-12-15 いちご銀座612ビル2F",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1427,7 +1463,7 @@
      "title": "Check out · Yamanoha; drive Unazuki → Niigata",
      "kind": "travel",
      "how": "Hokuriku Expwy, ~4 h of driving (estimate from expressway km posts) plus the stops below. Sunset ~16:30",
-     "notes": "09:15 Depart (leisurely onsen morning)\n~11:00 Yoneyama SA (drive ~1 h 45); lunch to ~11:45. The 30 min spare is buffer, or leave Yamanoha later\n~13:10 Yahiko Park + Shrine (incl. optional ropeway)\n~17:00 Momijidani light-up\n~17:20 Drive to Niigata (~1 h, after dark)\n~18:20 Niigata Daiichi Hotel; park, check in, short rest\n~19:15 Taxi to Marui (~10 min) for a 19:30 booking\nTakada Castle Park dropped (turret closed Mondays). Rotate drivers; ETC for tolls. All drive times are estimates",
+     "notes": "09:15 Depart (leisurely onsen morning)\n~11:00 Yoneyama SA (drive ~1 h 45); lunch to ~11:45. The 30 min spare is buffer, or leave Yamanoha later\n~13:10 Yahiko Park + Shrine (incl. optional ropeway)\n~17:00 Momijidani light-up\n~17:20 Drive to Niigata (~1 h, after dark)\n~18:20 Niigata Daiichi Hotel; park, check in, short rest\n~19:15 Taxi to Inakaya (~10 min) for a 19:30 booking\nTakada Castle Park dropped (turret closed Mondays). Rotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "yamanoha"
      ],
@@ -1450,7 +1486,7 @@
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
      "how": "Drive via Nagaoka JCT → Sanjō-Tsubame IC, ~1 h 25 (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
-     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00 from ~30 Oct, per Weathernews, not an official source); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up, leave ~16:00 and reach Niigata early (Marui stays at 19:30)",
+     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00 from ~30 Oct, per Weathernews, not an official source); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up, leave ~16:00 and reach Niigata early (dinner stays at 19:30)",
      "places": [
       "yahiko_park",
       "yahiko_shrine"
@@ -1483,15 +1519,15 @@
     {
      "id": "i45",
      "time": "19:30",
-     "title": "Dinner · Splurge ①: Sushi Kappō Marui",
+     "title": "Dinner · Wappa-meshi Inakaya (Niigata's own dish)",
      "kind": "food",
-     "how": "8-1411 Higashibori-dōri, Chūō-ku, Niigata (Furumachi); ~10 min by taxi",
-     "notes": "Tabelog 3.55; courses ¥7.7k–11k; nodoguro shioyaki and aburi-don on Niigata Koshihikari. Backup: Inakaya (Tabelog 3.45, wappa-meshi, open Mon, ☎ 025-223-1266). Tonkatsu Tarō (Tabelog 3.57, tare-katsudon birthplace) is lunch-only since May 2024 and closed Wed–Thu, so it can't be the dinner backup",
+     "how": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~10 min by taxi from Niigata Daiichi Hotel",
+     "notes": "Tabelog 3.45; where Niigata's wappa-meshi (rice steamed in a cedar box with seafood on top) began in 1956. Salmon-ikura wappa set ¥1,980; nodoguro wappa and noppe (Niigata vegetable stew) also on the menu; ~¥3k pp. Non-smoking; tatami, irori and table seats. Dinner from 17:00 (to 21:00 per Gurunavi, 22:30 per the city tourism site); closed Tue per Gurunavi, or only 31 Dec–1 Jan per the tourism site, so Mon is open either way. Backup: Sushi Kappō Marui, 8-1411 Higashibori-dōri, a block away (Tabelog 3.55; order à la carte, not a course: 'Kiwami' 10-piece local-fish nigiri ¥4,950, nodoguro shioyaki at market price, ¥510 cover; irregular closures; ☎ 025-228-0101)",
      "places": [
-      "marui"
+      "inakaya"
      ],
      "mode": "transit",
-     "action": "★ Reserve by late Oct (☎ 025-228-0101 / Gurunavi); confirm it is open Mon 16 Nov (irregular closures)"
+     "action": "★ Reserve 19:30 for 3 (Gurunavi online / ☎ 025-223-1266); ask for a table, not tatami"
     },
     {
      "id": "i46",
@@ -1670,14 +1706,15 @@
     {
      "id": "i57",
      "time": "~19:00",
-     "title": "Dinner · Matsu no Ki (Sichuan)",
+     "title": "Dinner · Ushikozou (A5 wagyu yakiniku)",
      "kind": "food",
-     "how": "6-11 Miyamoto-chō, Kawasaki-ku; ~8 min walk from JR Kawasaki east side",
-     "notes": "Tabelog 3.69, Top 100 Chinese; mapo tōfu and tantanmen after the travel day. ☎ 044-221-9939 to book dinner (closed Mon and Tue; Wed fine). Late-arrival fallback: Sansan-nana tsukemen (Tabelog ~3.7, open daily until 23:00)",
+     "how": "Ushikozou (うしこぞう), 1F, 5-10 Ogawa-chō, Kawasaki-ku, Kawasaki (☎ 050-5456-4317)\n~4 min walk from JR Kawasaki Sta, east side (same street as Santsuru)",
+     "notes": "Tabelog 3.52; sister shop of Niku Kozō. A5 wagyu cuts and horumon grilled at the table, ~¥5–6k pp at dinner. Wed 17:00–23:00 (L.O. 22:30); open year-round. Tabelog also lists it as an izakaya because it sells all-you-can-drink plans; order soft drinks. Smoking is heated tobacco only, in a designated area, so ask for a table away from it. Backup: Matsu no Ki (Tabelog 3.69, Sichuan, 6-11 Miyamoto-chō; closed Mon and Tue) or Sansan-nana tsukemen (open daily until 23:00)",
      "places": [
-      "matsu"
+      "ushikozou"
      ],
-     "mode": "walking"
+     "mode": "walking",
+     "action": "★ Reserve 19:00 for 3: Tabelog online or ☎ 050-5456-4317"
     }
    ]
   },
@@ -1686,7 +1723,7 @@
    "label": "19 Nov",
    "ja": "原宿",
    "en": "Harajuku",
-   "sub": "Meiji Jingū, Nezu Museum, Omotesandō, wagyu dinner",
+   "sub": "Meiji Jingū, Nezu Museum, Omotesandō, sushi in Ginza",
    "mode": "transit",
    "hotel": "mets",
    "items": [
@@ -1731,7 +1768,7 @@
      "title": "Stroll · Omotesandō and Cat Street",
      "kind": "visit",
      "how": "Omotesandō avenue, Cat Street (Jingūmae)",
-     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then on to Shibuya for Yuji\nIf wet: Omotesandō Hills instead (indoor, same avenue)",
+     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then the Ginza Line from Omotesandō to Shimbashi for Midori (~15 min, est.)\nIf wet: Omotesandō Hills instead (indoor, same avenue)",
      "places": [
       "bread"
      ]
@@ -1739,25 +1776,25 @@
     {
      "id": "i82",
      "time": "~15:30–16:30",
-     "title": "Optional · Jingū Gaien ginkgo avenue (only with the 18:00 Yuji seating)",
+     "title": "Optional · Jingū Gaien ginkgo avenue",
      "kind": "visit",
-     "how": "Jingū Gaien Ichō Namiki, Kita-Aoyama 1-chōme, Minato-ku, Tokyo; Ginza Line Omotesandō → Gaien-mae (1 stop), then ~5 min walk\nThen to Shibuya: Ginza Line Gaien-mae → Shibuya, ~5 min",
-     "notes": "~300 m avenue of ginkgo trees, flat, free, open any time. Weathernews 2026 forecast: best from ~29 Nov, so on 19 Nov expect it only partly yellow. Skip if Yuji is the 16:00 seating",
+     "how": "Jingū Gaien Ichō Namiki, Kita-Aoyama 1-chōme, Minato-ku, Tokyo; Ginza Line Omotesandō → Gaien-mae (1 stop), then ~5 min walk\nThen to Midori: Ginza Line Gaien-mae → Shimbashi, ~15 min (est.)",
+     "notes": "~300 m avenue of ginkgo trees, flat, free, open any time. Weathernews 2026 forecast: best from ~29 Nov, so on 19 Nov expect it only partly yellow",
      "places": [
       "gaien"
      ]
     },
     {
      "id": "i61",
-     "time": "16:00 or 18:00",
-     "title": "Dinner · Splurge ②: Sumibiyaki Yuji (wagyu yakiniku)",
+     "time": "~17:30",
+     "title": "Dinner · Umegaoka Sushi no Midori, Ginza",
      "kind": "food",
-     "how": "Matsunuma Bldg 1F, 11-1 Udagawa-chō, Shibuya; ~8 min walk from Shibuya Sta\nBack: JR Yamanote Line Shibuya → Shinagawa, then Tōkaidō Line → Kawasaki, ~35 min",
-     "notes": "Tabelog 4.19 + Tabelog Award Bronze, the trip's crown jewel; ~¥8–10k pp, cash only. Slots go months out. Closed Sun and holidays; seatings 16:00 and 18:00. If skipping the splurge: Hikiniku to Come (Tabelog 3.70, charcoal wagyu-blend hamburg; web booking opens on the 1st of the month, cashless)",
+     "how": "Umegaoka Sushi no Midori Ginza (梅丘寿司の美登利 銀座店), Tokyo Expwy Yamashita Bldg 1F, 8-3 Ginza, Chūō-ku (under the expressway on Ginza Corridor; ☎ 03-5568-1212)\n~5 min walk from Shimbashi Sta (Ginza Line exit 5 / JR Ginza Exit)\nBack: JR Shimbashi → Kawasaki (Tōkaidō Line), ~15 min",
+     "notes": "Tabelog 3.51; good-value sushi, ~¥3–4k pp; 82 seats, non-smoking, cards and Suica accepted. Weekday dinner 17:00–21:00 (L.O. 20:30); closed only 1 Jan. Walk-ins take a numbered ticket from the machine at the door and the queue is often long. A TableCheck booking skips it, but the table pre-orders one set for everyone (extras such as grilled fish or sashimi must be noted in advance), seats are held for 90 min, and cancelling 1–3 days ahead costs 50% (100% on the day)",
      "places": [
-      "yuji"
+      "sushi_midori"
      ],
-     "action": "★ Reserve now: phone only, ☎ 03-3464-6448 after 15:00 JST (Mets front desk can call)"
+     "action": "★ Book a ~17:30 table for 3 on TableCheck (tablecheck.com/en/shops/sushinomidori-ginza); choose the set when booking"
     }
    ]
   },
@@ -1776,7 +1813,7 @@
      "title": "Day trip · Kamakura (transit from Kawasaki)",
      "kind": "travel",
      "how": "JR Tōkaidō Line Kawasaki → Totsuka (~25 min), change across the platform to the Yokosuka Line → Kamakura; ~35 min, ¥620 (no direct train; changing at Ōfuna or Yokohama also works, ~40–45 min)",
-     "notes": "08:30 Leave the hotel; ~09:10 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Opening days suit a swap: Shirasuya closes Thu only, Rengatei Sun only, Shiseido Parlour Mon only, Tsukiji is open on Fri 20 Nov",
+     "notes": "08:30 Leave the hotel; ~09:10 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Ginza Maru, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Opening days suit a swap: Shirasuya closes Thu only, Ginza Maru Sun only, Shiseido Parlour Mon only, Tsukiji is open on Fri 20 Nov",
      "places": [
       "kotokuin"
      ]
@@ -1890,7 +1927,7 @@
    "label": "21 Nov",
    "ja": "銀座",
    "en": "Ginza",
-   "sub": "Tsukiji, Hama-rikyū, Ginza, night flight",
+   "sub": "Tsukiji, Ginza lunch, Hama-rikyū, night flight",
    "mode": "transit",
    "hotel": "",
    "items": [
@@ -1908,21 +1945,33 @@
     },
     {
      "id": "i86",
-     "time": "~09:15–10:30",
+     "time": "~09:15–11:15",
      "title": "Tsukiji Outer Market · snack breakfast",
      "kind": "visit",
      "how": "Keikyū Kawasaki → Higashi-Ginza (through-running onto the Toei Asakusa Line; some trains need a change at Sengakuji), ~35 min (est.), then ~8 min walk; or JR to Shimbashi + taxi ~5 min\nTsukiji Outer Market, 4-chōme Tsukiji, Chūō-ku, Tokyo",
-     "notes": "Shops ~09:00–14:00. Sat 21 Nov is open: a secondary source lists the Nov closures as 1, 3, 8, 11, 15, 18, 22, 23, 29 Nov and no Saturday closures Sep–Dec (the official calendar PDF is an image, not read). Saturdays are busy, so go early and keep together in the narrow lanes. Snacks: Tsukiji Yamachō tamagoyaki (06:00–15:30, daily) · Kitsuneya horumon-don (06:30–13:30; long-established, queues)",
+     "notes": "Shops ~09:00–14:00. Sat 21 Nov is open: a secondary source lists the Nov closures as 1, 3, 8, 11, 15, 18, 22, 23, 29 Nov and no Saturday closures Sep–Dec (the official calendar PDF is an image, not read). Saturdays are busy, so go early and keep together in the narrow lanes. Snacks: Tsukiji Yamachō tamagoyaki (06:00–15:30, daily) · Kitsuneya horumon-don (06:30–13:30; long-established, queues). Keep it to small snacks: lunch is at 11:30. Leave by ~11:15 for Ginza Maru (~10 min walk, est.)",
      "places": [
       "tsukiji"
      ]
     },
     {
+     "id": "i92",
+     "time": "11:30–~12:15",
+     "title": "Lunch · Ginza Maru (grilled-fish teishoku)",
+     "kind": "food",
+     "how": "Ginza Maru (銀座 圓), Ichigo Ginza 612 Bldg 2F, 6-12-15 Ginza, Chūō-ku, Tokyo; behind GINZA SIX\n~10 min walk from Tsukiji Outer Market (est.)",
+     "notes": "Tabelog 3.52; small kappō (24 seats: 6 counter, 18 at tables; non-smoking). Lunch is grilled-fish teishoku with house-cured fish (saikyō-miso, kōji or sake-lees; the saikyō-miso black cod is the favourite), dashi soup and small-batch Koshihikari, ~¥1–2k. Lunch Mon–Sat 11:30–14:00 (L.O. 13:30); closed Sun and holidays. Lunch bookings are only for the 11:30–11:45 entry; after that it is walk-in. Dinner is a ¥10–15k course, so lunch only. Backup: Rengatei omurice (Tabelog 3.68, 3-5-16 Ginza; L.O. 14:00, closed Sun; no reservations)",
+     "places": [
+      "ginza_maru"
+     ],
+     "action": "★ Book the 11:30 lunch entry for 3 (Tabelog online, or by phone outside opening hours)"
+    },
+    {
      "id": "i87",
-     "time": "~10:45–12:00",
+     "time": "~12:30–13:45",
      "title": "Hama-rikyū Gardens + Nakajima tea house",
      "kind": "visit",
-     "how": "Hama-rikyū Gardens, 1-1 Hamarikyū-teien, Chūō-ku, Tokyo; ~7 min walk from Tsukiji (Ōtemon gate)",
+     "how": "Hama-rikyū Gardens, 1-1 Hamarikyū-teien, Chūō-ku, Tokyo; from Ginza Maru ~15 min walk or ~5 min taxi to the Ōtemon gate (est.)",
      "notes": "Flat paths around a tidal pond; ¥300, ¥150 at 65+ (bring ID), 09:00–17:00. Matcha + wagashi at the Nakajima-no-ochaya tea house on the pond (shoes off; to 16:30; ~¥720, unverified). A seated rest before Ginza\nIf wet: skip it; the Ginza Mitsukoshi basement food halls or the Kabuki-za single act instead",
      "places": [
       "hamarikyu"
@@ -1930,11 +1979,11 @@
     },
     {
      "id": "i88",
-     "time": "~12:15–18:30",
-     "title": "Ginza · lunch, pedestrian zone, shopping",
+     "time": "~14:00–18:30",
+     "title": "Ginza · pedestrian zone, shopping",
      "kind": "visit",
      "how": "Walk or taxi from Hama-rikyū (~15 min / ~5 min)\nGinza Chūō-dōri, Tokyo",
-     "notes": "Chūō-dōri is car-free on Sat 12:00–17:00 (Oct–Mar; cancelled in bad weather). Lunch: Rengatei (Tabelog 3.68, est. 1895, birthplace of omurice; 11:15–15:00, L.O. 14:00, closed Sun; no reservations; expect a short queue at lunchtime). Rest: GINZA SIX rooftop garden (13F, free, 07:00–23:00). Café: Ginza Sembikiya fruit parlour, 5-5-1 Ginza (hours not checked; the Sembikiya Sōhonten parlour is in Nihonbashi, a different company) or Kimuraya anpan takeaway (since 1869). Coin lockers for shopping bags. Optional: Kabuki-za single-act (hitomakumi) seats, Nov programme Kanadehon Chūshingura (full-length, split 11:00 and 16:30); reserved single-act seats sold online from 12:00 JST the day before (credit card, max 4, ~¥600–2,800 per act, unverified), unreserved ones at the counter from 10:00 on the day (cash); 4th floor; no entry during Act 4 (通さん場); act times published ~1 Nov",
+     "notes": "Chūō-dōri is car-free on Sat 12:00–17:00 (Oct–Mar; cancelled in bad weather). Rest: GINZA SIX rooftop garden (13F, free, 07:00–23:00). Café: Ginza Sembikiya fruit parlour, 5-5-1 Ginza (hours not checked; the Sembikiya Sōhonten parlour is in Nihonbashi, a different company) or Kimuraya anpan takeaway (since 1869). Coin lockers for shopping bags. Optional: Kabuki-za single-act (hitomakumi) seats, Nov programme Kanadehon Chūshingura (full-length, split 11:00 and 16:30); reserved single-act seats sold online from 12:00 JST the day before (credit card, max 4, ~¥600–2,800 per act, unverified), unreserved ones at the counter from 10:00 on the day (cash); 4th floor; no entry during Act 4 (通さん場); act times published ~1 Nov",
      "places": [
       "ginza",
       "rengatei"
@@ -2024,13 +2073,6 @@
    "done": true
   },
   {
-   "id": "t02",
-   "task": "Book Sumibiyaki Yuji: Thu 19 Nov dinner (splurge ②)",
-   "how": "☎ 03-3464-6448 after 15:00 JST (phone only; Mets front desk can call)",
-   "by": "Now (slots go months out)",
-   "done": false
-  },
-  {
    "id": "t20",
    "task": "Book Fujiya Gohonjin: Fri 13 Nov ~17:30 dinner (3 adults); confirm it isn't a wedding-closure day",
    "how": "☎ 026-232-1241 / Toreta online (weekday seats)",
@@ -2067,8 +2109,8 @@
   },
   {
    "id": "t07",
-   "task": "Book Sushi Kappō Marui: Mon 16 Nov dinner at 19:30 (splurge ①); confirm it is open that Monday",
-   "how": "☎ 025-228-0101 / Gurunavi online",
+   "task": "Book Wappa-meshi Inakaya: Mon 16 Nov dinner at 19:30, 3 adults; ask for a table, not tatami",
+   "how": "Gurunavi online / ☎ 025-223-1266",
    "by": "By late Oct",
    "done": false
   },
@@ -2080,9 +2122,30 @@
    "done": false
   },
   {
+   "id": "t24",
+   "task": "Book Ushikozou: Wed 18 Nov 19:00 dinner, 3 adults (table away from the smoking area)",
+   "how": "Tabelog online / ☎ 050-5456-4317",
+   "by": "By late Oct",
+   "done": false
+  },
+  {
    "id": "t08",
    "task": "Reserve Shiseido Parlour Ginza: Sat 21 Nov 19:00 last dinner",
    "how": "Ikyu online / ☎ 03-5537-6241",
+   "by": "Early Nov",
+   "done": false
+  },
+  {
+   "id": "t25",
+   "task": "Book Umegaoka Sushi no Midori Ginza: Thu 19 Nov ~17:30, 3 adults; pick one set for the table (50% fee if cancelled 1–3 days ahead)",
+   "how": "TableCheck (tablecheck.com/en/shops/sushinomidori-ginza)",
+   "by": "Early Nov (as soon as the date opens)",
+   "done": false
+  },
+  {
+   "id": "t26",
+   "task": "Book Ginza Maru lunch: Sat 21 Nov, 11:30 entry, 3 adults",
+   "how": "Tabelog online, or phone outside opening hours",
    "by": "Early Nov",
    "done": false
   },
