@@ -35,7 +35,7 @@ MODES = {'transit', 'walking', 'driving'}
 def kind(title):  # same rules the app was first built with
     t = title.lower()
     if t.startswith(('check in', 'drop bags')): return 'stay'
-    if t.startswith(('lunch', 'dinner', 'late lunch', 'last dinner', 'onsen + ')): return 'food'
+    if t.startswith(('lunch', 'dinner', 'late lunch', 'last dinner', 'onsen + ', 'crab', 'café', 'cafe', 'breakfast')): return 'food'
     if t.startswith(('transit', 'shuttle', 'depart', 'arrive', 'leave', 'return', 'check out', 'day trip')): return 'travel'
     if t.startswith(('relax', 'free afternoon')): return 'rest'
     return 'visit'
@@ -244,6 +244,8 @@ def auto(d, path, revision):
                 f = {k: row[k] for k in ('time', 'title', 'how', 'notes') if row[k] != it.get(k, '')}
                 if row['action'] != it.get('action', ''): f['action'] = row['action']
                 if f: ops.append({'op': 'item.set', 'id': it['id'], 'fields': f})
+                if 'title' in f and difflib.SequenceMatcher(None, norm(it['title']), norm(row['title'])).ratio() < 0.8:
+                    review.append('RENAMED STOP %s (%s) "%s" -> "%s": check its "places" (now %s) still fit' % (day['date'], it['id'], it['title'], row['title'], it['places']))
             elif oi is not None:
                 dels.append((day['date'], day['items'][oi]))
             else:
@@ -270,18 +272,18 @@ def auto(d, path, revision):
     for date, it in dels:
         ops.append({'op': 'item.delete', 'id': it['id']})
         review.append('REMOVED STOP %s "%s" (%s): check it really left the sheet' % (date, it['title'], it['id']))
-    for oi, ni in pair(d['todo'], todo, lambda x: x['task']):
+    tpairs = pair(d['todo'], todo, lambda x: x['task'])
+    new_to_old = {ni: oi for oi, ni in tpairs if oi is not None and ni is not None}
+    for oi, ni in tpairs:
         if oi is not None and ni is not None:
             t, row = d['todo'][oi], todo[ni]
             f = {k: row[k] for k in ('task', 'how', 'by', 'done') if row[k] != t.get(k)}
             if f: ops.append({'op': 'todo.set', 'id': t['id'], 'fields': f})
         elif oi is not None: ops.append({'op': 'todo.delete', 'id': d['todo'][oi]['id']})
-        else:
-            ops.append({'op': 'todo.add', 'after': None if ni == 0 else '__AFTER_SHEET_ROW_%d' % (ni - 1), 'fields': todo[ni]})
-    # resolve to-do "after" placeholders to real ids where possible (append at end otherwise)
-    for o in ops:
-        if o['op'] == 'todo.add' and o['after'] and o['after'].startswith('__'):
-            o['after'] = d['todo'][-1]['id'] if d['todo'] else None
+    for oi, ni in tpairs:
+        if oi is None:
+            prev = [new_to_old[k] for k in range(ni) if k in new_to_old]
+            ops.append({'op': 'todo.add', 'after': d['todo'][prev[-1]]['id'] if prev else None, 'fields': todo[ni]})
     if not sum(len(v) for v in days.values()): review.append('could not read any stops from the sheet; do not apply')
     return {'sheetRevision': revision, 'ops': ops, 'review': review}
 

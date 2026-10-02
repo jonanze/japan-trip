@@ -19,6 +19,7 @@ day headings, the hotel each night, and Google Maps travel modes. The scheduled 
    The tool reports the path of the saved file. If it comes back inline instead, write that JSON to a file.
 4. Run `python3 tools/sync.py auto <saved file> <modifiedTime> > /tmp/patch.json`. It matches sheet rows to stops and to-dos and writes every text change as ops. Then read its `"review"` list:
    - **NEW STOP**: fill that op's `"places"` (rules below) and add any `place.add` ops before it.
+   - **RENAMED STOP**: the row is now a different place. Point `"places"` at the right place (add it if new).
    - **REMOVED STOP**: check the row is really gone from the sheet and wasn't just renamed beyond recognition. If it was renamed, swap the delete+add for an `item.set` on the old id.
    - If a check-in row changed, add the `day.set` hotel ops.
    - Then set `"reviewed": true`. If `review` is empty, apply it as is.

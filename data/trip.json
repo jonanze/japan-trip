@@ -597,6 +597,51 @@
    "lng": 139.788172,
    "mc": "",
    "tel": ""
+  },
+  "kamonji": {
+   "en": "Kamonji-goya (Myōjin)",
+   "ja": "嘉門次小屋",
+   "addr": "〒390-1516 長野県松本市安曇上高地",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "0263-95-2418"
+  },
+  "tashiro": {
+   "en": "Tashiro Pond",
+   "ja": "田代池",
+   "addr": "〒390-1516 長野県松本市安曇上高地",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "imperial": {
+   "en": "Kamikochi Imperial Hotel (Grindelwald lounge)",
+   "ja": "上高地帝国ホテル",
+   "addr": "〒390-1516 長野県松本市安曇上高地",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "0263-95-2001"
+  },
+  "fujiya": {
+   "en": "The Fujiya Gohonjin",
+   "ja": "THE FUJIYA GOHONJIN 藤屋御本陳",
+   "addr": "〒380-0841 長野県長野市大門町80",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "026-232-1241"
+  },
+  "sobanomi": {
+   "en": "Soba no Mi (Togakushi soba)",
+   "ja": "そばの実 戸隠",
+   "addr": "長野県長野市戸隠3510-25",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -744,11 +789,11 @@
    "items": [
     {
      "id": "i10",
-     "time": "09:00",
+     "time": "08:15",
      "title": "Check out · Dormy Inn Matsumoto; forward suitcases",
      "kind": "travel",
      "how": "Matsumoto",
-     "notes": "Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Buy lunch to carry (Ekiben Azusa bento inside the JR gates, or a station-bldg bakery): Kamikochi eateries thin out in closing week",
+     "notes": "Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Lunch today is at Kamonji-goya (Myōjin), but buy onigiri as a backup in case it has sold out (Ekiben Azusa inside the JR gates, or a station-bldg bakery)",
      "places": [
       "dormy"
      ],
@@ -756,25 +801,25 @@
     },
     {
      "id": "i11",
-     "time": "09:24–~11:10",
+     "time": "08:43–~10:35",
      "title": "Transit · Matsumoto → Kamikochi (Kamikochi Line + Alpico bus)",
      "kind": "travel",
-     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 09:24 → Shin-Shimashima 09:54 (¥710)\nAlpico bus: Shin-Shimashima 10:05 → Kamikochi Bus Terminal ~11:10 (¥3,100 one way)",
-     "notes": "09:05 Walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets\n09:24 Train (~30 min)\n09:54 Shin-Shimashima; bus stop at the station, show the bus reservation\n10:05 Bus (~65 min)\n~11:10 Kamikochi Bus Terminal; 5 min walk to the lodge\nEarlier: 08:43 train → 09:30 bus → ~10:35. Later: 10:10 train → 10:50 bus → ~11:55\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
+     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 08:43 → Shin-Shimashima ~09:13 (¥710)\nAlpico bus: Shin-Shimashima 09:30 → Kamikochi Bus Terminal ~10:35 (¥3,100 one way)",
+     "notes": "08:25 Walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets\n08:43 Train (~30 min)\n~09:13 Shin-Shimashima; bus stop at the station, show the bus reservation\n09:30 Bus (~65 min)\n~10:35 Kamikochi Bus Terminal; 5 min walk to the lodge\nThe earlier bus gets you to Kamonji-goya at Myōjin well before its last lunch of the season (10 Nov, L.O. 14:00)\nLater: 09:24 train → 10:05 bus → ~11:10 (still workable, ~35 min less margin)\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
      "places": [
       "mmstn",
       "shinshima",
       "kkbus"
      ],
-     "action": "★ Reserve the 10:05 Shin-Shimashima bus ~1 month ahead (≈10 Oct, from 00:00 JST); reserved passengers board first"
+     "action": "★ Reserve the 09:30 Shin-Shimashima bus ~1 month ahead (≈10 Oct, from 00:00 JST); reserved passengers board first"
     },
     {
      "id": "i12",
-     "time": "~11:20",
+     "time": "~10:45",
      "title": "Check in · The Parklodge Kamikochi (2 nt)",
      "kind": "stay",
      "how": "The Parklodge Kamikochi, 4468 Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2221)\nCar-free valley (no MC); 5 min from Kamikochi Bus Terminal, 1 min to Kappa Bridge",
-     "notes": "Arrive ~11:20 to leave bags; rooms from 15:00. Breakfast + dinner incl.",
+     "notes": "Arrive ~10:45 to leave bags; rooms from 15:00. Breakfast + dinner incl.",
      "places": [
       "parklodge"
      ],
@@ -783,13 +828,15 @@
     },
     {
      "id": "i13",
-     "time": "~12:00",
-     "title": "Kappa Bridge (Kappabashi) + picnic lunch",
+     "time": "~11:00–14:45",
+     "title": "Walk · Kappa Bridge → Myōjin Pond + lunch at Kamonji-goya",
      "kind": "visit",
-     "how": "5 min walk from the lodge",
-     "notes": "Iconic Mt Hotaka view; easy. Eat the carried lunch by the river",
+     "how": "Kappa Bridge (1 min from the lodge) → left bank to Myōjin, 2.5 km (~50 min; allow 65) → back by the right bank, 3.0 km (~60–75 min)\nKamonji-goya (嘉門次小屋), beside Myōjin Pond, Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2418)\nCar-free valley (no MC)",
+     "notes": "11:00 Kappa Bridge; Mt Hotaka view\n~12:05 Kamonji-goya: grilled iwana set ¥2,300 (iwana alone ¥1,500). 10 Nov is its last day of the 2026 season; food 10:00–14:00 (L.O. 14:00), no reservations, iwana can sell out (then eat the backup onigiri)\n~12:50 Myōjin Pond (Hotaka Shrine Okumiya), ¥500\n~13:15 Back by the right bank (no toilet on this bank; use the ones at Myōjin)\n~14:30 Kappa Bridge; Kamikochi Visitor Center (free, 08:00–17:00)\n~5.5 km, flat. If EH & BY are tired after the flight, they can stay at Kappa Bridge and the Visitor Center",
      "places": [
-      "kappa"
+      "kappa",
+      "kamonji",
+      "myojin"
      ],
      "mode": "walking"
     },
@@ -818,26 +865,29 @@
    "items": [
     {
      "id": "i15",
-     "time": "~08:30–11:30",
-     "title": "Walk · Taishō Pond → Kappa Bridge → Myōjin Pond",
+     "time": "08:15–~11:30",
+     "title": "Walk · Taishō Pond → Tashiro Pond → Imperial Hotel tea → Kappa Bridge",
      "kind": "visit",
-     "how": "Kamikochi valley, flat wooden boardwalks\nStart: any down bus Kamikochi Bus Terminal → Taishō-ike stop (~10 min), or walk the extra hour",
-     "notes": "Taishō Pond → Kappa Bridge ~1 h; Kappa Bridge → Myōjin Pond and back via the opposite bank ~2 h. ~3 h of walking, no elevation gain; Mt Hotaka reflected in the water. No need to go as far as Tokusawa. (Taishō-ike bus hop: frequency in closing week unverified)",
+     "how": "Sawando shuttle (Alpico): Kamikochi Bus Terminal 08:15 or 08:45 → Taishō-ike ~7 min later (no reservation, first-come; ~¥350, unverified)\nKamikochi Imperial Hotel (上高地帝国ホテル), Grindelwald lounge, Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2001); open to non-guests; hotel season to 14 Nov\nCar-free valley (no MC)",
+     "notes": "08:15 or 08:45 Shuttle → Taishō-ike; Mt Hotaka reflected in the pond\nWalk back via Tashiro Pond to the Kamikochi Imperial Hotel (roughly halfway, estimate)\nTea or cake at the Grindelwald lounge (tea 09:00–16:30, cake sets from 10:00; price unverified)\nOn past the Weston Relief to Kappa Bridge; back ~11:30\n~4 km in total on flat boardwalks (Myōjin was done on 10 Nov). Toilets: Taishō-ike, Naka-no-se, Weston Plaza, Kappa Bridge. Boardwalks can be frosty early",
      "places": [
       "taisho",
-      "kappa",
-      "myojin"
-     ]
+      "tashiro",
+      "imperial",
+      "kappa"
+     ],
+     "mode": "walking"
     },
     {
      "id": "i16",
      "time": "~12:00",
-     "title": "Lunch · carried bento (or terminal eateries)",
+     "title": "Lunch · terminal eateries or the lodge",
      "kind": "food",
-     "how": "Kamikochi Bus Terminal eateries / Myōjin rest house",
-     "notes": "Valley closes 15 Nov, so many eateries are already shut in the final week. Safer: carry a bento or onigiri from the lodge or the terminal shop",
+     "how": "Kamikochi Bus Terminal eateries / The Parklodge",
+     "notes": "Many eateries are already shut in closing week; if so, buy a bento or onigiri at the terminal shop",
      "places": [
-      "kkbus"
+      "kkbus",
+      "parklodge"
      ]
     },
     {
@@ -1003,7 +1053,7 @@
      "title": "Zenkō-ji",
      "kind": "visit",
      "how": "Zenkō-ji, 491 Motoyoshi-chō, Nagano 〒380-0851\nTaxi from the hotel ~10 min (or ~25 min walk)\nMC 54 277 204*77 (temple Lot 1, NW corner, ¥600 / 2 h)",
-     "notes": "15:15 Taxi from the hotel\n15:25 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Combined ticket ¥1,500\nAfter 16:15: Nakamise and the outer grounds (open any time)\nIf missed: the inner hall opens before the morning service on 14 Nov, on the way to Togakushi",
+     "notes": "15:15 Taxi from the hotel\n15:25 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Combined ticket ¥1,500\n16:15–17:30 Shops on the approach, on the way down to dinner: Nishinomon Yoshinoya sake brewery shop beside the temple (est. 1637, tasting, until 17:30) · Ogawa no Shō oyaki, Patio Daimon (Tabelog 3.47, until 17:00) · Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, on the way to Togakushi",
      "places": [
       "zenkoji"
      ],
@@ -1011,15 +1061,16 @@
     },
     {
      "id": "i29",
-     "time": "~18:30",
-     "title": "Dinner · Miyota (Shinshū soba), MIDORI Nagano",
+     "time": "17:30",
+     "title": "Dinner · Fujiya Gohonjin (Western, 1925 hotel building)",
      "kind": "food",
-     "how": "MIDORI Nagano 3F, 1-22-6 Minami-Chitose (inside the station bldg)",
-     "notes": "Toji-soba hot pot + Shinshū beef and sansai sets, Tabelog 3.48, L.O. 21:30. The monzen soba shops shut by ~17:00, so the station floor is the smart dinner. Oyaki kiosks in the same building. Backup on the same floor: Kusabue (Tabelog 3.49, kurumi walnut soba)",
+     "how": "THE FUJIYA GOHONJIN (藤屋御本陳), 80 Daimon-chō, Nagano 〒380-0841 (☎ 026-232-1241); on Chūō-dōri at the foot of the Zenkō-ji approach, a short walk from the main hall\nBack: taxi to the hotel ~10 min",
+     "notes": "Tabelog 3.61. Dinner course 'Wisteria' ¥9,800 (wine pairing ¥5,800); weekday dinner from 17:30, L.O. 20:00. Replaces a third soba meal (Togakushi soba is tomorrow). It sometimes closes for weddings, so confirm Fri 13 Nov when booking. Backup: Miyota, MIDORI Nagano 3F (Tabelog 3.48, L.O. 21:30; Shinshū beef sets)",
      "places": [
-      "miyota_n"
+      "fujiya"
      ],
-     "mode": "walking"
+     "mode": "walking",
+     "action": "★ Reserve now (Nov bookings open): ☎ 026-232-1241 or Toreta online (weekday seats)"
     }
    ]
   },
@@ -1028,7 +1079,7 @@
    "label": "14 Nov",
    "ja": "宇奈月",
    "en": "Unazuki",
-   "sub": "Rental car: Togakushi, Naena Falls, crab lunch",
+   "sub": "Rental car: Togakushi, soba lunch, crab at Nou",
    "mode": "driving",
    "hotel": "yamanoha",
    "items": [
@@ -1038,20 +1089,20 @@
      "title": "Check out · Chateraise Hotel Nagano; pick up rental car",
      "kind": "travel",
      "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123)",
-     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park\n~11:00 Drive on\n~12:05 Naena Falls\n~13:00 Drive on\n~14:05 Marine Dream Nou, crab lunch\n~15:00 Drive on\n~16:00 Yamanoha, before dark\n~4 h of driving (estimate). Bring International Driving Permits; confirm snow tyres (mountain roads)",
+     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park (toilets here)\n~10:40 Back at the car\n~10:45 Togakushi soba lunch, Soba no Mi\n~11:30 Optional 5 min at Chūsha's giant cedars\n~11:45 Drive on\n~13:45 Marine Dream Nou, crab\n~14:45 Drive on\n~15:45 Yamanoha, before dark\n~4 h of driving (estimate). Bring International Driving Permits",
      "places": [
       "nissan"
      ],
      "mode": "walking",
-     "action": "★ Confirm Nissan booking, International Driving Permits, snow tyres and an ETC card"
+     "action": "★ Confirm Nissan booking, International Driving Permits and an ETC card"
     },
     {
      "id": "i31",
-     "time": "~09:20–11:00",
+     "time": "~09:20–10:40",
      "title": "Togakushi Shrine Okusha (Zuishinmon gate + cedar avenue)",
      "kind": "visit",
      "how": "Drive Nagano → Togakushi via the Bird Line, ~22 km / ~50 min (est.)\nMC 1004 037 444*20 · alt 1004 009 327*58 (Okusha gate car park, ¥600 / 3 h)",
-     "notes": "Zuishinmon gate is ~15 min on a gentle path; the Okusha is another ~20–25 min beyond it, steep at the end. Turning back at the gate saves ~45 min. Okusha and Kuzuryūsha close ~late Nov; snow tyres needed above ~1,200 m",
+     "notes": "Zuishinmon gate is ~15 min on a gentle path; the Okusha is another ~20–25 min beyond it, steep at the end. Turning back at the gate saves ~45 min, so EH & BY can turn there and wait at the car-park tea house while the Okusha group finishes. Okusha and Kuzuryūsha close ~late Nov",
      "places": [
       "togakushi_p",
       "togakushi"
@@ -1059,35 +1110,33 @@
     },
     {
      "id": "i32",
-     "time": "~12:05–13:00",
-     "title": "Naena Falls (Naena-no-taki), if open",
-     "kind": "visit",
-     "how": "Drive via Shinano-machi IC → Jōshin'etsu Expwy → Myōkō-Kōgen IC, ~65 min (est.)\nNaena Falls car park, Suginozawa, Myōkō, Niigata; 500 m / 15 min walk (~100 free spaces)\nMC 469 046 579*87",
-     "notes": "55 m falls, one of Japan's Top 100 Waterfalls. Trail closes for winter ~early–mid Nov (snow); if gated, go straight to Nou (arrive ~13:00)",
+     "time": "~10:45–11:30",
+     "title": "Lunch · Togakushi soba, Soba no Mi",
+     "kind": "food",
+     "how": "Soba no Mi (そばの実), Togakushi 3510-25, Nagano; between the Okusha and Chūsha, ~11 min walk from Chūsha; 30 car spaces\nZero-queue fallback: Okusha no Chaya at the Okusha car-park entrance (Tabelog 3.42, from 10:00)",
+     "notes": "Tabelog 3.75, Soba Top 100; opens 10:30, closed Thu–Fri (Sat fine). The best soba of the trip; keep it light ahead of the crab. Uzuraya (Tabelog 3.76) is the famous one but has had ~2 h queues on autumn weekends, so skip it. Then optional 5 min at Togakushi Chūsha's three ~800-year-old cedars by the torii. Naena Falls dropped: closing date borderline and a rocky path with steps",
      "places": [
-      "naena_p",
-      "naena"
-     ],
-     "action": "★ Call Myōkō-Kōgen tourism ☎ 0255-86-3911 (~11 Nov) to check the trail"
+      "sobanomi"
+     ]
     },
     {
      "id": "i33",
-     "time": "~14:05–15:00",
-     "title": "Late lunch · Kaniya Yokochō crab stalls, Marine Dream Nou",
+     "time": "~13:45–14:45",
+     "title": "Crab · Kaniya Yokochō crab stalls, Marine Dream Nou",
      "kind": "food",
-     "how": "Drive Myōkō-Kōgen IC → Jōetsu JCT → Hokuriku Expwy → Nou IC, ~65 min (est.)\nMichi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
-     "notes": "Pick a boiled benizuwai (~¥1–3k per crab, about 1 pp) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
+     "how": "Drive Togakushi → Shinano-machi IC → Jōshin'etsu Expwy → Jōetsu JCT → Hokuriku Expwy → Nou IC, ~2 h (est.)\nMichi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
+     "notes": "Pick a boiled benizuwai (~¥1–3k per crab; share 1–2 between three after the soba) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
      "places": [
       "nou"
      ]
     },
     {
      "id": "i34",
-     "time": "~16:00",
+     "time": "~15:45",
      "title": "Check in · Yamanoha (2 nt)",
      "kind": "stay",
      "how": "Drive Nou IC → Kurobe IC (Hokuriku Expwy) → Unazuki, ~60 min (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
-     "notes": "Breakfast + dinner incl.; onsen. Long driving day: Togakushi + Naena + Nou",
+     "notes": "Breakfast + dinner incl.; onsen. Long driving day: Togakushi + Nou",
      "places": [
       "yamanoha"
      ],
@@ -1167,7 +1216,7 @@
      "title": "Check out · Yamanoha; drive Unazuki → Niigata",
      "kind": "travel",
      "how": "Hokuriku Expwy, ~5 h of driving (estimate) plus the stops below. Sunset ~16:30",
-     "notes": "08:30 Depart\n~10:20 Takada Castle Park (40 min)\n~11:40 Lunch, Yoneyama SA (45 min)\n~13:50 Yahiko Park + Shrine (~2 h 15, incl. optional ropeway)\n~16:05 Drive to Niigata (~1 h)\n~17:05 Niigata Daiichi Hotel\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "notes": "08:30 Depart\n~10:20 Takada Castle Park, park only (40 min)\n~11:40 Lunch, Yoneyama SA (45 min)\n~13:50 Yahiko Park + Shrine (~2 h 15, incl. optional ropeway)\n~16:05 Drive to Niigata (~1 h)\n~17:05 Niigata Daiichi Hotel\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "yamanoha"
      ],
@@ -1179,7 +1228,7 @@
      "title": "Takada Castle Park",
      "kind": "visit",
      "how": "Drive Unazuki → Kurobe IC → Jōetsu JCT → Jōetsu-Takada IC, ~1 h 50 (est.)\nTakada Castle Park, Jōetsu, Niigata (☎ 025-526-5111)\nMC 126 376 756*55",
-     "notes": "~40 min stop",
+     "notes": "~40 min stop, park only: the three-tier turret (Sanjū-yagura) is closed on Mondays, and its light-up ends 8 Nov",
      "places": [
       "takada"
      ]
@@ -1237,7 +1286,7 @@
      "title": "Dinner · Splurge ①: Sushi Kappō Marui",
      "kind": "food",
      "how": "8-1411 Higashibori-dōri, Chūō-ku, Niigata (Furumachi); ~10 min by taxi",
-     "notes": "Tabelog 3.55; courses ¥7.7k–11k; nodoguro shioyaki and aburi-don on Niigata Koshihikari. Backups: Tonkatsu Tarō, 973 Furumachi-dōri 6-banchō (Tabelog 3.57, tare-katsudon birthplace; no reservations, L.O. 19:30, arrive by 18:15) or Inakaya (Tabelog 3.45, wappa-meshi, open Mon, ☎ 025-223-1266)",
+     "notes": "Tabelog 3.55; courses ¥7.7k–11k; nodoguro shioyaki and aburi-don on Niigata Koshihikari. Backup: Inakaya (Tabelog 3.45, wappa-meshi, open Mon, ☎ 025-223-1266). Tonkatsu Tarō (Tabelog 3.57, tare-katsudon birthplace) is lunch-only since May 2024 and closed Wed–Thu, so it can't be the dinner backup",
      "places": [
       "marui"
      ],
@@ -1663,13 +1712,20 @@
    "task": "Book Kurobe Gorge trolley: 15 Nov, Unazuki 08:17 ↔ Keyakidaira (capacity-limited, just reopened); ask for the Relax car",
    "how": "☎ 0765-62-1011 (phone only for Keyakidaira, 09:00–16:30)",
    "by": "Now (most urgent)",
-   "done": false
+   "done": true
   },
   {
    "id": "t02",
    "task": "Book Sumibiyaki Yuji: Thu 19 Nov dinner (splurge ②)",
    "how": "☎ 03-3464-6448 after 15:00 JST (phone only; Mets front desk can call)",
    "by": "Now (slots go months out)",
+   "done": false
+  },
+  {
+   "id": "t20",
+   "task": "Book Fujiya Gohonjin: Fri 13 Nov ~17:30 dinner (3 adults); confirm it isn't a wedding-closure day",
+   "how": "☎ 026-232-1241 / Toreta online (weekday seats)",
+   "by": "Now (Nov bookings open since 1 Oct)",
    "done": false
   },
   {
@@ -1688,7 +1744,7 @@
   },
   {
    "id": "t05",
-   "task": "Reserve Kamikochi buses (Alpico): 10 Nov Shin-Shimashima 10:05 up; 12 Nov Kamikochi 10:40 down",
+   "task": "Reserve Kamikochi buses (Alpico): 10 Nov Shin-Shimashima 09:30 up; 12 Nov Kamikochi 10:40 down",
    "how": "Hassha Ōrai Net (発車オーライネット), online",
    "by": "Opens ≈10 Oct and ≈12 Oct, 00:00 JST (1 month ahead)",
    "done": false
@@ -1719,11 +1775,11 @@
    "task": "Get International Driving Permits for all drivers",
    "how": "AA Singapore (arrange before you fly)",
    "by": "Before 8 Nov",
-   "done": false
+   "done": true
   },
   {
    "id": "t10",
-   "task": "Confirm Nissan rental car (Nagano pickup 14 Nov) and request snow tyres and an ETC card",
+   "task": "Confirm Nissan rental car (Nagano pickup 14 Nov) and request an ETC card",
    "how": "Nissan Rent a Car ☎ 026-268-1123",
    "by": "~7 Nov (1 week before)",
    "done": false
@@ -1740,13 +1796,6 @@
    "task": "Arrange suitcase forwarding: Dormy Inn sends on 10 Nov, Chateraise Hotel Nagano holds until 13 Nov",
    "how": "Dormy ☎ 0263-33-5489 / Chateraise ☎ 026-219-2440 (Yamato TA-Q-BIN at the front desk)",
    "by": "Before 10 Nov",
-   "done": false
-  },
-  {
-   "id": "t13",
-   "task": "Call about Naena Falls trail: open on 14 Nov?",
-   "how": "Myōkō-Kōgen tourism ☎ 0255-86-3911",
-   "by": "~11 Nov",
    "done": false
   },
   {
