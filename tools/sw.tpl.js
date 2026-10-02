@@ -1,6 +1,6 @@
 // Offline cache for the Japan Trip app. The page is network-first (3 s timeout) so edits arrive when online,
 // and falls back to the saved copy with no signal. Fonts and icons are cache-first.
-var CACHE = "jp26-6bb2c09e92";
+var CACHE = "jp26-__VER__";
 var HOME = new URL("./", self.location).href;
 var CORE = [HOME, "manifest.webmanifest", "apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
