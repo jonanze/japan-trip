@@ -4,6 +4,8 @@
   python3 tools/sync.py rows             print the app's stops and to-dos laid out like the sheet's columns
   python3 tools/sync.py apply PATCH.json apply a patch (ops below), validate, rewrite data/trip.json
   python3 tools/sync.py state            print the last synced sheet revision
+  python3 tools/sync.py auto SHEET.json REVISION   compare a saved sheet read with the app and write the patch to
+                                         stdout (SHEET.json = saved get_spreadsheet grid data or get_values output)
 
 Patch: {"sheetRevision": "...", "ops": [ ... ]}
   {"op":"item.set",    "id":"i45", "fields":{"time","title","how","notes","action","mode","places"}}
@@ -167,13 +169,134 @@ def rows(d):
         print('%s | %s | %s | how: %s | by: %s' % (t['id'], 'DONE' if t['done'] else 'open', esc(t['task']), esc(t['how']), esc(t['by'])))
 
 
+# ---------- automatic sheet comparison ----------
+import difflib, re
+
+MONTHS = {'Nov': '11', 'Oct': '10', 'Dec': '12'}
+
+
+def sheet_matrix(path):
+    j = json.load(open(path, encoding='utf-8'))
+    if 'values' in j and isinstance(j['values'], list):
+        return [[str(c) for c in r] for r in j['values']]
+    out = []
+    for r in j['sheets'][0]['data'][0].get('rowData', []):
+        out.append([c.get('formattedValue', '') if isinstance(c, dict) else '' for c in r.get('values', [])])
+    return out
+
+
+def cell(r, i):
+    return r[i].strip() if i < len(r) and r[i] is not None else ''
+
+
+def parse_sheet(m, year):
+    days, todo, cur, mode = {}, [], None, 'trip'
+    for r in m[2:]:
+        a = cell(r, 0)
+        if mode == 'trip':
+            if cell(r, 2) == 'TOTALS': mode = 'notes'; continue
+            mm = re.match(r'^(\d{1,2}) (\w{3})$', a)
+            if mm and mm.group(2) in MONTHS:
+                cur = '%s-%s-%02d' % (year, MONTHS[mm.group(2)], int(mm.group(1)))
+            if not cell(r, 3) or not cur: continue
+            days.setdefault(cur, []).append({'time': cell(r, 2), 'title': cell(r, 3), 'how': cell(r, 4), 'notes': cell(r, 5), 'action': cell(r, 11)})
+        elif mode == 'notes':
+            if a.startswith('TO-DO'): mode = 'todohead'
+        elif mode == 'todohead':
+            mode = 'todo'
+        else:
+            if not cell(r, 1): continue
+            todo.append({'task': cell(r, 1), 'how': cell(r, 4), 'by': cell(r, 5), 'done': a.upper() in ('TRUE', '✔', 'YES', 'DONE')})
+    return days, todo
+
+
+def norm(t):
+    return re.sub(r'\W+', ' ', t.lower()).strip()
+
+
+def pair(old, new, key):
+    """Order-preserving match of two lists by title similarity: list of (old_idx|None, new_idx|None)."""
+    sm = difflib.SequenceMatcher(None, [norm(key(x)) for x in old], [norm(key(x)) for x in new], autojunk=False)
+    out = []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag == 'equal' or (tag == 'replace' and i2 - i1 == j2 - j1):
+            out += list(zip(range(i1, i2), range(j1, j2)))
+        else:  # unequal block: pair the most similar titles, rest become delete / add
+            olds, news, used = list(range(i1, i2)), list(range(j1, j2)), set()
+            for i in olds:
+                best = max(news, key=lambda j: difflib.SequenceMatcher(None, norm(key(old[i])), norm(key(new[j]))).ratio(), default=None)
+                if best is not None and best not in used and difflib.SequenceMatcher(None, norm(key(old[i])), norm(key(new[best]))).ratio() >= 0.6:
+                    used.add(best); out.append((i, best))
+                else: out.append((i, None))
+            out += [(None, j) for j in news if j not in used]
+    return out
+
+
+def auto(d, path, revision):
+    days, todo = parse_sheet(sheet_matrix(path), d['days'][0]['date'][:4])
+    ops, review, adds, dels = [], [], [], []
+    for day in d['days']:
+        rows_ = days.get(day['date'], [])
+        prev = None
+        for oi, ni in pair(day['items'], rows_, lambda x: x['title']):
+            if oi is not None and ni is not None:
+                it, row = day['items'][oi], rows_[ni]
+                f = {k: row[k] for k in ('time', 'title', 'how', 'notes') if row[k] != it.get(k, '')}
+                if row['action'] != it.get('action', ''): f['action'] = row['action']
+                if f: ops.append({'op': 'item.set', 'id': it['id'], 'fields': f})
+            elif oi is not None:
+                dels.append((day['date'], day['items'][oi]))
+            else:
+                after = None
+                for o2, n2 in pair(day['items'], rows_, lambda x: x['title']):
+                    if n2 is not None and n2 < ni and o2 is not None: after = day['items'][o2]['id']
+                adds.append((day['date'], after, rows_[ni]))
+    for date in days:
+        if date not in [x['date'] for x in d['days']]: review.append('sheet has a day %s that the app does not; add it by hand' % date)
+    # a stop deleted on one day and added with the same title on another = a move
+    for date, after, row in adds:
+        mv = next((x for x in dels if norm(x[1]['title']) == norm(row['title'])), None)
+        if mv:
+            dels.remove(mv); it = mv[1]
+            ops.append({'op': 'item.move', 'id': it['id'], 'date': date, 'after': after})
+            f = {k: row[k] for k in ('time', 'title', 'how', 'notes') if row[k] != it.get(k, '')}
+            if row['action'] != it.get('action', ''): f['action'] = row['action']
+            if f: ops.append({'op': 'item.set', 'id': it['id'], 'fields': f})
+        else:
+            f = {k: row[k] for k in ('time', 'title', 'how', 'notes', 'action') if row[k]}
+            f['places'] = []
+            ops.append({'op': 'item.add', 'date': date, 'after': after, 'fields': f})
+            review.append('NEW STOP %s "%s": set "places" (existing place id, or place.add first)' % (date, row['title']))
+    for date, it in dels:
+        ops.append({'op': 'item.delete', 'id': it['id']})
+        review.append('REMOVED STOP %s "%s" (%s): check it really left the sheet' % (date, it['title'], it['id']))
+    for oi, ni in pair(d['todo'], todo, lambda x: x['task']):
+        if oi is not None and ni is not None:
+            t, row = d['todo'][oi], todo[ni]
+            f = {k: row[k] for k in ('task', 'how', 'by', 'done') if row[k] != t.get(k)}
+            if f: ops.append({'op': 'todo.set', 'id': t['id'], 'fields': f})
+        elif oi is not None: ops.append({'op': 'todo.delete', 'id': d['todo'][oi]['id']})
+        else:
+            ops.append({'op': 'todo.add', 'after': None if ni == 0 else '__AFTER_SHEET_ROW_%d' % (ni - 1), 'fields': todo[ni]})
+    # resolve to-do "after" placeholders to real ids where possible (append at end otherwise)
+    for o in ops:
+        if o['op'] == 'todo.add' and o['after'] and o['after'].startswith('__'):
+            o['after'] = d['todo'][-1]['id'] if d['todo'] else None
+    if not sum(len(v) for v in days.values()): review.append('could not read any stops from the sheet; do not apply')
+    return {'sheetRevision': revision, 'ops': ops, 'review': review}
+
+
 def main():
     d = json.load(open(DATA, encoding='utf-8'))
     cmd = sys.argv[1] if len(sys.argv) > 1 else 'rows'
     if cmd == 'rows': rows(d)
     elif cmd == 'state': print(open(STATE).read() if os.path.exists(STATE) else '{}')
+    elif cmd == 'auto':
+        print(json.dumps(auto(d, sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else ''), ensure_ascii=False, indent=1))
     elif cmd == 'apply':
         patch = json.load(open(sys.argv[2], encoding='utf-8'))
+        if patch.get('review') and not patch.get('reviewed'):
+            fail('the patch has a "review" list; resolve each point, then set "reviewed": true')
         apply(d, patch)
         json.dump(d, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         st = {'sheetRevision': patch.get('sheetRevision', ''), 'syncedAt': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'), 'ops': len(patch.get('ops', []))}

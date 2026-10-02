@@ -9,16 +9,22 @@ day headings, the hotel each night, and Google Maps travel modes. The scheduled 
 1. Clone this repo. Run `python3 tools/sync.py state` and read `sheetRevision`.
 2. Read the sheet's Drive `modifiedTime` (Google Drive `get_file_metadata`, `excludeContentSnippets: true`).
    If it equals `sheetRevision`, stop. Nothing changed, so do not commit.
-3. Read the sheet: `get_values` on `Sheet1!A1:L200`. Run `python3 tools/sync.py rows` for the app's current version.
-4. Compare row by row and field by field. Changes are usually small (a time, a word, a phone number), so check every field;
-   don't skim.
-5. Write `/tmp/patch.json` with ops (see the header of `tools/sync.py`) and `"sheetRevision": <modifiedTime>`.
-   Run `python3 tools/sync.py apply /tmp/patch.json`, then `node tools/build.js`.
-   Re-run `python3 tools/sync.py rows` and confirm the changed rows now match the sheet exactly.
+3. Read the sheet with **exactly** this call, so the result is large enough to be saved to a file:
+   Google Sheets `get_spreadsheet`, with these arguments:
+   - `spreadsheetId` 1DEfa1xDX_tnHuwyS_R9OV_8LuLdtXnTj2Oz0VeofrMY
+   - `includeGridData: true`
+   - `ranges: ["Sheet1!A1:L200"]`
+   - `fields: ["sheets.data.rowData.values.formattedValue", "sheets.data.rowData.values.userEnteredValue"]`
+
+   The tool reports the path of the saved file. If it comes back inline instead, write that JSON to a file.
+4. Run `python3 tools/sync.py auto <saved file> <modifiedTime> > /tmp/patch.json`. It matches sheet rows to stops and to-dos and writes every text change as ops. Then read its `"review"` list:
+   - **NEW STOP**: fill that op's `"places"` (rules below) and add any `place.add` ops before it.
+   - **REMOVED STOP**: check the row is really gone from the sheet and wasn't just renamed beyond recognition. If it was renamed, swap the delete+add for an `item.set` on the old id.
+   - If a check-in row changed, add the `day.set` hotel ops.
+   - Then set `"reviewed": true`. If `review` is empty, apply it as is.
+5. Run `python3 tools/sync.py apply /tmp/patch.json`, then `node tools/build.js`. If `ops` was empty, still apply it, so that `sheetRevision` advances.
 6. Commit `data/ index.html sw.js manifest.webmanifest` with a message listing what changed, and push to `main`.
    Pages publishes within a couple of minutes.
-   If the comparison found no app-visible change (formatting or cost cells only), still apply an empty patch so that
-   `sheetRevision` advances, then commit.
 
 ## Sheet layout → app fields
 
