@@ -94,6 +94,7 @@ def insert_after(lst, obj, after, what):
 
 
 def apply(d, patch):
+    chain = {}  # adds sharing an anchor keep their patch order: each goes after the previous one
     for op in patch.get('ops', []):
         o, f = op.get('op'), op.get('fields', {})
         if o == 'item.set':
@@ -104,7 +105,8 @@ def apply(d, patch):
             ids = [it['id'] for dd in d['days'] for it in dd['items']]
             it = {'id': next_id(ids, 'i'), 'time': '', 'title': '', 'kind': 'visit', 'how': '', 'notes': '', 'places': []}
             set_item_fields(d, it, f)
-            insert_after(day['items'], it, op.get('after'), 'item.add')
+            key = ('i', op['date'], op.get('after'))
+            insert_after(day['items'], it, chain.get(key, op.get('after')), 'item.add'); chain[key] = it['id']
         elif o == 'item.delete':
             day, k = find_item(d, op['id']); day['items'].pop(k)
         elif o == 'item.move':
@@ -139,7 +141,8 @@ def apply(d, patch):
             check_fields(f, TODO_F, 'to-do')
             t = {'id': next_id([t['id'] for t in d['todo']], 't'), 'task': '', 'how': '', 'by': '', 'done': False}
             t.update({k: (bool(v) if k == 'done' else str(v)) for k, v in f.items()})
-            insert_after(d['todo'], t, op.get('after'), 'todo.add')
+            key = ('t', op.get('after'))
+            insert_after(d['todo'], t, chain.get(key, op.get('after')), 'todo.add'); chain[key] = t['id']
         elif o == 'todo.delete':
             n = len(d['todo']); d['todo'] = [t for t in d['todo'] if t['id'] != op['id']]
             if len(d['todo']) == n: fail('no to-do %s' % op['id'])
