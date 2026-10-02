@@ -864,20 +864,20 @@
     },
     {
      "id": "i04",
-     "time": "07:45–11:39",
-     "title": "Transit · Haneda → Shinjuku → Matsumoto (Ltd Exp Azusa 9)",
+     "time": "07:45–12:37",
+     "title": "Transit · Haneda → Shinjuku → Matsumoto (Ltd Exp Azusa 13)",
      "kind": "travel",
-     "how": "Airport Limousine bus T2 → Shinjuku Sta West Exit (Keiō Dept Store), ¥1,400 pp, 07:45 → 08:20 timetabled (allow 60–70 min on a Monday morning). The bus starts at T3 and calls at T2 10 min later\nLtd Exp Azusa 9: Shinjuku 09:00 → Matsumoto 11:39 (reserved seats, ~¥6,700 pp)",
-     "notes": "05:55 Land at T2\n06:00–07:00 Immigration, bags, customs\n07:00–07:35 Seven Bank ATM for ¥ (T2 2F Welcome Center, 06:00–23:00), toilets; then down to 1F for bus tickets (Limousine ticket machines / counter) and the bus stop outside\n07:45 Bus from T2 (take the 07:25 if out early); bags go under the bus\n08:20 Shinjuku West Exit (timetabled; ~08:35 in Monday traffic); 5–10 min walk to the JR gates\n08:40 Print the Azusa tickets at a reserved-seat machine (QR from the booking); drinks or an ekiben\n08:50 On the platform\n09:00 Depart\n11:39 Matsumoto; 5 min walk to Dormy Inn\nOut by ~06:45: 06:55 bus, switch to Azusa 5 (08:00 → 10:37). Out after 07:45: 08:15 bus, switch to Azusa 13 (10:00 → 12:37). One free change at the machine\nIf you land at T3 instead: same buses 10 min earlier (06:45 / 07:15 / 07:35 / 08:05); Seven Bank ATM and Limousine counter are in the T3 arrivals hall, 2F; the Azusa 9 plan holds\nRail alt (~¥540 pp): Keikyū from Haneda T1·T2 Sta → Shinagawa → JR Yamanote Line → Shinjuku, ~45 min, but Monday rush hour with suitcases\nTaxi alt: fixed fare ~¥9,000 + tolls per car to Shinjuku",
+     "how": "Airport Limousine bus T2 → Shinjuku Sta West Exit (Keiō Dept Store), ¥1,400 pp, 07:45 → 08:20 timetabled (allow 60–70 min on a Monday morning). The bus starts at T3 and calls at T2 10 min later\nLtd Exp Azusa 13: Shinjuku 10:00 → Matsumoto 12:37 (reserved seats, ~¥6,700 pp). Booked on the later train so Monday traffic can't make you miss it",
+     "notes": "05:55 Land at T2\n06:00–07:00 Immigration, bags, customs\n07:00–07:35 Seven Bank ATM for ¥ (T2 2F Welcome Center, 06:00–23:00), toilets; then down to 1F for bus tickets (Limousine ticket machines / counter) and the bus stop outside\n07:45 Bus from T2 (take the 07:25 if out early); bags go under the bus\n08:20–08:55 Shinjuku West Exit (08:20 timetabled; later in Monday traffic); 5–10 min walk to the JR gates\nAt Shinjuku by ~08:35: change to Azusa 9 (09:00 → 11:39) at a reserved-seat machine (one free change, if seats remain)\nOtherwise: print the Azusa 13 tickets (QR from the booking), sit down for coffee or breakfast near the gates, on the platform by 09:50\n10:00 Depart\n12:37 Matsumoto; 5 min walk to Dormy Inn\nOut by ~06:45: 06:55 bus, try to change to Azusa 5 (08:00 → 10:37)\nIf you land at T3 instead: same buses 10 min earlier (06:45 / 07:15 / 07:35 / 08:05); Seven Bank ATM and Limousine counter are in the T3 arrivals hall, 2F; the plan holds\nRail alt (~¥540 pp): Keikyū from Haneda T1·T2 Sta → Shinagawa → JR Yamanote Line → Shinjuku, ~45 min, but Monday rush hour with suitcases\nTaxi alt: fixed fare ~¥9,000 + tolls per car to Shinjuku",
      "places": [
       "shinjuku",
       "mmstn"
      ],
-     "action": "★ Reserve Azusa 9 seats on eki-net (opens 9 Oct, 10:00 JST)"
+     "action": "★ Reserve Azusa 13 seats on eki-net (opens 9 Oct, 10:00 JST)"
     },
     {
      "id": "i05",
-     "time": "11:45",
+     "time": "12:45",
      "title": "Drop bags · Dormy Inn Matsumoto (1 nt)",
      "kind": "stay",
      "how": "Dormy Inn Matsumoto, 2-2-1 Fukashi, Matsumoto 〒390-0815 (☎ 0263-33-5489)\n5 min walk from JR Matsumoto Sta\nMC 75 821 318*64",
@@ -890,11 +890,11 @@
     },
     {
      "id": "i06",
-     "time": "12:15",
+     "time": "13:00",
      "title": "Lunch · Sobakiri Miyota (toji-soba)",
      "kind": "food",
      "how": "Gokō Honmachi Bldg 1F, 2-1-24 Chūō, Matsumoto; 5 min walk from the station and Dormy Inn",
-     "notes": "Tabelog 3.49; Matsumoto's toji-soba (soba dipped shabu-style in hot sansai broth). Kitchen L.O. 14:30 sharp and it can sell out, so go straight from the station if the train runs late. Closed Thu. Backup: Kurekino, station bldg 1F (all-day soba, Tabelog 3.49)",
+     "notes": "Tabelog 3.49; Matsumoto's toji-soba (soba dipped shabu-style in hot sansai broth). Kitchen L.O. 14:30 sharp and it can sell out, so go straight from the station (drop bags after lunch if the train runs late). Closed Thu. Backup: Kurekino, station bldg 1F (all-day soba, Tabelog 3.49)",
      "places": [
       "miyota_m"
      ],
@@ -902,11 +902,11 @@
     },
     {
      "id": "i07",
-     "time": "~13:30",
+     "time": "~14:15",
      "title": "Former Kaichi School (旧開智学校), National Treasure",
      "kind": "visit",
      "how": "2-4-12 Kaichi, Matsumoto 〒390-0876\n~20–25 min walk from Dormy Inn via Nawate-dōri (or Town Sneaker North bus)",
-     "notes": "Reopened Nov 2024 after a 3-year seismic retrofit. 09:00–17:00 (last entry 16:30), ¥700. Open Mon 9 Nov (Mar–Nov it closes only on the 3rd Tue). Alt: Ishii Miso free brewery tour (English tour 13:30)",
+     "notes": "Reopened Nov 2024 after a 3-year seismic retrofit. 09:00–17:00 (last entry 16:30), ¥700 at the window or ¥600 by e-ticket. Open Mon 9 Nov (Mar–Nov it closes only on the 3rd Tue, i.e. 17 Nov). Alt: Ishii Miso free brewery tour",
      "places": [
       "kaichi"
      ],
@@ -914,11 +914,11 @@
     },
     {
      "id": "i08",
-     "time": "~15:00",
+     "time": "~15:30",
      "title": "Stroll · Nawate-dōri ('Frog Street') and Nakamachi",
      "kind": "visit",
      "how": "Nawate-dōri (Ōte 4-chōme) ↔ Nakamachi; ~10 min walk from Dormy Inn\nMC 75 821 687*34",
-     "notes": "Antique stalls, cafés, kura storehouses; flat and walkable. Café: Coffee Bigaku Abe, 1-2-8 Fukashi (Tabelog 3.64; 1957 jun-kissa, mocha parfait; until ~16:30). The famous Marumo is closed Mon. All-day alt: Kamenoya beside Nawate-dōri (until 20:00, no closing day). Souvenir sweets: Kaiundō Honten, 2-2-15 Chūō on Honmachi-dōri next to Nakamachi (09:00–18:00, closed only 1 Jan; 'Hakuchō no Mizuumi'; small tea room inside)",
+     "notes": "Antique stalls, cafés, kura storehouses; flat and walkable. Café: Coffee Bigaku Abe, 1-2-8 Fukashi (Tabelog 3.64; 1957 jun-kissa, mocha parfait; until 16:30, so go there first). The famous Marumo is closed Mon. All-day alt: Kamenoya beside Nawate-dōri (until 20:00, no closing day). Souvenir sweets: Kaiundō Honten, 2-2-15 Chūō on Honmachi-dōri next to Nakamachi (09:00–18:00, closed only 1 Jan; 'Hakuchō no Mizuumi'; small tea room inside)",
      "places": [
       "nawate",
       "nakamachi",
@@ -966,8 +966,8 @@
      "time": "08:43–~10:35",
      "title": "Transit · Matsumoto → Kamikochi (Kamikochi Line + Alpico bus)",
      "kind": "travel",
-     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 08:43 → Shin-Shimashima ~09:13 (¥710)\nAlpico bus: Shin-Shimashima 09:30 → Kamikochi Bus Terminal ~10:35 (¥3,100 one way)",
-     "notes": "08:25 Walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets\n08:43 Train (~30 min)\n~09:13 Shin-Shimashima; bus stop at the station, show the bus reservation\n09:30 Bus (~65 min)\n~10:35 Kamikochi Bus Terminal; 5 min walk to the lodge\nThe earlier bus gets you to Kamonji-goya at Myōjin well before its last lunch of the season (10 Nov, L.O. 14:00)\nLater: 09:24 train → 10:05 bus → ~11:10 (still workable, ~35 min less margin)\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
+     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 08:43 → Shin-Shimashima 09:14 (¥710)\nAlpico bus: Shin-Shimashima 09:30 → Kamikochi Bus Terminal ~10:35 (¥3,100 one way)",
+     "notes": "08:25 Walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets\n08:43 Train (~31 min)\n09:14 Shin-Shimashima; bus stop at the station, show the bus reservation (16 min to change)\n09:30 Bus (~65 min)\n~10:35 Kamikochi Bus Terminal; 5 min walk to the lodge\nThe earlier bus gets you to Kamonji-goya at Myōjin well before its last lunch of the season (10 Nov, L.O. 14:00)\nLater: 09:24 train → 10:05 bus → ~11:10 (still workable, ~35 min less margin)\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
      "places": [
       "mmstn",
       "shinshima",
@@ -1189,7 +1189,7 @@
      "title": "Lunch · Moriyoshi by onion (yōshoku)",
      "kind": "food",
      "how": "Kokufu Bldg 1F, 2-1-21 Fukashi, Matsumoto; 3 min from the station, next to Dormy Inn",
-     "notes": "Old-school Matsumoto yōshoku (hamburg, katsu, croquettes) served teishoku-fast; L.O. 14:30, open Fri. Leave by 13:45 for the 14:06 train. Backup: Matsumoto Karaage Center, station bldg 4F (if skipped on 9 Nov)",
+     "notes": "Mingei Restaurant Moriyoshi by onion: old-school Matsumoto yōshoku (hamburg, katsu, croquettes) served teishoku-fast; lunch 11:30–15:00, L.O. 14:30, closed Tue (Fri fine). Leave by 13:45 for the 14:06 train. If the shuttle gets in after ~13:20, skip the sit-down: buy an ekiben inside the JR gates and eat on the train. Backup: Matsumoto Karaage Center, station bldg 4F (if skipped on 9 Nov)",
      "places": [
       "moriyoshi"
      ],
@@ -1262,8 +1262,8 @@
      "time": "08:00–08:30",
      "title": "Check out · Chateraise Hotel Nagano; pick up rental car",
      "kind": "travel",
-     "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123)",
-     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park (toilets here; none beyond Zuishinmon)\n~10:40 Back at the car\n~10:45 Togakushi soba lunch, Soba no Mi\n~11:30 Optional 5 min at Chūsha's giant cedars\n~11:45 Drive on\n~13:45 Marine Dream Nou, crab\n~14:45 Drive on\n~15:45 Yamanoha, before dark\n~4 h of driving (estimate). Bring International Driving Permits\nIf the Togakushi road is wet-icy or snowy that morning: Plan B is Obuse instead of Togakushi (Optional row below); the crab and Yamanoha timings hold",
+     "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123); open 08:00–20:00 until 30 Nov",
+     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park (toilets here; none beyond Zuishinmon)\n~10:50 Back at the car\n~11:00 Togakushi soba lunch, Soba no Mi\n~11:45 Optional 5 min at Chūsha's giant cedars\n~12:00 Drive on (~1 h 25 to Nou)\n~13:30 Marine Dream Nou, crab\n~14:30 Drive on (~1 h 10)\n~15:40 Yamanoha, before dark (sunset ~16:40)\n~3 h 20 of driving (estimate from expressway km posts, 2 Oct). Bring International Driving Permits\nIf the Togakushi road is wet-icy or snowy that morning: Plan B is Obuse instead of Togakushi (Optional row below); the crab and Yamanoha timings hold",
      "places": [
       "nissan"
      ],
@@ -1272,11 +1272,11 @@
     },
     {
      "id": "i31",
-     "time": "~09:20–10:40",
+     "time": "~09:20–10:50",
      "title": "Togakushi Shrine Okusha (Zuishinmon gate + cedar avenue)",
      "kind": "visit",
-     "how": "Drive Nagano → Togakushi via the Bird Line, ~22 km / ~50 min (est.)\nMC 1004 037 444*20 · alt 1004 009 327*58 (Okusha gate car park, ¥600 / 3 h)",
-     "notes": "Car park → Zuishinmon gate ~1 km, ~20 min on a gentle path. Zuishinmon → Okusha ~30 min, rougher, with stone steps at the top (~40 min up, ~30 min down in all). Toilets only at the car park and around Zuishinmon; none beyond. Turning back at the gate saves ~1 h, so EH & BY can turn there and wait at the car-park tea house (Okusha no Chaya) while the Okusha group finishes. Okusha and Kuzuryūsha close ~late Nov",
+     "how": "Drive Nagano → Togakushi via the Bird Line, ~22 km / ~50 min (est.)\nMC 1004 037 444*20 · alt 1004 009 327*58 (Okusha car park, ¥800 for 3 h, then ¥100/h, max ¥1,200; since Apr 2025)",
+     "notes": "Car park → Zuishinmon gate ~1 km, ~15–20 min on a gentle path. Zuishinmon → Okusha ~25–30 min, rougher, with steep stone steps at the top (~45 min up, ~30 min down in all). Toilets only at the car park and around Zuishinmon; none beyond. Turning back at the gate saves ~1 h, so EH & BY can turn there and wait at the car-park tea house (Okusha no Chaya) while the Okusha group finishes. The Okusha is open on 14 Nov (it closes 7 Jan–late Apr); the main car park stops winter operation from late Nov",
      "places": [
       "togakushi_p",
       "togakushi"
@@ -1284,11 +1284,11 @@
     },
     {
      "id": "i32",
-     "time": "~10:45–11:30",
+     "time": "~11:00–11:45",
      "title": "Lunch · Togakushi soba, Soba no Mi",
      "kind": "food",
-     "how": "Soba no Mi (そばの実), Togakushi 3510-25, Nagano; between the Okusha and Chūsha, ~11 min walk from Chūsha; 30 car spaces\nZero-queue fallback: Okusha no Chaya at the Okusha car-park entrance (Tabelog 3.42, from 10:00)",
-     "notes": "Tabelog 3.75, Soba Top 100; opens 10:30, closed Thu–Fri (Sat fine). The best soba of the trip; keep it light ahead of the crab. Uzuraya (Tabelog 3.76) is the famous one but has had ~2 h queues on autumn weekends, so skip it. Then optional 5 min at Togakushi Chūsha's three ~800-year-old cedars by the torii. Naena Falls dropped: closing date borderline and a rocky path with steps",
+     "how": "Soba no Mi (そばの実), Togakushi 3510-25, Nagano; between the Okusha and Chūsha, ~11 min walk from Chūsha; 30 car spaces\nZero-queue fallback: Okusha no Chaya at the Okusha car-park entrance (Tabelog 3.42; 10:00–17:00 to mid-Nov, then 10:30–15:00; irregular closures)",
+     "notes": "Tabelog 3.75, Soba Top 100; walk-in only, sells out. Opens 10:30 per Tabelog, 11:00 per the Togakushi tourism site (10:30 on busy weekends), so plan on 11:00. Closed Thu and Fri (tourism site: Thu + 2nd/4th Fri); Sat fine. The best soba of the trip; keep it light ahead of the crab. Uzuraya (Tabelog 3.76) is the famous one but has had ~2 h queues on autumn weekends, so skip it. Then optional 5 min at Togakushi Chūsha's three ~800-year-old cedars by the torii. Naena Falls dropped: closing date borderline and a rocky path with steps",
      "places": [
       "sobanomi"
      ]
@@ -1298,8 +1298,8 @@
      "time": "~08:30–12:00",
      "title": "Optional (if the Togakushi road is icy) · Obuse: Hokusai-kan + chestnut lunch",
      "kind": "visit",
-     "how": "Drive Nagano Sta → Obuse, ~30 min via the Jōshin'etsu Expwy (est.)\nHokusai-kan (北斎館), 485 Obuse, Obuse-machi, Nagano 〒381-0201 (☎ 026-247-5206); East Town car park ¥200 first hour\nChikufūdō Obuse Honten (竹風堂 小布施本店), 973 Obuse, Obuse-machi (☎ 026-247-2569)\nMC not checked: set the nav by phone number",
-     "notes": "Plan B for 14 Nov if the mountain road to Togakushi is wet-icy or snowy; replaces the Okusha and Soba no Mi rows\n~09:00 Hokusai-kan (09:00–17:00, last entry 16:30; ¥1,200; wheelchairs at the desk): Hokusai's late paintings and festival-float ceilings; indoor and flat\n~10:30 Short stroll on the chestnut-wood paths of the old town\n~11:00 Lunch at Chikufūdō: chestnut okowa sets (restaurant 10:00–17:30 L.O.; prices not checked)\n~12:00 Drive on via the Jōshin'etsu Expwy → Nou IC, ~1 h 50 (est.), so the crab at ~13:50 and Yamanoha at ~15:45 still hold",
+     "how": "Drive Nagano Sta → Obuse, ~19 km / 30–40 min on local roads (est.)\nHokusai-kan (北斎館), 485 Obuse, Obuse-machi, Nagano 〒381-0201 (☎ 026-247-5206); East Town car park ¥200 first hour\nChikufūdō Obuse Honten (竹風堂 小布施本店), 973 Obuse, Obuse-machi (☎ 026-247-2569)\nMC not checked: set the nav by phone number",
+     "notes": "Plan B for 14 Nov if the mountain road to Togakushi is wet-icy or snowy; replaces the Okusha and Soba no Mi rows\n~09:00 Hokusai-kan (09:00–17:00, last entry 16:30; ¥1,800 during the 'EXPOSITION HOKUSAI' special exhibition, 24 Oct 2026–17 Jan 2027; wheelchairs at the desk): Hokusai's late paintings and festival-float ceilings; indoor and flat\n~10:30 Short stroll on the chestnut-wood paths of the old town\n~11:00 Lunch at Chikufūdō: chestnut okowa sets (dining from 10:00, L.O. 17:30 in winter; prices not checked)\n~12:00 Drive on: Obuse PA Smart IC (ETC card only) → Jōshin'etsu Expwy → Jōetsu JCT → Nou IC, ~95 km / ~1 h 20 (est.), so the crab at ~13:30 and Yamanoha at ~15:40 still hold",
      "places": [
       "hokusai",
       "chikufudo"
@@ -1307,10 +1307,10 @@
     },
     {
      "id": "i33",
-     "time": "~13:45–14:45",
+     "time": "~13:30–14:30",
      "title": "Crab · Kaniya Yokochō crab stalls, Marine Dream Nou",
      "kind": "food",
-     "how": "Drive Togakushi → Shinano-machi IC → Jōshin'etsu Expwy → Jōetsu JCT → Hokuriku Expwy → Nou IC, ~2 h (est.)\nMichi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
+     "how": "Drive Togakushi → Shinano-machi IC (~30 min) → Jōshin'etsu Expwy → Jōetsu JCT → Hokuriku Expwy → Nou IC, ~84 km / ~1 h 25 (est. from expressway km posts)\nMichi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
      "notes": "Pick a boiled benizuwai (~¥1–3k per crab; share 1–2 between three after the soba) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
      "places": [
       "nou"
@@ -1318,10 +1318,10 @@
     },
     {
      "id": "i34",
-     "time": "~15:45",
+     "time": "~15:40",
      "title": "Check in · Yamanoha (2 nt)",
      "kind": "stay",
-     "how": "Drive Nou IC → Kurobe IC (Hokuriku Expwy) → Unazuki, ~60 min (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
+     "how": "Drive Marine Dream Nou → Nou IC → Kurobe IC (Hokuriku Expwy) → Unazuki, ~72 km / ~65–70 min (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
      "notes": "Breakfast + dinner incl.; onsen. Long driving day: Togakushi + Nou",
      "places": [
       "yamanoha"
@@ -1356,7 +1356,7 @@
      "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
      "kind": "visit",
      "how": "Unazuki 08:17 → Keyakidaira 09:33; Keyakidaira 10:01 → Unazuki 11:20 (timetable 1 Oct–23 Nov 2026)\n~5 min walk from Yamanoha; car stays parked (if driving: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
-     "notes": "07:55 Leave Yamanoha\n08:00 Collect tickets at Unazuki Sta\n08:17 Depart (~76 min each way)\n09:33 Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), so mainly the ride\n10:01 Return (or 10:43 → 12:02 for longer at the top)\n11:20 Unazuki\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600) is worth it in the Nov cold\nIf the trolley is suspended (heavy rain or rockfall): do the Uozu option below in the morning if clear; otherwise the Electric Memorial Hall, the roofed footbath and the onsen",
+     "notes": "07:55 Leave Yamanoha\n08:00 Collect tickets at Unazuki Sta\n08:17 Depart (~76 min each way)\n09:33 Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), so mainly the ride\n10:01 Return (or 10:43 → 12:02 for longer at the top; the 10:43 has no Relax car)\n11:20 Unazuki\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600 each way) is worth it in the Nov cold. Fare ¥2,480 each way, no senior discount\nIf the trolley is suspended (heavy rain or rockfall): do the Uozu option below in the morning if clear; otherwise the Electric Memorial Hall, the roofed footbath and the onsen",
      "places": [
       "unazuki_stn",
       "keyakidaira"
@@ -1388,11 +1388,11 @@
     },
     {
      "id": "i90",
-     "time": "~11:45–16:15",
+     "time": "11:45–16:21",
      "title": "Optional (if clear) · Uozu by train: Komasa Sushi + Buried Forest Museum + Tateyama view",
      "kind": "visit",
-     "how": "Toyama Chihō Railway (Chitetsu) local: Unazuki-Onsen → Shin-Uozu, ~50 min (Unazuki-Onsen → Dentetsu-Uozu is 47 min, ¥1,200)\nKomasa Sushi (小政寿司), 1-6-9 Kamimuragi, Uozu, Toyama (☎ 0765-22-5383); ~5 min walk from Uozu Sta (beside Chitetsu Shin-Uozu)\nUozu Buried Forest Museum (魚津埋没林博物館), 814 Shakadō, Uozu 〒937-0067 (☎ 0765-22-1049); taxi from Komasa ~10 min (est.)",
-     "notes": "Replaces the Kajika lunch and the promenade on a clear day; no driving\n~11:45 Train from Unazuki-Onsen (check the Sunday timetable) → ~12:35 Shin-Uozu; walk to Komasa\nKomasa: Toyama Bay sushi (Tabelog 3.47); lunch 11:30–14:00 (L.O. ~13:30), irregular closures, so phone ahead\n~13:45 Taxi to the Buried Forest Museum (¥640, 09:00–17:00, open to 30 Nov): ancient tree stumps preserved underwater. On a clear day the waterfront beside it has the classic view of the Tateyama range rising across Toyama Bay\n~15:26 Train back from Dentetsu-Uozu (Sun/holiday timetable, ~47 min) → ~16:15 Unazuki",
+     "how": "Toyama Chihō Railway (Chitetsu) local, Sun/holiday timetable: Unazuki-Onsen 11:45 → Shin-Uozu 12:30 (¥1,080; ¥970 by IC card)\nKomasa Sushi (小政寿司), 1-6-9 Kamimuragi, Uozu, Toyama (☎ 0765-22-5383); ~5 min walk from Uozu Sta (beside Chitetsu Shin-Uozu)\nUozu Buried Forest Museum (魚津埋没林博物館), 814 Shakadō, Uozu 〒937-0067 (☎ 0765-22-1049); taxi from Komasa ~10 min (est.)\nBack: Dentetsu-Uozu 15:26 → Unazuki-Onsen 16:21 (¥1,200)",
+     "notes": "Replaces the Kajika lunch and the promenade on a clear day; no driving\n11:45 Train from Unazuki-Onsen → 12:30 Shin-Uozu; walk to Komasa\nKomasa: Toyama Bay sushi (Tabelog 3.47); lunch daily 11:30–14:00 (L.O. 13:30), irregular closures, so phone ahead\n~13:45 Taxi to the Buried Forest Museum (¥640, 09:00–17:00, last entry 16:30, open daily to 30 Nov): ancient tree stumps preserved underwater. On a clear day the waterfront beside it has the classic view of the Tateyama range rising across Toyama Bay\n15:26 Train back from Dentetsu-Uozu → 16:21 Unazuki-Onsen (55 min). Next: 16:26 → 17:25\nTimes from Chitetsu's own route search (holiday service), checked 2 Oct 2026",
      "places": [
       "komasa",
       "uozu_forest"
@@ -1426,8 +1426,8 @@
      "time": "09:15",
      "title": "Check out · Yamanoha; drive Unazuki → Niigata",
      "kind": "travel",
-     "how": "Hokuriku Expwy, ~5 h of driving (estimate) plus the stops below. Sunset ~16:30",
-     "notes": "09:15 Depart (leisurely onsen morning)\n~11:30 Lunch, Yoneyama SA (45 min)\n~13:40 Yahiko Park + Shrine (incl. optional ropeway)\n~17:00 Momijidani light-up\n~17:20 Drive to Niigata (~1 h, after dark)\n~18:20 Niigata Daiichi Hotel; park, check in, short rest\n~19:15 Taxi to Marui (~10 min) for a 19:30 booking\nTakada Castle Park dropped (turret closed Mondays). Rotate drivers; ETC for tolls. All drive times are estimates",
+     "how": "Hokuriku Expwy, ~4 h of driving (estimate from expressway km posts) plus the stops below. Sunset ~16:30",
+     "notes": "09:15 Depart (leisurely onsen morning)\n~11:00 Yoneyama SA (drive ~1 h 45); lunch to ~11:45. The 30 min spare is buffer, or leave Yamanoha later\n~13:10 Yahiko Park + Shrine (incl. optional ropeway)\n~17:00 Momijidani light-up\n~17:20 Drive to Niigata (~1 h, after dark)\n~18:20 Niigata Daiichi Hotel; park, check in, short rest\n~19:15 Taxi to Marui (~10 min) for a 19:30 booking\nTakada Castle Park dropped (turret closed Mondays). Rotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "yamanoha"
      ],
@@ -1435,10 +1435,10 @@
     },
     {
      "id": "i41",
-     "time": "~11:30",
+     "time": "~11:00",
      "title": "Lunch · Yoneyama SA (Niigata-bound)",
      "kind": "food",
-     "how": "Drive Unazuki → Kurobe IC → Jōetsu JCT → Yoneyama SA, ~2 h 15 (est.); on the Hokuriku Expwy",
+     "how": "Drive Unazuki → Kurobe IC (~20 min) → Jōetsu JCT → Yoneyama SA (~113 km), ~1 h 45 (est.); on the Hokuriku Expwy",
      "notes": "Echigontei kaisendon + the cult saba sandwich. Earlier option: Nadachidanihama SA (tare-katsudon)",
      "places": [
       "yoneyama"
@@ -1446,7 +1446,7 @@
     },
     {
      "id": "i42",
-     "time": "~13:40–17:20",
+     "time": "~13:10–17:20",
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
      "how": "Drive via Nagaoka JCT → Sanjō-Tsubame IC, ~1 h 25 (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
@@ -1473,12 +1473,12 @@
      "time": "~18:20",
      "title": "Check in · Niigata Daiichi Hotel (1 nt)",
      "kind": "stay",
-     "how": "Drive Yahiko → Niigata, ~1 h (est.)\nNiigata Daiichi Hotel, 1-3-12 Hanazono, Chūō-ku, Niigata 〒950-0086 (☎ 025-243-1111)\n~2 min walk from JR Niigata Sta Bandai Exit; hotel car park ~¥1,200 / night, reserve ahead\nMC 32 877 298*72",
+     "how": "Drive Yahiko → Niigata, ~1 h (est.)\nNiigata Daiichi Hotel, 1-3-12 Hanazono, Chūō-ku, Niigata 〒950-0086 (☎ 025-243-1111)\n~2 min walk from JR Niigata Sta Bandai Exit; indoor hotel garage ~¥1,200 / night, 72 spaces, no reservations, height limit 1.58 m (Jalan says 1.50 m); taller cars go to a partner car park (up to 2 m)\nMC 32 877 298*72",
      "notes": "Breakfast incl.; drop luggage and rest, then taxi to Furumachi (~19:15)",
      "places": [
       "niigata"
      ],
-     "action": "Future payment (UOB) · ★ Reserve the hotel car park"
+     "action": "Future payment (UOB) · ★ Check the Nissan car's height (hotel garage max 1.58 m; no reservations)"
     },
     {
      "id": "i45",
@@ -1512,28 +1512,40 @@
    "label": "17 Nov",
    "ja": "三条",
    "en": "Sanjō",
-   "sub": "Drive: ramen, metalwork, copper workshop, ryokan",
+   "sub": "Drive: copper workshop, ramen, metalwork, ryokan",
    "mode": "driving",
    "hotel": "rankeisou",
    "items": [
     {
      "id": "i47",
-     "time": "10:00",
+     "time": "09:10",
      "title": "Check out · Niigata Daiichi Hotel; drive → Tsubame → Sanjō → Rankeisou",
      "kind": "travel",
-     "how": "Hokuriku Expwy Niigata-Chūō IC → Sanjō-Tsubame IC, ~50 min to Tsubame; Jibasan Center ~15 min on; Gyokusendō ~10 min on; then ~50 min to Rankeisou (est.)",
-     "notes": "10:00 Depart\n~10:50 Kōshū Hanten; queue for opening\n~11:50 Drive to the Jibasan Center (~15 min)\n~12:00–12:50 Jibasan Center\n~12:50 Drive to Gyokusendō (~10 min, est.)\n13:00–13:40 Gyokusendō workshop tour + showroom\n~13:45 Drive on (~45 min)\n~14:30 Yagi-ga-hana cliff (~15 min stop)\n~14:50 Rankeisou; check-in ~15:00 (time unverified)",
+     "how": "Hokuriku Expwy Niigata-Chūō IC → Sanjō-Tsubame IC, ~45–50 min to Gyokusendō; Kōshū Hanten ~5 min on; Jibasan Center ~15 min on; then ~40–45 min to Rankeisou (est.)",
+     "notes": "09:10 Depart\n~09:55 Gyokusendō car park\n10:00–10:45 Gyokusendō workshop tour + showroom\n~10:45 Drive to Kōshū Hanten (~5 min, est.); queue for the 11:00 opening\n~11:00–11:50 Lunch\n~11:50 Drive to the Jibasan Center (~15 min, est.)\n~12:05–13:45 Jibasan Center\n~13:45 Drive on (~40 min)\n~14:25 Yagi-ga-hana cliff (~15 min stop)\n~14:50 Rankeisou; check-in from 15:00\nThis order avoids driving back into Tsubame and passing Jibasan twice",
      "places": [
       "niigata"
      ]
     },
     {
+     "id": "i78",
+     "time": "10:00–10:45",
+     "title": "Gyokusendō (玉川堂) · hand-hammered copper workshop tour",
+     "kind": "visit",
+     "how": "Gyokusendō, 2-2-21 Chūō-dōri, Tsubame, Niigata (☎ 0256-62-2015); ~22–30 car spaces\nMC not checked: set the nav by phone number",
+     "notes": "Hand-hammered Tsubame copperware since 1816; the free factory tour (15–30 min) shows the craftsmen at work. Tours Mon–Sat 10:00 / 11:00 / 13:00 / 14:00 / 15:10, free for 1–5 people; closed Sun and holidays, and tours can be cancelled on factory days off, so book. Showroom 08:30–17:30. Tell them about the older visitors when booking",
+     "places": [
+      "gyokusendo"
+     ],
+     "action": "★ Book the 10:00 tour (3 people): ☎ 0256-62-2015 or the online form (gyokusendo.com/openfactory)"
+    },
+    {
      "id": "i48",
-     "time": "~11:00",
+     "time": "~11:00–11:50",
      "title": "Lunch · Kōshū Hanten (Tsubame back-fat ramen originator)",
      "kind": "food",
-     "how": "49-4 Tsubame, Tsubame-shi; 50-car parking, on the drive to Rankeisou",
-     "notes": "Tabelog 3.74 (Ramen Hyakumeiten), the trip's top score; chūka soba ~¥950. No reservations, 70 seats: arrive ~11:00. ⚠ Closed Mon, plus a Mon–Tue double closure 1–2× a month. Backup: Chūkatei, Sanjō (Tabelog 3.46, closed Mon only)",
+     "how": "49-4 Tsubame, Tsubame-shi; 50-car parking; ~5 min from Gyokusendō (est.)",
+     "notes": "Tabelog 3.74 (Ramen Hyakumeiten), the trip's top score; chūka soba ~¥950. No reservations, 70 seats: be in the queue before the 11:00 opening (Tue lunch 11:00–14:30). ⚠ Closed Mon, plus 1–2 extra days a month (often a Tue). Backup: Chūkatei, Sanjō (Tabelog 3.46, closed Mon only)",
      "places": [
       "koshu"
      ],
@@ -1541,30 +1553,18 @@
     },
     {
      "id": "i49",
-     "time": "~12:00–12:50",
+     "time": "~12:05–13:45",
      "title": "Tsubame-Sanjō Jibasan Center (Regional Industries Promotion Center)",
      "kind": "visit",
-     "how": "Drive ~15 min from Kōshū Hanten (est.); 3 min from Sanjō-Tsubame IC\nTsubame-Sanjō Jibasan Center, Sanjō, Niigata (☎ 0256-32-2311)\nMC 58 832 492*57 (alt *86)",
-     "notes": "Showroom + shop for local Tsubame-Sanjō metalwork (knives, cutlery, copperware). Open 09:30–17:30; closed only on the 1st Wed of the month (17 Nov is a Tue). Shortened to fit the 13:00 Gyokusendō tour",
+     "how": "Drive ~15 min from Kōshū Hanten (est.); 3 min from Sanjō-Tsubame IC\nTsubame-Sanjō Jibasan Center, 1-17 Suyori, Sanjō, Niigata (☎ 0256-32-2311)\nMC 58 832 492*57 (alt *86)",
+     "notes": "Showroom + shop for local Tsubame-Sanjō metalwork (knives, cutlery, copperware). Open 09:30–17:30; closed only on the 1st Wed of the month (17 Nov is a Tue). Plenty of time to browse and sit; on the way out toward Rankeisou",
      "places": [
       "jibasan"
      ]
     },
     {
-     "id": "i78",
-     "time": "13:00–13:40",
-     "title": "Gyokusendō (玉川堂) · hand-hammered copper workshop tour",
-     "kind": "visit",
-     "how": "Gyokusendō, 2-2-21 Chūō-dōri, Tsubame, Niigata (☎ 0256-62-2015); ~22–30 car spaces\nMC not checked: set the nav by phone number",
-     "notes": "Hand-hammered Tsubame copperware since 1816; the free factory tour (15–30 min) shows the craftsmen at work. Tours Mon–Sat 10:00 / 11:00 / 13:00 / 14:00 / 15:10, free for 1–5 people. Showroom 08:30–17:30. Tell them about the older visitors when booking",
-     "places": [
-      "gyokusendo"
-     ],
-     "action": "★ Book the 13:00 tour (3 people): ☎ 0256-62-2015 or the online form (gyokusendo.com/openfactory)"
-    },
-    {
      "id": "i79",
-     "time": "~14:30–14:45",
+     "time": "~14:25–14:40",
      "title": "Viewpoint · Yagi-ga-hana cliff",
      "kind": "visit",
      "how": "Yagi-ga-hana (八木ヶ鼻), Shitada, Sanjō, Niigata; on the road to Rankeisou, ~5 min before the inn (est.)\nPull in at the Yagi-ga-hana Onsen 'Iiyuratei' day-spa car park (~20 free spaces) or the riverbank",
@@ -1578,7 +1578,7 @@
      "time": "~14:50–15:00",
      "title": "Check in · Rankeisou (1 nt)",
      "kind": "stay",
-     "how": "Drive Gyokusendō → Sanjō-Tsubame IC area → ~23 km of local roads, ~50 min (est.)\nRankeisou, 1450 Nagano, Sanjō, Niigata 〒955-0132 (☎ 0256-47-2211)\n50 free spaces\nMC 318 374 796*67",
+     "how": "Drive Jibasan Center (by Sanjō-Tsubame IC) → ~23 km of local roads, ~40–45 min (est.; Rankeisou gives 23.4 km from the IC)\nRankeisou, 1450 Nagano, Sanjō, Niigata 〒955-0132 (☎ 0256-47-2211)\n50 free spaces\nMC 318 374 796*67",
      "notes": "Historic 3-storey wooden ryokan (est. 1933) on the Sumon River. Breakfast + kaiseki dinner incl.; salt-rich onsen",
      "places": [
       "rankeisou"
@@ -1612,7 +1612,7 @@
      "title": "Check out · Rankeisou; drive → Nagano (return car)",
      "kind": "travel",
      "how": "Sanjō → Nagano via Hokuriku and Jōshin'etsu Expwys, ~200 km / ~3 h of driving (estimate)",
-     "notes": "10:00 Check out (leisurely onsen morning)\n~10:45 Sanjō-Tsubame IC\n~12:05 Lunch, Roadside Station Arai (45 min)\n~13:55 Refuel near Nagano Sta\n~14:10 Return car\n15:20 Shinkansen Hakutaka 566\n~1 h of buffer for snow or traffic on the Myōkō stretch",
+     "notes": "10:00 Check out (leisurely onsen morning)\n~10:45 Sanjō-Tsubame IC\n~12:05 Lunch, Arai PA / Roadside Station Arai (45 min)\n~13:55 Refuel near Nagano Sta\n~14:10 Return car\n15:22 Shinkansen Hakutaka 566\n~1 h of buffer for snow or traffic on the Myōkō stretch",
      "places": [
       "rankeisou"
      ]
@@ -1622,8 +1622,8 @@
      "time": "~12:05",
      "title": "Lunch · Roadside Station Arai (Kitokito kaiten sushi)",
      "kind": "food",
-     "how": "Drive Rankeisou → Sanjō-Tsubame IC → Jōetsu JCT → Arai, ~2 h (est.)\nMichi-no-Eki Arai, Myōkō, Niigata (☎ 0255-70-1021)\nMC 126 072 674*45",
-     "notes": "Food court + local market, on the Jōshin'etsu route to Nagano. Lunch: Himi Kitokito-zushi (kaiten sushi from Himi, Toyama; open Wed; Tabelog 3.24) or Rāmen Shō (closed Mon only; Tabelog 3.30). The top-rated Shokudō Misa (miso ramen, 3.51) is listed as closed on Wednesdays",
+     "how": "Drive Rankeisou → Sanjō-Tsubame IC (23 km) → Jōetsu JCT → Arai PA (~109 km of expressway), ~2 h (est.)\nNo need to exit: park at Arai PA on the Nagano-bound (上り) side and walk into the Michi-no-Eki\nMichi-no-Eki Arai, Myōkō, Niigata (☎ 0255-70-1021)\nMC 126 072 674*45",
+     "notes": "Food court + local market, on the Jōshin'etsu route to Nagano. Lunch: Himi Kitokito-zushi (kaiten sushi from Himi, Toyama; open daily 11:00–20:30 with a weekday break ~15:00–16:00; Tabelog 3.24), Shokudō Misa (miso ramen, Tabelog 3.51; 11:00–20:30, no fixed closing day, irregular closures) or Rāmen Shō (closed Mon only; Tabelog 3.30)",
      "places": [
       "arai"
      ]
@@ -1642,11 +1642,11 @@
     },
     {
      "id": "i55",
-     "time": "15:20–16:52",
+     "time": "15:22–16:52",
      "title": "Transit · Nagano → Tokyo (Hokuriku Shinkansen Hakutaka 566)",
      "kind": "travel",
-     "how": "Hakutaka 566: Nagano 15:20 → Tokyo 16:52 (Ōmiya 16:27, Ueno 16:46)",
-     "notes": "14:15 MIDORI Nagano 2F: Obuse chestnut sweets to take home at Obuse-dō (09:00–20:00) and Sakurai Kanseidō (Tabelog 3.56; café to 18:00)\n14:45 Collect reserved tickets; snack or ekiben (Kusabue, MIDORI Nagano 3F, kurumi walnut soba, open daily)\n15:20 Depart\n16:52 Tokyo\nLater options: Asama 622, 15:25 → 17:12; Hakutaka 568, 16:20 → 17:52",
+     "how": "Hakutaka 566: Nagano dep 15:22 (pulls in 15:20) → Tokyo 16:52 (Ōmiya 16:27, Ueno 16:46)",
+     "notes": "14:15 MIDORI Nagano 2F: Obuse chestnut sweets to take home at Obuse-dō (09:00–20:00) and Sakurai Kanseidō (Tabelog 3.56; café to 18:00)\n14:45 Collect reserved tickets; snack or ekiben (Kusabue, MIDORI Nagano 3F, kurumi walnut soba, open daily)\n15:22 Depart\n16:52 Tokyo\nLater options: Asama 622, 15:25 → 17:12; Hakutaka 568, 16:20 → 17:52",
      "places": [
       "nagano_stn",
       "tokyo_stn"
@@ -1775,8 +1775,8 @@
      "time": "08:30–~09:15",
      "title": "Day trip · Kamakura (transit from Kawasaki)",
      "kind": "travel",
-     "how": "JR Tōkaidō Line Kawasaki → Ōfuna (~25 min), change to the Yokosuka Line → Kamakura (~6 min); ~45 min door to door",
-     "notes": "08:30 Leave the hotel; ~09:15 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Check Shirasuya's and Rengatei's opening days before swapping (not checked)",
+     "how": "JR Tōkaidō Line Kawasaki → Totsuka (~25 min), change across the platform to the Yokosuka Line → Kamakura; ~35 min, ¥620 (no direct train; changing at Ōfuna or Yokohama also works, ~40–45 min)",
+     "notes": "08:30 Leave the hotel; ~09:10 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Opening days suit a swap: Shirasuya closes Thu only, Rengatei Sun only, Shiseido Parlour Mon only, Tsukiji is open on Fri 20 Nov",
      "places": [
       "kotokuin"
      ]
@@ -1787,7 +1787,7 @@
      "title": "Kōtoku-in · Great Buddha (Daibutsu)",
      "kind": "visit",
      "how": "Kōtoku-in, 4-2-28 Hase, Kamakura 〒248-0016\n~7 min walk from Hase Sta (Enoden)",
-     "notes": "Flat, easy; outdoor bronze Buddha",
+     "notes": "Flat, easy; outdoor bronze Buddha. 08:00–17:00, ¥300",
      "places": [
       "kotokuin"
      ]
@@ -1798,7 +1798,7 @@
      "title": "Hase-dera",
      "kind": "visit",
      "how": "Hase-dera, 3-11-2 Hase, Kamakura 〒248-0016 (☎ 0467-22-6300)\n~7 min walk from the Daibutsu",
-     "notes": "Temple and sea views. Leave by 11:10 for the Enoden to Koshigoe",
+     "notes": "Temple and sea views. 08:00–16:30 entry, ¥400. Leave by 11:10 for the Enoden to Koshigoe",
      "places": [
       "hasedera"
      ],
@@ -1809,8 +1809,8 @@
      "time": "~11:30",
      "title": "Lunch · Shirasuya (shirasu-don specialist)",
      "kind": "food",
-     "how": "2-10-13 Koshigoe, Kamakura; 3 min from Enoden Koshigoe Sta (Hase → Koshigoe ~10–12 min)",
-     "notes": "Fishing-family-run (Tabelog 3.52); shirasu-zukushi set. Nov is in season (the fishing ban is only Jan–Mar); raw shirasu only if the morning catch allows, boiled kama-age always on. Closed Thu (Fri fine); arrive by 11:30 to beat the queue. Backup: Matsubara-an garden soba (Tabelog 3.67, Yuigahama)",
+     "how": "2-10-13 Koshigoe, Kamakura; 3 min from Enoden Koshigoe Sta (Hase → Koshigoe ~15 min, ¥260, ~4 trains an hour)",
+     "notes": "Fishing-family-run (Tabelog 3.52); shirasu-zukushi set. Nov is in season (the fishing ban is only Jan–Mar); raw shirasu only if the morning catch allows, boiled kama-age always on. Opens 11:00, closed Thu (Fri fine); arrive by 11:30 to beat the queue. Backup: Matsubara-an garden soba (Tabelog 3.67, Yuigahama)",
      "places": [
       "shirasuya"
      ]
@@ -1821,7 +1821,7 @@
      "title": "Stroll · Komachi-dōri",
      "kind": "visit",
      "how": "Enoden Koshigoe → Kamakura, ~25 min; Komachi-dōri starts at Kamakura Sta East Exit",
-     "notes": "Buy the Beniya 'Kurumicco' walnut caramels first (Hachimangū-mae honten; sells out; shop until 17:00). Snack crawl: Ichibanya hand-grilled senbei · Imoyoshikan purple-sweet-potato soft cream. Sit-down: Café Vivement Dimanche (Tabelog 3.66, Top 100; closed Wed and Thu, Fri fine, until 18:00)",
+     "notes": "Buy the Beniya 'Kurumicco' walnut caramels first (Hachimangū-mae honten 09:30–17:00, open daily; sells out). Snack crawl: Ichibanya hand-grilled senbei · Imoyoshikan purple-sweet-potato soft cream. Sit-down: Café Vivement Dimanche (Tabelog 3.66, Top 100; closed Wed and Thu, Fri fine, until 18:00)",
      "places": [
       "komachi"
      ]
@@ -1832,7 +1832,7 @@
      "title": "Tsurugaoka Hachimangū",
      "kind": "visit",
      "how": "Tsurugaoka Hachimangū, 2-1-31 Yukinoshita, Kamakura; at the top of Komachi-dōri / Wakamiya-ōji",
-     "notes": "Main hall is ~60 steps up (the Ōishidan), with no public step-free route; EH & BY can stay at the lower Maiden stage and Genpei Pond. Accessible toilet near the archery ground\nIf wet: add the Kamakura Kokuhōkan (Optional row below) before Hōkoku-ji",
+     "notes": "Main hall is 61 steps up (the Ōishidan), with no lift or slope; a side stair beside Wakamiya has 70 gentler steps with handrails. EH & BY can stay at the lower Maiden stage and Genpei Pond. Accessible toilet near the archery ground\nIf wet: add the Kamakura Kokuhōkan (Optional row below) before Hōkoku-ji",
      "places": [
       "hachimangu"
      ]
@@ -1843,7 +1843,7 @@
      "title": "Optional (if wet) · Kamakura Kokuhōkan (National Treasure Museum)",
      "kind": "visit",
      "how": "Kamakura Kokuhōkan (鎌倉国宝館), 2-1-1 Yukinoshita, Kamakura (☎ 0467-22-0753); inside the Tsurugaoka Hachimangū grounds",
-     "notes": "Rainy-day indoor stop: Kamakura-period Buddhist sculpture and temple treasures. 09:00–16:30 (last entry 16:00), closed Mon (Fri fine). ¥300–700 depending on the exhibition (the free 65+ entry is for Kamakura residents only). Accessibility not checked. Then taxi to Hōkoku-ji, arriving by ~15:00 while matcha is still served (to 15:30)",
+     "notes": "Rainy-day indoor stop: special exhibition on Zuisen-ji's 700 years (24 Oct–6 Dec 2026) plus Kamakura-period sculpture. 09:00–16:30 (last entry 16:00), closed Mon (Fri fine). ¥1,000 during this exhibition (the free 65+ entry is for Kamakura residents only). Accessibility not checked. Then taxi to Hōkoku-ji, arriving by ~15:00 while matcha is still served (to 15:30)",
      "places": [
       "kokuhokan"
      ]
@@ -1853,8 +1853,8 @@
      "time": "~14:40–15:45",
      "title": "Hōkoku-ji bamboo garden + matcha",
      "kind": "visit",
-     "how": "Hōkoku-ji (報国寺), 2-7-4 Jōmyōji, Kamakura; taxi ~10 min from Hachimangū (est.) or Keikyū bus from Kamakura Sta East Exit stand 5 to 'Jōmyōji' + 3 min walk",
-     "notes": "Bamboo grove ¥400, 09:00–16:00; matcha + sweet ¥600 at the Kyūkōan tea house, served until 15:30. A seated rest. Then taxi ~20–25 min (est.) to Inamuragasaki for the sunset",
+     "how": "Hōkoku-ji (報国寺), 2-7-4 Jōmyōji, Kamakura; taxi ~2 km / 7–10 min from Hachimangū (est.) or Keikyū bus from Kamakura Sta East Exit stand 5 to 'Jōmyōji' + 3 min walk",
+     "notes": "Bamboo grove ¥400, 09:00–16:00; matcha + sweet ¥600 at the Kyūkōan tea house, served until 15:30. A seated rest. Then taxi ~7 km / 20–30 min (est.; Fri late-afternoon traffic through central Kamakura and Rte 134) to Inamuragasaki for the sunset: leave by ~15:40",
      "places": [
       "hokokuji"
      ]
@@ -1865,7 +1865,7 @@
      "title": "Sunset · Inamuragasaki (Mt Fuji over the sea)",
      "kind": "visit",
      "how": "Inamuragasaki Park, Inamuragasaki, Kamakura; ~5 min walk from Enoden Inamuragasaki Sta\nBack: Enoden Inamuragasaki → Kamakura, ~10 min",
-     "notes": "Sunset ~16:32. On a clear day Mt Fuji and Enoshima stand out over Sagami Bay. Low cape, short walk, benches. Then Toshimaya Hato Sablé main store (Komachi 2-11-19, 09:00–19:00, Fri fine) on the way to dinner\nIf wet or overcast: skip it (no Fuji); go straight to Hato Sablé and an earlier dinner",
+     "notes": "Sunset ~16:34. On a clear day Mt Fuji and Enoshima stand out over Sagami Bay. Low cape, short walk, benches. Then Toshimaya Hato Sablé main store (Komachi 2-11-19, 09:00–19:00, Fri fine) on the way to dinner\nIf wet or overcast: skip it (no Fuji); go straight to Hato Sablé and an earlier dinner",
      "places": [
       "inamuragasaki"
      ]
@@ -1875,8 +1875,8 @@
      "time": "~17:30",
      "title": "Dinner · Akimoto (Kamakura) or Santsuru (Kawasaki); then back to Kawasaki",
      "kind": "food",
-     "how": "Akimoto: Aiza Kamakura 3F, 1-6-15 Komachi (3 min from Kamakura Sta) · Santsuru: 16-10 Ogawa-chō, Kawasaki\nBack: Kamakura → Ōfuna → Kawasaki, ~45 min",
-     "notes": "Eat early in Kamakura: Akimoto (Tabelog 3.54, shirasu + Kamakura-vegetable tempura); walk in by ~18:00, L.O. 19:30. Or ride back and eat near the hotel: Santsuru (Tabelog 3.67, Top 100 Chinese, handmade gyōza; ☎ 044-233-1798, closed Tue; house rule one drink order pp, soft drinks fine)",
+     "how": "Akimoto: Aiza Kamakura 3F, 1-6-15 Komachi (3 min from Kamakura Sta) · Santsuru: 16-10 Ogawa-chō, Kawasaki\nBack: Kamakura → Totsuka → Kawasaki, ~35 min",
+     "notes": "Eat early in Kamakura: Akimoto (Tabelog 3.54, shirasu + Kamakura-vegetable tempura; closed Thu, Fri fine); walk in by ~18:00, L.O. 19:30. Or ride back and eat near the hotel: Santsuru (Tabelog 3.67, Top 100 Chinese, handmade gyōza; dinner only, 17:00–21:30; ☎ 044-233-1798, closed Tue; house rule one drink order pp, soft drinks fine)",
      "places": [
       "akimoto",
       "santsuru",
@@ -1912,7 +1912,7 @@
      "title": "Tsukiji Outer Market · snack breakfast",
      "kind": "visit",
      "how": "Keikyū Kawasaki → Higashi-Ginza (through-running onto the Toei Asakusa Line; some trains need a change at Sengakuji), ~35 min (est.), then ~8 min walk; or JR to Shimbashi + taxi ~5 min\nTsukiji Outer Market, 4-chōme Tsukiji, Chūō-ku, Tokyo",
-     "notes": "Shops ~09:00–14:00. Sat 21 Nov is open per a secondary source (official calendar not checked); Saturdays are busy, so go early and keep together in the narrow lanes. Snacks: Tsukiji Yamachō tamagoyaki (06:00–15:30, daily) · Kitsuneya horumon-don (06:30–13:30; long-established, queues)",
+     "notes": "Shops ~09:00–14:00. Sat 21 Nov is open: a secondary source lists the Nov closures as 1, 3, 8, 11, 15, 18, 22, 23, 29 Nov and no Saturday closures Sep–Dec (the official calendar PDF is an image, not read). Saturdays are busy, so go early and keep together in the narrow lanes. Snacks: Tsukiji Yamachō tamagoyaki (06:00–15:30, daily) · Kitsuneya horumon-don (06:30–13:30; long-established, queues)",
      "places": [
       "tsukiji"
      ]
@@ -1934,7 +1934,7 @@
      "title": "Ginza · lunch, pedestrian zone, shopping",
      "kind": "visit",
      "how": "Walk or taxi from Hama-rikyū (~15 min / ~5 min)\nGinza Chūō-dōri, Tokyo",
-     "notes": "Chūō-dōri is car-free on Sat 12:00–17:00. Lunch: Rengatei (Tabelog 3.68, est. 1895, birthplace of omurice; no reservations; expect a short queue at lunchtime). Rest: GINZA SIX rooftop garden (13F, free, 07:00–23:00). Café: Sembikiya Fruit Parlour honten (Tabelog 3.56, Sat until 19:00) or Kimuraya anpan takeaway (since 1869). Coin lockers for shopping bags. Optional: Kabuki-za single-act (hitomakumi) seats, Nov programme Kanadehon Chūshingura, shows 11:00 and 16:30; ~70 seats sold online from 12:00 JST the day before (credit card, max 4, ~¥600–2,800 per act, unverified); 4th floor; no entry or exit during Act 4; act times published ~1 Nov",
+     "notes": "Chūō-dōri is car-free on Sat 12:00–17:00 (Oct–Mar; cancelled in bad weather). Lunch: Rengatei (Tabelog 3.68, est. 1895, birthplace of omurice; 11:15–15:00, L.O. 14:00, closed Sun; no reservations; expect a short queue at lunchtime). Rest: GINZA SIX rooftop garden (13F, free, 07:00–23:00). Café: Ginza Sembikiya fruit parlour, 5-5-1 Ginza (hours not checked; the Sembikiya Sōhonten parlour is in Nihonbashi, a different company) or Kimuraya anpan takeaway (since 1869). Coin lockers for shopping bags. Optional: Kabuki-za single-act (hitomakumi) seats, Nov programme Kanadehon Chūshingura (full-length, split 11:00 and 16:30); reserved single-act seats sold online from 12:00 JST the day before (credit card, max 4, ~¥600–2,800 per act, unverified), unreserved ones at the counter from 10:00 on the day (cash); 4th floor; no entry during Act 4 (通さん場); act times published ~1 Nov",
      "places": [
       "ginza",
       "rengatei"
@@ -1972,7 +1972,7 @@
      "title": "Arrive Haneda T2 · ANA check-in",
      "kind": "travel",
      "how": "Haneda Airport T2, international area",
-     "notes": "ANA lists Singapore departures from T2 for the winter 2026 timetable (from 25 Oct); check the terminal on the e-ticket. T2's international area is small and late-night food there is unverified, so eat properly at Shiseido. If moved to T3: Setagaya Ramen, Edo-Kōji 4F landside, 24 h",
+     "notes": "ANA lists Singapore departures from T2 for the winter 2026 timetable (from 25 Oct); check the terminal on the e-ticket. Most T2 restaurants close ~22:00–22:30; only a FamilyMart (before security) and two food-court places (Kamata hanetsuki gyōza, Mugi to Olive) stay open to the last flight, and some lifts stop after midnight, so eat properly at Shiseido. If moved to T3: Setagaya Ramen, Edo-Kōji 4F landside, 24 h",
      "places": [
       "haneda_t2",
       "haneda"
@@ -2046,7 +2046,7 @@
   },
   {
    "id": "t04",
-   "task": "Reserve Azusa 9 seats: 9 Nov, Shinjuku 09:00 → Matsumoto 11:39 (3 adults)",
+   "task": "Reserve Azusa 13 seats: 9 Nov, Shinjuku 10:00 → Matsumoto 12:37 (3 adults); change to Azusa 9 on the day only if at Shinjuku by ~08:35",
    "how": "JR-EAST Train Reservation (eki-net), then print at a reserved-seat machine at Shinjuku",
    "by": "Opens 9 Oct, 10:00 JST",
    "done": false
@@ -2060,7 +2060,7 @@
   },
   {
    "id": "t06",
-   "task": "Reserve seats: Shinano 11 (13 Nov, Matsumoto 14:06 → Nagano 15:00) and Hakutaka 566 (18 Nov, Nagano 15:20 → Tokyo 16:52)",
+   "task": "Reserve seats: Shinano 11 (13 Nov, Matsumoto 14:06 → Nagano 15:00) and Hakutaka 566 (18 Nov, Nagano 15:22 → Tokyo 16:52)",
    "how": "JR-EAST Train Reservation (eki-net)",
    "by": "Opens 13 Oct and 18 Oct, 10:00 JST",
    "done": false
@@ -2074,7 +2074,7 @@
   },
   {
    "id": "t21",
-   "task": "Book Gyokusendō copper workshop tour: Tue 17 Nov 13:00, 3 people (mention older visitors)",
+   "task": "Book Gyokusendō copper workshop tour: Tue 17 Nov 10:00, 3 people (mention older visitors)",
    "how": "☎ 0256-62-2015 / online form (gyokusendo.com/openfactory)",
    "by": "By late Oct",
    "done": false
@@ -2144,8 +2144,8 @@
   },
   {
    "id": "t17",
-   "task": "Reserve Niigata Daiichi Hotel car park: 16 Nov",
-   "how": "☎ 025-243-1111",
+   "task": "Check the Nissan car's height for the Niigata Daiichi garage (max 1.58 m, 1.50 m per Jalan; no reservations; taller cars go to a partner car park)",
+   "how": "Nissan ☎ 026-268-1123 / hotel ☎ 025-243-1111",
    "by": "Before 16 Nov (when reconfirming the hotel)",
    "done": false
   },
