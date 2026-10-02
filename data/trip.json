@@ -759,6 +759,51 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "hokusai": {
+   "en": "Hokusai-kan museum",
+   "ja": "北斎館",
+   "addr": "〒381-0201 長野県上高井郡小布施町小布施485",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "026-247-5206"
+  },
+  "chikufudo": {
+   "en": "Chikufūdō Obuse Honten (chestnut okowa)",
+   "ja": "竹風堂 小布施本店",
+   "addr": "長野県上高井郡小布施町小布施973",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "026-247-2569"
+  },
+  "komasa": {
+   "en": "Komasa Sushi",
+   "ja": "小政寿司",
+   "addr": "富山県魚津市上村木1-6-9",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "0765-22-5383"
+  },
+  "uozu_forest": {
+   "en": "Uozu Buried Forest Museum",
+   "ja": "魚津埋没林博物館",
+   "addr": "〒937-0067 富山県魚津市釈迦堂814",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "0765-22-1049"
+  },
+  "kokuhokan": {
+   "en": "Kamakura Kokuhōkan (National Treasure Museum)",
+   "ja": "鎌倉国宝館",
+   "addr": "神奈川県鎌倉市雪ノ下2-1-1",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "0467-22-0753"
   }
  },
  "days": [
@@ -949,7 +994,7 @@
      "title": "Walk · Kappa Bridge → Myōjin Pond + lunch at Kamonji-goya",
      "kind": "visit",
      "how": "Kappa Bridge (1 min from the lodge) → left bank to Myōjin, 2.5 km (~50 min; allow 65) → back by the right bank, 3.0 km (~60–75 min)\nKamonji-goya (嘉門次小屋), beside Myōjin Pond, Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2418)\nCar-free valley (no MC)",
-     "notes": "11:00 Kappa Bridge; Mt Hotaka view\n~12:05 Kamonji-goya: grilled iwana set ¥2,300 (iwana alone ¥1,500). 10 Nov is its last day of the 2026 season; food 10:00–14:00 (L.O. 14:00), no reservations, iwana can sell out (then eat the backup onigiri)\n~12:50 Myōjin Pond (Hotaka Shrine Okumiya), ¥500\n~13:15 Back by the right bank (no toilet on this bank; use the ones at Myōjin)\n~14:30 Kappa Bridge; Kamikochi Visitor Center (free, 08:00–17:00)\n~5.5 km, flat. If EH & BY are tired after the flight, they can stay at Kappa Bridge and the Visitor Center",
+     "notes": "11:00 Kappa Bridge; Mt Hotaka view\n~12:05 Kamonji-goya: grilled iwana set ¥2,300 (iwana alone ¥1,500). 10 Nov is its last day of the 2026 season; food 10:00–14:00 (L.O. 14:00), no reservations, iwana can sell out (then eat the backup onigiri)\n~12:50 Myōjin Pond (Hotaka Shrine Okumiya), ¥500\n~13:15 Back by the right bank (no toilet on this bank; use the ones at Myōjin)\n~14:30 Kappa Bridge; Kamikochi Visitor Center (free, 08:00–17:00)\n~5.5 km, flat. If EH & BY are tired after the flight, they can stay at Kappa Bridge and the Visitor Center\nIf wet: light rain is fine on this flat path, and today is Kamonji-goya's last day. In heavy rain, shorten to Kappa Bridge → Weston Relief → Visitor Center and eat at the lodge or the terminal",
      "places": [
       "kappa",
       "kamonji",
@@ -1046,7 +1091,7 @@
      "title": "Check out · The Parklodge Kamikochi; transit Kamikochi → Matsumoto",
      "kind": "travel",
      "how": "Alpico bus: Kamikochi Bus Terminal 10:40 → Shin-Shimashima 11:45 (¥3,100)\nKamikochi Line: Shin-Shimashima 12:07 → Matsumoto 12:36 (¥710)",
-     "notes": "07:30 Breakfast; last look at Kappa Bridge\n10:00 Check out (pack for one ryokan night)\n10:15 Walk 5 min to the Bus Terminal; join the reserved queue by ~10:20\n10:40 Bus (~65 min)\n11:45 Shin-Shimashima; buy train tickets, toilets (22 min)\n12:07 Train (~30 min)\n12:36 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 10:40 is missed: 11:25 bus → 12:30 Shin-Shimashima → 12:48 train → 13:17 Matsumoto. Skip the sit-down lunch, buy a bento and go straight to the shuttle (28 min spare)",
+     "notes": "07:30 Breakfast; last look at Kappa Bridge\n10:00 Check out (pack for one ryokan night)\n10:15 Walk 5 min to the Bus Terminal; join the reserved queue by ~10:20\n10:40 Bus (~65 min)\n11:45 Shin-Shimashima; buy train tickets, toilets (22 min)\n12:07 Train (~30 min)\n12:36 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 10:40 is missed: 11:25 bus → 12:30 Shin-Shimashima → 12:48 train → 13:17 Matsumoto. Skip the sit-down lunch, buy a bento and go straight to the shuttle (28 min spare)\nRoad closures: heavy rain temporarily closes the road to Kamikochi (kamikochi.org posts advisories). Check kamikochi.org the evening of 11 Nov. If a closure is threatened, take the earliest bus that runs and phone Ōgatō Hotel (☎ 0263-50-8765), since its 13:45 shuttle is the only one of the day",
      "places": [
       "kkbus",
       "shinshima",
@@ -1119,7 +1164,7 @@
      "title": "Sunrise + walk · Ōgatō → Utsukushi-no-tō (and back)",
      "kind": "visit",
      "how": "Ōgatō summit viewpoint, next to the hotel\nUtsukushi-no-tō (美しの塔), Utsukushigahara plateau, Matsumoto; ~2.5 km from the hotel by the ranch road via Shiokureba",
-     "notes": "~06:15 Sunrise (~06:22) from the summit viewpoint beside the hotel: Alps panorama, often a sea of clouds. Back for breakfast and the onsen\n~08:45 Walk the ranch road to Utsukushi-no-tō, the stone bell tower: ~2.5 km each way, ~40–50 min, little climbing (estimate); toilet at Shiokureba. Anyone can turn back early; avoid the cliff-edge Alps viewing course (narrow, steep in parts)\n~10:30 Back at the hotel; pack for the 11:15 shuttle\nNov daytime is −3 to 5 °C with wind (hotel's figures); snow possible",
+     "notes": "~06:15 Sunrise (~06:22) from the summit viewpoint beside the hotel: Alps panorama, often a sea of clouds. Back for breakfast and the onsen\n~08:45 Walk the ranch road to Utsukushi-no-tō, the stone bell tower: ~2.5 km each way, ~40–50 min, little climbing (estimate); toilet at Shiokureba. Anyone can turn back early; avoid the cliff-edge Alps viewing course (narrow, steep in parts)\n~10:30 Back at the hotel; pack for the 11:15 shuttle\nNov daytime is −3 to 5 °C with wind (hotel's figures); snow possible\nIf fog, snow or strong wind: skip the Utsukushi-no-tō walk and stay at the hotel (onsen, lounge) until the 11:15 shuttle",
      "places": [
       "ogato",
       "utsukushi"
@@ -1218,7 +1263,7 @@
      "title": "Check out · Chateraise Hotel Nagano; pick up rental car",
      "kind": "travel",
      "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123)",
-     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park (toilets here; none beyond Zuishinmon)\n~10:40 Back at the car\n~10:45 Togakushi soba lunch, Soba no Mi\n~11:30 Optional 5 min at Chūsha's giant cedars\n~11:45 Drive on\n~13:45 Marine Dream Nou, crab\n~14:45 Drive on\n~15:45 Yamanoha, before dark\n~4 h of driving (estimate). Bring International Driving Permits",
+     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:20 Togakushi Okusha car park (toilets here; none beyond Zuishinmon)\n~10:40 Back at the car\n~10:45 Togakushi soba lunch, Soba no Mi\n~11:30 Optional 5 min at Chūsha's giant cedars\n~11:45 Drive on\n~13:45 Marine Dream Nou, crab\n~14:45 Drive on\n~15:45 Yamanoha, before dark\n~4 h of driving (estimate). Bring International Driving Permits\nIf the Togakushi road is wet-icy or snowy that morning: Plan B is Obuse instead of Togakushi (Optional row below); the crab and Yamanoha timings hold",
      "places": [
       "nissan"
      ],
@@ -1246,6 +1291,18 @@
      "notes": "Tabelog 3.75, Soba Top 100; opens 10:30, closed Thu–Fri (Sat fine). The best soba of the trip; keep it light ahead of the crab. Uzuraya (Tabelog 3.76) is the famous one but has had ~2 h queues on autumn weekends, so skip it. Then optional 5 min at Togakushi Chūsha's three ~800-year-old cedars by the torii. Naena Falls dropped: closing date borderline and a rocky path with steps",
      "places": [
       "sobanomi"
+     ]
+    },
+    {
+     "id": "i89",
+     "time": "~08:30–12:00",
+     "title": "Optional (if the Togakushi road is icy) · Obuse: Hokusai-kan + chestnut lunch",
+     "kind": "visit",
+     "how": "Drive Nagano Sta → Obuse, ~30 min via the Jōshin'etsu Expwy (est.)\nHokusai-kan (北斎館), 485 Obuse, Obuse-machi, Nagano 〒381-0201 (☎ 026-247-5206); East Town car park ¥200 first hour\nChikufūdō Obuse Honten (竹風堂 小布施本店), 973 Obuse, Obuse-machi (☎ 026-247-2569)\nMC not checked: set the nav by phone number",
+     "notes": "Plan B for 14 Nov if the mountain road to Togakushi is wet-icy or snowy; replaces the Okusha and Soba no Mi rows\n~09:00 Hokusai-kan (09:00–17:00, last entry 16:30; ¥1,200; wheelchairs at the desk): Hokusai's late paintings and festival-float ceilings; indoor and flat\n~10:30 Short stroll on the chestnut-wood paths of the old town\n~11:00 Lunch at Chikufūdō: chestnut okowa sets (restaurant 10:00–17:30 L.O.; prices not checked)\n~12:00 Drive on via the Jōshin'etsu Expwy → Nou IC, ~1 h 50 (est.), so the crab at ~13:50 and Yamanoha at ~15:45 still hold",
+     "places": [
+      "hokusai",
+      "chikufudo"
      ]
     },
     {
@@ -1299,7 +1356,7 @@
      "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
      "kind": "visit",
      "how": "Unazuki 08:17 → Keyakidaira 09:33; Keyakidaira 10:01 → Unazuki 11:20 (timetable 1 Oct–23 Nov 2026)\n~5 min walk from Yamanoha; car stays parked (if driving: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
-     "notes": "07:55 Leave Yamanoha\n08:00 Collect tickets at Unazuki Sta\n08:17 Depart (~76 min each way)\n09:33 Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), so mainly the ride\n10:01 Return (or 10:43 → 12:02 for longer at the top)\n11:20 Unazuki\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600) is worth it in the Nov cold",
+     "notes": "07:55 Leave Yamanoha\n08:00 Collect tickets at Unazuki Sta\n08:17 Depart (~76 min each way)\n09:33 Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), so mainly the ride\n10:01 Return (or 10:43 → 12:02 for longer at the top)\n11:20 Unazuki\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600) is worth it in the Nov cold\nIf the trolley is suspended (heavy rain or rockfall): do the Uozu option below in the morning if clear; otherwise the Electric Memorial Hall, the roofed footbath and the onsen",
      "places": [
       "unazuki_stn",
       "keyakidaira"
@@ -1312,7 +1369,7 @@
      "title": "Lunch · Kajika (kamameshi + oden)",
      "kind": "food",
      "how": "Kajika (河鹿), 330-19 Unazuki-onsen, Kurobe, Toyama (☎ 0765-62-1505)\n~1 min walk from Unazuki-Onsen Sta",
-     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue (Sun fine). No driving today; rest before the long drive to Niigata",
+     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue (Sun fine). No driving today; rest before the long drive to Niigata\nIf clear: swap for the Uozu option below (lunch at Komasa Sushi)",
      "places": [
       "kajika"
      ]
@@ -1323,11 +1380,24 @@
      "title": "Stroll · Yamabiko Promenade → Unazuki Dam viewpoint",
      "kind": "visit",
      "how": "Yamabiko Promenade (やまびこ遊歩道), start ~2 min walk from the trolley's Unazuki Sta; ~1 km to the Unazuki Dam viewpoint\nKurobe River Electric Memorial Hall (黒部川電気記念館), next to the trolley station (☎ 0765-62-1334)\nFootbath Omokage, Unazuki Park, ~5 min walk from Unazuki-Onsen Sta",
-     "notes": "Unazuki's colour usually peaks mid-Nov, so this is likely the best foliage of the trip. The path follows the old rail bed (gradient unverified, but gentle by design). From the old Yamabiko Bridge you get the classic view of the trolley crossing the red Shin-Yamabiko Bridge; EH & BY can turn there. Open to 'late Nov' (2025 pattern). Then the free Electric Memorial Hall (07:30–18:00) and the free roofed footbath (06:00–22:00; bring a towel)",
+     "notes": "Unazuki's colour usually peaks mid-Nov, so this is likely the best foliage of the trip. The path follows the old rail bed (gradient unverified, but gentle by design). From the old Yamabiko Bridge you get the classic view of the trolley crossing the red Shin-Yamabiko Bridge; EH & BY can turn there. Open to 'late Nov' (2025 pattern). Then the free Electric Memorial Hall (07:30–18:00) and the free roofed footbath (06:00–22:00; bring a towel)\nIf heavy rain: skip the walk; Memorial Hall + roofed footbath + onsen instead",
      "places": [
       "yamabiko",
       "kurobe_denki"
      ]
+    },
+    {
+     "id": "i90",
+     "time": "~11:45–16:15",
+     "title": "Optional (if clear) · Uozu by train: Komasa Sushi + Buried Forest Museum + Tateyama view",
+     "kind": "visit",
+     "how": "Toyama Chihō Railway (Chitetsu) local: Unazuki-Onsen → Shin-Uozu, ~50 min (Unazuki-Onsen → Dentetsu-Uozu is 47 min, ¥1,200)\nKomasa Sushi (小政寿司), 1-6-9 Kamimuragi, Uozu, Toyama (☎ 0765-22-5383); ~5 min walk from Uozu Sta (beside Chitetsu Shin-Uozu)\nUozu Buried Forest Museum (魚津埋没林博物館), 814 Shakadō, Uozu 〒937-0067 (☎ 0765-22-1049); taxi from Komasa ~10 min (est.)",
+     "notes": "Replaces the Kajika lunch and the promenade on a clear day; no driving\n~11:45 Train from Unazuki-Onsen (check the Sunday timetable) → ~12:35 Shin-Uozu; walk to Komasa\nKomasa: Toyama Bay sushi (Tabelog 3.47); lunch 11:30–14:00 (L.O. ~13:30), irregular closures, so phone ahead\n~13:45 Taxi to the Buried Forest Museum (¥640, 09:00–17:00, open to 30 Nov): ancient tree stumps preserved underwater. On a clear day the waterfront beside it has the classic view of the Tateyama range rising across Toyama Bay\n~15:26 Train back from Dentetsu-Uozu (Sun/holiday timetable, ~47 min) → ~16:15 Unazuki",
+     "places": [
+      "komasa",
+      "uozu_forest"
+     ],
+     "action": "★ If going: phone Komasa the day before (☎ 0765-22-5383)"
     },
     {
      "id": "i38",
@@ -1380,7 +1450,7 @@
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
      "how": "Drive via Nagaoka JCT → Sanjō-Tsubame IC, ~1 h 25 (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
-     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00 from ~30 Oct, per Weathernews, not an official source); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)",
+     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00 from ~30 Oct, per Weathernews, not an official source); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up, leave ~16:00 and reach Niigata early (Marui stays at 19:30)",
      "places": [
       "yahiko_park",
       "yahiko_shrine"
@@ -1392,7 +1462,7 @@
      "title": "Optional · Mt Yahiko Ropeway (not the hike)",
      "kind": "visit",
      "how": "Yahiko Ropeway (Sanroku base); no car access: free shuttle from behind the shrine every ~15 min (3 min ride) or ~15 min walk\nMC 190 129 226*37 (shrine-side car park, 50 cars)",
-     "notes": "Only if there is daylight left: Sea of Japan and Sado Island views. Ropeway 09:00–16:40 (Apr–Nov, 2025 pattern), ¥1,500 return",
+     "notes": "Only if there is daylight left: Sea of Japan and Sado Island views. Ropeway 09:00–16:40 (Apr–Nov, 2025 pattern), ¥1,500 return\nIf clear: worth it for the Sado views. Skip in rain, low cloud or high wind",
      "places": [
       "ropeway"
      ],
@@ -1661,7 +1731,7 @@
      "title": "Stroll · Omotesandō and Cat Street",
      "kind": "visit",
      "how": "Omotesandō avenue, Cat Street (Jingūmae)",
-     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then on to Shibuya for Yuji",
+     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then on to Shibuya for Yuji\nIf wet: Omotesandō Hills instead (indoor, same avenue)",
      "places": [
       "bread"
      ]
@@ -1706,7 +1776,7 @@
      "title": "Day trip · Kamakura (transit from Kawasaki)",
      "kind": "travel",
      "how": "JR Tōkaidō Line Kawasaki → Ōfuna (~25 min), change to the Yokosuka Line → Kamakura (~6 min); ~45 min door to door",
-     "notes": "08:30 Leave the hotel; ~09:15 Kamakura; Enoden to Hase (~5 min). Coastal old capital",
+     "notes": "08:30 Leave the hotel; ~09:15 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Check Shirasuya's and Rengatei's opening days before swapping (not checked)",
      "places": [
       "kotokuin"
      ]
@@ -1762,9 +1832,20 @@
      "title": "Tsurugaoka Hachimangū",
      "kind": "visit",
      "how": "Tsurugaoka Hachimangū, 2-1-31 Yukinoshita, Kamakura; at the top of Komachi-dōri / Wakamiya-ōji",
-     "notes": "Main hall is ~60 steps up (the Ōishidan), with no public step-free route; EH & BY can stay at the lower Maiden stage and Genpei Pond. Accessible toilet near the archery ground",
+     "notes": "Main hall is ~60 steps up (the Ōishidan), with no public step-free route; EH & BY can stay at the lower Maiden stage and Genpei Pond. Accessible toilet near the archery ground\nIf wet: add the Kamakura Kokuhōkan (Optional row below) before Hōkoku-ji",
      "places": [
       "hachimangu"
+     ]
+    },
+    {
+     "id": "i91",
+     "time": "~14:15–14:50",
+     "title": "Optional (if wet) · Kamakura Kokuhōkan (National Treasure Museum)",
+     "kind": "visit",
+     "how": "Kamakura Kokuhōkan (鎌倉国宝館), 2-1-1 Yukinoshita, Kamakura (☎ 0467-22-0753); inside the Tsurugaoka Hachimangū grounds",
+     "notes": "Rainy-day indoor stop: Kamakura-period Buddhist sculpture and temple treasures. 09:00–16:30 (last entry 16:00), closed Mon (Fri fine). ¥300–700 depending on the exhibition (the free 65+ entry is for Kamakura residents only). Accessibility not checked. Then taxi to Hōkoku-ji, arriving by ~15:00 while matcha is still served (to 15:30)",
+     "places": [
+      "kokuhokan"
      ]
     },
     {
@@ -1784,7 +1865,7 @@
      "title": "Sunset · Inamuragasaki (Mt Fuji over the sea)",
      "kind": "visit",
      "how": "Inamuragasaki Park, Inamuragasaki, Kamakura; ~5 min walk from Enoden Inamuragasaki Sta\nBack: Enoden Inamuragasaki → Kamakura, ~10 min",
-     "notes": "Sunset ~16:32. On a clear day Mt Fuji and Enoshima stand out over Sagami Bay. Low cape, short walk, benches. Then Toshimaya Hato Sablé main store (Komachi 2-11-19, 09:00–19:00, Fri fine) on the way to dinner",
+     "notes": "Sunset ~16:32. On a clear day Mt Fuji and Enoshima stand out over Sagami Bay. Low cape, short walk, benches. Then Toshimaya Hato Sablé main store (Komachi 2-11-19, 09:00–19:00, Fri fine) on the way to dinner\nIf wet or overcast: skip it (no Fuji); go straight to Hato Sablé and an earlier dinner",
      "places": [
       "inamuragasaki"
      ]
@@ -1842,7 +1923,7 @@
      "title": "Hama-rikyū Gardens + Nakajima tea house",
      "kind": "visit",
      "how": "Hama-rikyū Gardens, 1-1 Hamarikyū-teien, Chūō-ku, Tokyo; ~7 min walk from Tsukiji (Ōtemon gate)",
-     "notes": "Flat paths around a tidal pond; ¥300, ¥150 at 65+ (bring ID), 09:00–17:00. Matcha + wagashi at the Nakajima-no-ochaya tea house on the pond (shoes off; to 16:30; ~¥720, unverified). A seated rest before Ginza",
+     "notes": "Flat paths around a tidal pond; ¥300, ¥150 at 65+ (bring ID), 09:00–17:00. Matcha + wagashi at the Nakajima-no-ochaya tea house on the pond (shoes off; to 16:30; ~¥720, unverified). A seated rest before Ginza\nIf wet: skip it; the Ginza Mitsukoshi basement food halls or the Kabuki-za single act instead",
      "places": [
       "hamarikyu"
      ]
@@ -1961,7 +2042,7 @@
    "task": "Verify Ōgatō Hotel ¥41,237 payment went through (was due 14 Jun 2026)",
    "how": "Card statement / Ōgatō Hotel ☎ 0263-50-8765",
    "by": "ASAP (due date passed)",
-   "done": false
+   "done": true
   },
   {
    "id": "t04",
@@ -2024,7 +2105,7 @@
    "task": "Confirm Nissan rental car (Nagano pickup 14 Nov) and request an ETC card",
    "how": "Nissan Rent a Car ☎ 026-268-1123",
    "by": "~7 Nov (1 week before)",
-   "done": false
+   "done": true
   },
   {
    "id": "t11",
@@ -2073,7 +2154,7 @@
    "task": "Niigata Daiichi Hotel: future payment on UOB card (S$105.35 + S$72.26)",
    "how": "Agoda booking",
    "by": "Check the due date",
-   "done": false
+   "done": true
   },
   {
    "id": "t23",
