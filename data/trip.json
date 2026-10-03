@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "2 Oct 2026",
+ "updated": "3 Oct 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -836,6 +836,42 @@
    "en": "Ginza Maru (grilled-fish teishoku)",
    "ja": "銀座 圓",
    "addr": "東京都中央区銀座6-12-15 いちご銀座612ビル2F",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "mishima_skywalk": {
+   "en": "Mishima Skywalk",
+   "ja": "三島スカイウォーク",
+   "addr": "静岡県三島市笹原新田313",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "sakuraya_mishima": {
+   "en": "Sakuraya (unagi), Mishima",
+   "ja": "うなぎ 桜家",
+   "addr": "静岡県三島市広小路町13-2",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "055-975-4520"
+  },
+  "mishima_taisha": {
+   "en": "Mishima Taisha",
+   "ja": "三嶋大社",
+   "addr": "静岡県三島市大宮町2-1-5",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "rakujuen": {
+   "en": "Rakujuen garden, Mishima",
+   "ja": "楽寿園",
+   "addr": "静岡県三島市一番町19-3",
    "lat": "",
    "lng": "",
    "mc": "",
@@ -1813,7 +1849,7 @@
      "title": "Day trip · Kamakura (transit from Kawasaki)",
      "kind": "travel",
      "how": "JR Tōkaidō Line Kawasaki → Totsuka (~25 min), change across the platform to the Yokosuka Line → Kamakura; ~35 min, ¥620 (no direct train; changing at Ōfuna or Yokohama also works, ~40–45 min)",
-     "notes": "08:30 Leave the hotel; ~09:10 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Ginza Maru, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Opening days suit a swap: Shirasuya closes Thu only, Ginza Maru Sun only, Shiseido Parlour Mon only, Tsukiji is open on Fri 20 Nov",
+     "notes": "08:30 Leave the hotel; ~09:10 Kamakura; Enoden to Hase (~5 min). Coastal old capital\nIf clear: Mishima instead (Optional row below): Fuji from the Mishima Skywalk, unagi lunch, spring-water town. Decide from the forecast the evening of 19 Nov\nSwap option: if Fri is wet and Sat is forecast clear, swap 20 and 21 Nov (Kamakura on Sat; Tsukiji, Ginza Maru, Hama-rikyū, Ginza and Shiseido on Fri). Trade-offs: Ginza Chūō-dōri is car-free only Sat–Sun, and Kamakura is busier on Sat. On a Sat Kamakura day, check out at 08:30, leave the bags at Mets and collect them on the way back. Opening days suit a swap: Shirasuya closes Thu only, Ginza Maru Sun only, Shiseido Parlour Mon only, Tsukiji is open on Fri 20 Nov",
      "places": [
       "kotokuin"
      ]
@@ -1908,12 +1944,27 @@
      ]
     },
     {
+     "id": "i93",
+     "time": "07:40–~16:45",
+     "title": "Optional (if clear) · Mishima: Skywalk Fuji view + unagi + Genbe-gawa",
+     "kind": "visit",
+     "how": "JR Kawasaki → Shinagawa (~10 min), then Tōkaidō Shinkansen Kodama 807: Shinagawa 08:04 → Mishima 08:50 (¥4,070 unreserved, ¥4,600 reserved)\nMishima Skywalk (三島スカイウォーク), 313 Sasahara-shinden, Mishima; ~20 min by taxi from Mishima Sta, or Tōkai bus from the South Exit, stop 5 (Moto-Hakone-kō or Yamanaka buses)\nSakuraya (桜家), 13-2 Hiroshiōji-chō, Mishima (☎ 055-975-4520); ~10 min walk from Mishima Sta (est.)\nMishima Taisha (三嶋大社), 2-1-5 Ōmiya-chō, Mishima\nRakujuen (楽寿園), 19-3 Ichiban-chō, Mishima; beside the South Exit\nBack: Kodama Mishima 15:24 → Shinagawa 16:11 (next 15:54 → 16:40); JR → Kawasaki",
+     "notes": "Replaces the whole Kamakura day when Fuji is forecast clear. No booking needed: buy Shinkansen tickets on the day\n07:40 Leave Mets; JR to Shinagawa\n08:04 Kodama 807 → 08:50 Mishima; South Exit\n~08:55 Taxi to the Skywalk (~20 min; fare not checked), or the 09:25 bus (→ 09:44, ¥560, hourly; Skywalk's 2025 timetable)\n~09:15–10:45 Mishima Skywalk: 400 m pedestrian suspension bridge with Fuji straight ahead and Suruga Bay behind; ¥1,100, 09:00–17:00. Flat but sways a little. Fuji is clearest in the morning\n10:45 Bus back → 11:11 Mishima Sta (next 11:15 → 11:41)\n~11:30 Lunch · Sakuraya unagi (Tabelog 3.70, 150+ years; whole-eel jūbako ¥5,500; 11:00–20:00 until sold out; closed Wed plus one Tue–Wed a month, Fri fine). Queues, so go straight from the bus\n~12:45 Genbe-gawa: stepping-stone path along the spring-fed stream through town (free)\n~13:30 Mishima Taisha (grounds free)\n~14:15 Rakujuen garden (¥300, 09:00–16:30 in Nov, closed Mon). Maples usually peak late Nov–early Dec, so only starting\n15:24 Kodama → 16:11 Shinagawa → ~16:45 Mets; dinner at Santsuru (row below)\nIf cloudy: Fuji is the only reason to go, so stay with Kamakura",
+     "places": [
+      "mishima_skywalk",
+      "sakuraya_mishima",
+      "mishima_taisha",
+      "rakujuen"
+     ],
+     "action": "★ Evening of 19 Nov: check the Mishima forecast; go only if clear (no booking needed)"
+    },
+    {
      "id": "i67",
      "time": "~17:30",
      "title": "Dinner · Akimoto (Kamakura) or Santsuru (Kawasaki); then back to Kawasaki",
      "kind": "food",
      "how": "Akimoto: Aiza Kamakura 3F, 1-6-15 Komachi (3 min from Kamakura Sta) · Santsuru: 16-10 Ogawa-chō, Kawasaki\nBack: Kamakura → Totsuka → Kawasaki, ~35 min",
-     "notes": "Eat early in Kamakura: Akimoto (Tabelog 3.54, shirasu + Kamakura-vegetable tempura; closed Thu, Fri fine); walk in by ~18:00, L.O. 19:30. Or ride back and eat near the hotel: Santsuru (Tabelog 3.67, Top 100 Chinese, handmade gyōza; dinner only, 17:00–21:30; ☎ 044-233-1798, closed Tue; house rule one drink order pp, soft drinks fine)",
+     "notes": "Eat early in Kamakura: Akimoto (Tabelog 3.54, shirasu + Kamakura-vegetable tempura; closed Thu, Fri fine); walk in by ~18:00, L.O. 19:30. Or ride back and eat near the hotel: Santsuru (Tabelog 3.67, Top 100 Chinese, handmade gyōza; dinner only, 17:00–21:30; ☎ 044-233-1798, closed Tue; house rule one drink order pp, soft drinks fine)\nIf Mishima: back at Kawasaki ~16:45, so Santsuru",
      "places": [
       "akimoto",
       "santsuru",
