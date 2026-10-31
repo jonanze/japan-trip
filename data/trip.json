@@ -1023,11 +1023,11 @@
    "items": [
     {
      "id": "i10",
-     "time": "~08:50",
+     "time": "~08:20",
      "title": "Check out · Dormy Inn Matsumoto; forward suitcases",
      "kind": "travel",
      "how": "Matsumoto",
-     "notes": "Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Lunch today is at the Kamikochi bus terminal. Myōjin has no food now (Kamonji-goya dropped, Myōjinkan closed 3 Nov), so buy snacks and water for the walk here (Ekiben Azusa inside the JR gates, or a station-bldg bakery)",
+     "notes": "Breakfast by ~07:45. Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Lunch today is at the Kamikochi bus terminal. Myōjin has no food now (Kamonji-goya dropped, Myōjinkan closed 3 Nov), so buy snacks and water for the walk here (Ekiben Azusa inside the JR gates, or a station-bldg bakery)",
      "places": [
       "dormy"
      ],
@@ -1035,11 +1035,11 @@
     },
     {
      "id": "i11",
-     "time": "09:24–11:10",
+     "time": "08:43–11:10",
      "title": "Transit · Matsumoto → Kamikochi (Kamikochi Line + Alpico bus, booked)",
      "kind": "travel",
-     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 09:24 → Shin-Shimashima ~09:55 (¥710, buy on the day)\nAlpico bus, booked by EH (JapanBusOnline e-ticket): Shin-Shimashima 10:05 → Kamikochi Bus Terminal 11:10",
-     "notes": "08:50 Check out; walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets (the bus is prepaid)\n09:24 Train (~31 min)\n~09:55 Shin-Shimashima; bus stop at the station; show the e-ticket (printed copy)\n10:05 Booked bus (~65 min)\n11:10 Kamikochi Bus Terminal; 5 min walk to the lodge\nBuffer: the 08:43 train (→ 09:14) also works, with ~50 min to wait at Shin-Shimashima\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
+     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 08:43 → Shin-Shimashima 09:14 (¥710, buy on the day)\nAlpico bus, booked by EH (JapanBusOnline e-ticket): Shin-Shimashima 10:05 → Kamikochi Bus Terminal 11:10",
+     "notes": "08:20 Check out; walk ~5 min to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets (the bus is prepaid)\n08:43 Train (~31 min)\n09:14 Shin-Shimashima; ~50 min spare: toilets, wait in the station building; bus stop at the station\n~09:55 At the bus stop; show the e-ticket (printed copy)\n10:05 Booked bus (~65 min)\n11:10 Kamikochi Bus Terminal; 5 min walk to the lodge\nFallback only: the 09:24 train (→ ~09:55) leaves just 10 min to make the bus\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
      "places": [
       "mmstn",
       "shinshima",
