@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "3 Oct 2026",
+ "updated": "31 Oct 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -939,13 +939,13 @@
      "time": "07:45–12:37",
      "title": "Transit · Haneda → Shinjuku → Matsumoto (Ltd Exp Azusa 13)",
      "kind": "travel",
-     "how": "Airport Limousine bus T2 → Shinjuku Sta West Exit (Keiō Dept Store), ¥1,400 pp, 07:45 → 08:20 timetabled (allow 60–70 min on a Monday morning). The bus starts at T3 and calls at T2 10 min later\nLtd Exp Azusa 13: Shinjuku 10:00 → Matsumoto 12:37 (reserved seats, ~¥6,700 pp). Booked on the later train so Monday traffic can't make you miss it",
-     "notes": "05:55 Land at T2\n06:00–07:00 Immigration, bags, customs\n07:00–07:35 Seven Bank ATM for ¥ (T2 2F Welcome Center, 06:00–23:00), toilets; then down to 1F for bus tickets (Limousine ticket machines / counter) and the bus stop outside\n07:45 Bus from T2 (take the 07:25 if out early); bags go under the bus\n08:20–08:55 Shinjuku West Exit (08:20 timetabled; later in Monday traffic); 5–10 min walk to the JR gates\nAt Shinjuku by ~08:35: change to Azusa 9 (09:00 → 11:39) at a reserved-seat machine (one free change, if seats remain)\nOtherwise: print the Azusa 13 tickets (QR from the booking), sit down for coffee or breakfast near the gates, on the platform by 09:50\n10:00 Depart\n12:37 Matsumoto; 5 min walk to Dormy Inn\nOut by ~06:45: 06:55 bus, try to change to Azusa 5 (08:00 → 10:37)\nIf you land at T3 instead: same buses 10 min earlier (06:45 / 07:15 / 07:35 / 08:05); Seven Bank ATM and Limousine counter are in the T3 arrivals hall, 2F; the plan holds\nRail alt (~¥540 pp): Keikyū from Haneda T1·T2 Sta → Shinagawa → JR Yamanote Line → Shinjuku, ~45 min, but Monday rush hour with suitcases\nTaxi alt: fixed fare ~¥9,000 + tolls per car to Shinjuku",
+     "how": "Airport Limousine bus T2 → Shinjuku Sta West Exit (Keiō Dept Store), ¥1,400 pp, 07:45 → 08:20 timetabled (allow 60–70 min on a Monday morning). The bus starts at T3 and calls at T2 10 min later\nLtd Exp Azusa 13, booked by EH (eki-net): Shinjuku 10:00 → Matsumoto 12:37, Car 8 seats 14-A/B/C (fare + reserved seat, ¥6,730 pp). Booked on the later train so Monday traffic can't make you miss it",
+     "notes": "05:55 Land at T2\n06:00–07:00 Immigration, bags, customs\n07:00–07:35 Seven Bank ATM for ¥ (T2 2F Welcome Center, 06:00–23:00), toilets; then down to 1F for bus tickets (Limousine ticket machines / counter) and the bus stop outside\n07:45 Bus from T2 (take the 07:25 if out early); bags go under the bus\n08:20–08:55 Shinjuku West Exit (08:20 timetabled; later in Monday traffic); 5–10 min walk to the JR gates\nAt Shinjuku by ~08:35: EH changes the booking to Azusa 9 (09:00 → 11:39) at a reserved-seat machine (one free change, if seats remain)\nOtherwise: EH collects the Azusa 13 paper tickets at a JR ticket machine (QR or pickup code in the eki-net email); sit down for coffee or breakfast near the gates, on the platform by 09:50\n10:00 Depart (Car 8)\n12:37 Matsumoto; 5 min walk to Dormy Inn\nOut by ~06:45: 06:55 bus, try to change to Azusa 5 (08:00 → 10:37)\nIf you land at T3 instead: same buses 10 min earlier (06:45 / 07:15 / 07:35 / 08:05); Seven Bank ATM and Limousine counter are in the T3 arrivals hall, 2F; the plan holds\nRail alt (~¥540 pp): Keikyū from Haneda T1·T2 Sta → Shinagawa → JR Yamanote Line → Shinjuku, ~45 min, but Monday rush hour with suitcases\nTaxi alt: fixed fare ~¥9,000 + tolls per car to Shinjuku",
      "places": [
       "shinjuku",
       "mmstn"
      ],
-     "action": "★ Reserve Azusa 13 seats on eki-net (opens 9 Oct, 10:00 JST)"
+     "action": "✓ Azusa 13 booked and paid by EH (¥20,190 for 3). ★ EH: collect the paper tickets at a JR ticket machine before boarding (QR or pickup code in the eki-net email)"
     },
     {
      "id": "i05",
@@ -1023,11 +1023,11 @@
    "items": [
     {
      "id": "i10",
-     "time": "08:15",
+     "time": "~08:50",
      "title": "Check out · Dormy Inn Matsumoto; forward suitcases",
      "kind": "travel",
      "how": "Matsumoto",
-     "notes": "Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Lunch today is at Kamonji-goya (Myōjin), but buy onigiri as a backup in case it has sold out (Ekiben Azusa inside the JR gates, or a station-bldg bakery)",
+     "notes": "Forward the big suitcases to Chateraise Hotel Nagano for 13 Nov (Yamato TA-Q-BIN from the Dormy front desk, ~¥2–3k per bag, unverified); carry day packs for 3 nights (Kamikochi 2, Ōgatō 1). Lunch today is at the Kamikochi bus terminal. Myōjin has no food now (Kamonji-goya dropped, Myōjinkan closed 3 Nov), so buy snacks and water for the walk here (Ekiben Azusa inside the JR gates, or a station-bldg bakery)",
      "places": [
       "dormy"
      ],
@@ -1035,25 +1035,25 @@
     },
     {
      "id": "i11",
-     "time": "08:43–~10:35",
-     "title": "Transit · Matsumoto → Kamikochi (Kamikochi Line + Alpico bus)",
+     "time": "09:24–11:10",
+     "title": "Transit · Matsumoto → Kamikochi (Kamikochi Line + Alpico bus, booked)",
      "kind": "travel",
-     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 08:43 → Shin-Shimashima 09:14 (¥710)\nAlpico bus: Shin-Shimashima 09:30 → Kamikochi Bus Terminal ~10:35 (¥3,100 one way)",
-     "notes": "08:25 Walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets\n08:43 Train (~31 min)\n09:14 Shin-Shimashima; bus stop at the station, show the bus reservation (16 min to change)\n09:30 Bus (~65 min)\n~10:35 Kamikochi Bus Terminal; 5 min walk to the lodge\nThe earlier bus gets you to Kamonji-goya at Myōjin well before its last lunch of the season (10 Nov, L.O. 14:00)\nLater: 09:24 train → 10:05 bus → ~11:10 (still workable, ~35 min less margin)\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
+     "how": "Matsumoto Dentetsu Kamikochi Line: Matsumoto 09:24 → Shin-Shimashima ~09:55 (¥710, buy on the day)\nAlpico bus, booked by EH (JapanBusOnline e-ticket): Shin-Shimashima 10:05 → Kamikochi Bus Terminal 11:10",
+     "notes": "08:50 Check out; walk to the Kamikochi Line platform (inside JR Matsumoto Sta); buy train tickets (the bus is prepaid)\n09:24 Train (~31 min)\n~09:55 Shin-Shimashima; bus stop at the station; show the e-ticket (printed copy)\n10:05 Booked bus (~65 min)\n11:10 Kamikochi Bus Terminal; 5 min walk to the lodge\nBuffer: the 08:43 train (→ 09:14) also works, with ~50 min to wait at Shin-Shimashima\nTimetable valid 17 Apr–15 Nov 2026 (Alpico)",
      "places": [
       "mmstn",
       "shinshima",
       "kkbus"
      ],
-     "action": "★ Reserve the 09:30 Shin-Shimashima bus ~1 month ahead (≈10 Oct, from 00:00 JST); reserved passengers board first"
+     "action": "✓ Bus booked and paid by EH (¥9,300 for 3). ★ EH: print the e-ticket (operator's advice; a phone screen is also accepted)"
     },
     {
      "id": "i12",
-     "time": "~10:45",
+     "time": "~11:20",
      "title": "Check in · The Parklodge Kamikochi (2 nt)",
      "kind": "stay",
      "how": "The Parklodge Kamikochi, 4468 Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2221)\nCar-free valley (no MC); 5 min from Kamikochi Bus Terminal, 1 min to Kappa Bridge",
-     "notes": "Arrive ~10:45 to leave bags; rooms from 15:00. Breakfast + dinner incl.",
+     "notes": "Arrive ~11:20 to leave bags; rooms from 15:00. Breakfast + dinner incl.",
      "places": [
       "parklodge"
      ],
@@ -1062,14 +1062,14 @@
     },
     {
      "id": "i13",
-     "time": "~11:00–14:45",
-     "title": "Walk · Kappa Bridge → Myōjin Pond + lunch at Kamonji-goya",
-     "kind": "visit",
-     "how": "Kappa Bridge (1 min from the lodge) → left bank to Myōjin, 2.5 km (~50 min; allow 65) → back by the right bank, 3.0 km (~60–75 min)\nKamonji-goya (嘉門次小屋), beside Myōjin Pond, Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2418)\nCar-free valley (no MC)",
-     "notes": "11:00 Kappa Bridge; Mt Hotaka view\n~12:05 Kamonji-goya: grilled iwana set ¥2,300 (iwana alone ¥1,500). 10 Nov is its last day of the 2026 season; food 10:00–14:00 (L.O. 14:00), no reservations, iwana can sell out (then eat the backup onigiri)\n~12:50 Myōjin Pond (Hotaka Shrine Okumiya), ¥500\n~13:15 Back by the right bank (no toilet on this bank; use the ones at Myōjin)\n~14:30 Kappa Bridge; Kamikochi Visitor Center (free, 08:00–17:00)\n~5.5 km, flat. If EH & BY are tired after the flight, they can stay at Kappa Bridge and the Visitor Center\nIf wet: light rain is fine on this flat path, and today is Kamonji-goya's last day. In heavy rain, shorten to Kappa Bridge → Weston Relief → Visitor Center and eat at the lodge or the terminal",
+     "time": "~11:30–15:05",
+     "title": "Lunch at the bus terminal + walk · Kappa Bridge → Myōjin Pond loop",
+     "kind": "food",
+     "how": "Kamikochi Shokudō (上高地食堂), Kamikochi Bus Terminal bldg (上高地観光センター); 5 min from the lodge; open to 15 Nov\nKappa Bridge (1 min from the lodge) → left bank to Myōjin, 2.5 km (~50 min; allow 65) → back by the right bank via Dakesawa Marsh, 3.0 km (~60 min; allow 75)\nMyōjin Pond (Hotaka Shrine Okumiya), Azumi Kamikochi, Matsumoto 〒390-1516\nCar-free valley (no MC)",
+     "notes": "11:20 Bags left at the lodge; 5 min back to the bus terminal\n~11:30 Lunch · Kamikochi Shokudō (daily hours unverified; last day 15 Nov 07:00–14:00). Backup: Hotel Shirakabasō restaurant at Kappa Bridge (meals to 15 Nov)\n~12:15 Kappa Bridge; Mt Hotaka view; set off on the left bank via Konashidaira\n~13:20 Myōjin: Myōjin Bridge, Myōjin Pond (Hotaka Shrine Okumiya, entry to 14 Nov, ¥300–500); toilets here. Kamonji-goya skipped; Myōjinkan closed\n~13:50 Back by the right bank via Dakesawa Marsh (no toilet on this bank)\n~15:05 Kappa Bridge; rooms from 15:00; Kamikochi Visitor Center (free, 08:00–17:00) if wanted\n~5.5 km, flat. The valley floor is in shade from ~15:00 (estimate) and cold: warm layer and gloves for the last hour\nShort version for anyone tired: Kappa Bridge → Dakesawa Marsh and back (~1 km, ~20 min)\nIf wet: light rain is fine on this path. In heavy rain, shorten to Kappa Bridge → Weston Relief → Visitor Center, and do Myōjin on 11 Nov after lunch if dry (back by ~15:30)",
      "places": [
+      "kkbus",
       "kappa",
-      "kamonji",
       "myojin"
      ],
      "mode": "walking"
@@ -1103,7 +1103,7 @@
      "title": "Walk · Taishō Pond → Tashiro Pond → Imperial Hotel tea → Kappa Bridge",
      "kind": "visit",
      "how": "Sawando shuttle (Alpico): Kamikochi Bus Terminal 07:50, 08:15 or 08:45 → Taishō-ike ~7 min later (no reservation, first-come; ~¥350, unverified)\nKamikochi Imperial Hotel (上高地帝国ホテル), Grindelwald lounge, Azumi Kamikochi, Matsumoto 〒390-1516 (☎ 0263-95-2001); open to non-guests; hotel season to 14 Nov\nCar-free valley (no MC)",
-     "notes": "08:15 or 08:45 Shuttle → Taishō-ike; Mt Hotaka reflected in the pond\nWalk back via Tashiro Pond to the Kamikochi Imperial Hotel (roughly halfway, estimate)\nTea or cake at the Grindelwald lounge (tea 09:00–16:30, cake sets from 10:00; price unverified)\nOn past the Weston Relief to Kappa Bridge; back ~11:30\n~4 km in total on flat boardwalks (Myōjin was done on 10 Nov). Toilets: Taishō-ike, Naka-no-se, Weston Plaza, Kappa Bridge. Boardwalks can be frosty early",
+     "notes": "08:15 or 08:45 Shuttle → Taishō-ike (on a clear, calm morning take the 07:50: the reflections and mist are best early, and the water ruffles once the wind gets up). Taxi fallback: bus-terminal stop 1 (fare unverified)\nMt Hotaka and Yakedake reflected in the pond. Hot drink: Taishōike Hotel Lake View café beside the pond (07:00–15:30 L.O., open to 13 Nov)\nWalk back via Tashiro Pond (Taishō → Tashiro ~25 min, 1.2 km) to the Kamikochi Imperial Hotel\nTea or cake at the Grindelwald lounge (hours and price unverified; hotel open to 14 Nov)\nOn past the Weston Relief to Kappa Bridge; back ~11:30\n~3.8 km in total on flat boardwalks (~75 min walking; Myōjin was done on 10 Nov). Toilets: Taishō-ike, Naka-no-se, Weston Plaza, Kappa Bridge. Boardwalks can be frosty early",
      "places": [
       "taisho",
       "tashiro",
@@ -1115,24 +1115,25 @@
     {
      "id": "i16",
      "time": "~12:00",
-     "title": "Lunch · terminal eateries or the lodge",
+     "title": "Lunch · Kamikochi Shokudō or Hotel Shirakabasō",
      "kind": "food",
-     "how": "Kamikochi Bus Terminal eateries / The Parklodge",
-     "notes": "Many eateries are already shut in closing week; if so, buy a bento or onigiri at the terminal shop",
+     "how": "Kamikochi Shokudō, Kamikochi Bus Terminal bldg / Hotel Shirakabasō restaurant, at Kappa Bridge",
+     "notes": "Both open to 15 Nov (daily hours unverified; go before 13:00). Most other eateries have closed for the season. Gosenjaku's beef-stew lunch is booking-only (TableCheck), so skip it",
      "places": [
       "kkbus",
-      "parklodge"
+      "kappa"
      ]
     },
     {
      "id": "i17",
-     "time": "~14:00",
-     "title": "Relax · lodge onsen",
+     "time": "~13:30–16:30",
+     "title": "Relax · lodge onsen, then Kappa Bridge at last light",
      "kind": "rest",
-     "how": "The Parklodge Kamikochi",
-     "notes": "",
+     "how": "The Parklodge Kamikochi; Kappa Bridge (1 min)",
+     "notes": "Afternoon off: onsen and a rest; repack the day packs for Ōgatō (−11 to −8 °C nights: warm layers on top)\n~15:30 Kamikochi Visitor Center (free, to 17:00) if wanted\n~16:00 Kappa Bridge: last sun on the Hotaka peaks before sunset (~16:30); the valley floor is already in shade\nCafé option: Gosenjaku Hotel lounge at Kappa Bridge (cakes; open to 15 Nov, daily hours unverified)\nIf 10 Nov was rained off: Myōjin loop ~12:30–15:30 instead (see 10 Nov)",
      "places": [
-      "parklodge"
+      "parklodge",
+      "kappa"
      ]
     },
     {
@@ -1162,14 +1163,14 @@
      "time": "10:00–12:36",
      "title": "Check out · The Parklodge Kamikochi; transit Kamikochi → Matsumoto",
      "kind": "travel",
-     "how": "Alpico bus: Kamikochi Bus Terminal 10:40 → Shin-Shimashima 11:45 (¥3,100)\nKamikochi Line: Shin-Shimashima 12:07 → Matsumoto 12:36 (¥710)",
-     "notes": "07:30 Breakfast; last look at Kappa Bridge\n10:00 Check out (pack for one ryokan night)\n10:15 Walk 5 min to the Bus Terminal; join the reserved queue by ~10:20\n10:40 Bus (~65 min)\n11:45 Shin-Shimashima; buy train tickets, toilets (22 min)\n12:07 Train (~30 min)\n12:36 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 10:40 is missed: 11:25 bus → 12:30 Shin-Shimashima → 12:48 train → 13:17 Matsumoto. Skip the sit-down lunch, buy a bento and go straight to the shuttle (28 min spare)\nRoad closures: heavy rain temporarily closes the road to Kamikochi (kamikochi.org posts advisories). Check kamikochi.org the evening of 11 Nov. If a closure is threatened, take the earliest bus that runs and phone Ōgatō Hotel (☎ 0263-50-8765), since its 13:45 shuttle is the only one of the day",
+     "how": "Alpico bus + Kamikochi Line through ticket, booked by EH (JapanBusOnline e-ticket): Kamikochi Bus Terminal 10:40 → Shin-Shimashima 11:45; train Shin-Shimashima 12:07 → Matsumoto 12:36",
+     "notes": "07:30 Breakfast; last look at Kappa Bridge\n10:00 Check out (pack for one ryokan night)\n10:15 Walk 5 min to the Bus Terminal; join the reserved queue by ~10:20; show the e-ticket (printed copy)\n10:40 Bus (~65 min)\n11:45 Shin-Shimashima; toilets, then the train (fare is in the through ticket; show the e-ticket if asked) (22 min)\n12:07 Train (~30 min)\n12:36 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 10:40 is missed: 11:25 bus → 12:30 Shin-Shimashima → 12:48 train → 13:17 Matsumoto. Skip the sit-down lunch, buy a bento and go straight to the shuttle (28 min spare)\nRoad closures: heavy rain temporarily closes the road to Kamikochi (kamikochi.org posts advisories). Check kamikochi.org the evening of 11 Nov. If a closure is threatened, take the earliest bus that runs and phone Ōgatō Hotel (☎ 0263-50-8765), since its 13:45 shuttle is the only one of the day",
      "places": [
       "kkbus",
       "shinshima",
       "mmstn"
      ],
-     "action": "★ Reserve the 10:40 Kamikochi bus ~1 month ahead (≈12 Oct, from 00:00 JST)"
+     "action": "✓ Bus + train booked and paid by EH (¥11,430 for 3). ★ EH: print the e-ticket (operator's advice; a phone screen is also accepted)"
     },
     {
      "id": "i20",
@@ -2139,17 +2140,17 @@
   },
   {
    "id": "t04",
-   "task": "Reserve Azusa 13 seats: 9 Nov, Shinjuku 10:00 → Matsumoto 12:37 (3 adults); change to Azusa 9 on the day only if at Shinjuku by ~08:35",
-   "how": "JR-EAST Train Reservation (eki-net), then print at a reserved-seat machine at Shinjuku",
+   "task": "Reserve Azusa 13 seats: 9 Nov, Shinjuku 10:00 → Matsumoto 12:37 (3 adults; done by EH, Car 8 14-A/B/C); change to Azusa 9 on the day only if at Shinjuku by ~08:35",
+   "how": "JR-EAST Train Reservation (eki-net, EH's account); EH collects tickets at a JR ticket machine at Shinjuku",
    "by": "Opens 9 Oct, 10:00 JST",
-   "done": false
+   "done": true
   },
   {
    "id": "t05",
-   "task": "Reserve Kamikochi buses (Alpico): 10 Nov Shin-Shimashima 09:30 up; 12 Nov Kamikochi 10:40 down",
-   "how": "Hassha Ōrai Net (発車オーライネット), online",
+   "task": "Reserve Kamikochi buses (Alpico): 10 Nov Shin-Shimashima 10:05 up; 12 Nov Kamikochi 10:40 down (done by EH)",
+   "how": "JapanBusOnline (e-tickets forwarded by BY, 31 Oct)",
    "by": "Opens ≈10 Oct and ≈12 Oct, 00:00 JST (1 month ahead)",
-   "done": false
+   "done": true
   },
   {
    "id": "t06",
@@ -2213,6 +2214,13 @@
    "how": "AA Singapore (arrange before you fly)",
    "by": "Before 8 Nov",
    "done": true
+  },
+  {
+   "id": "t27",
+   "task": "EH: print both Kamikochi bus e-tickets (10 Nov up, 12 Nov down) and carry them",
+   "how": "BY's forwarded JapanBusOnline emails (31 Oct)",
+   "by": "Before 8 Nov",
+   "done": false
   },
   {
    "id": "t10",
