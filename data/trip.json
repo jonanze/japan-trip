@@ -876,6 +876,24 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "hoppo": {
+   "en": "Northern Culture Museum",
+   "ja": "北方文化博物館",
+   "addr": "新潟県新潟市江南区沢海2-15-25",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "025-385-2001"
+  },
+  "pia_bandai": {
+   "en": "Minato no Marché Pia Bandai",
+   "ja": "みなとのマルシェ ピアBandai",
+   "addr": "新潟県新潟市中央区万代島2",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": "025-249-2560"
   }
  },
  "days": [
@@ -1382,14 +1400,14 @@
     {
      "id": "i34",
      "time": "~14:00",
-     "title": "Check in · Yamanoha (2 nt)",
+     "title": "Check in · Yamanoha (1 nt)",
      "kind": "stay",
      "how": "Drive Marine Dream Nou → Nou IC → Kurobe IC (Hokuriku Expwy) → Unazuki, ~72 km / ~65–70 min (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
      "notes": "Breakfast + dinner incl.; onsen. Early arrival (check-in time not checked): onsen before dinner",
      "places": [
       "yamanoha"
      ],
-     "action": "Night 1 paid (Agoda); night 2 S$569.22 to pay at the hotel"
+     "action": "Night 1 paid (Agoda) · ★ Cancel night 2 (15 Nov); check the fee first"
     },
     {
      "id": "i35",
@@ -1407,71 +1425,97 @@
   {
    "date": "2026-11-15",
    "label": "15 Nov",
-   "ja": "黒部峡谷",
-   "en": "Kurobe Gorge",
-   "sub": "Gorge trolley, Kajika lunch, maple promenade",
-   "mode": "walking",
-   "hotel": "yamanoha",
+   "ja": "黒部峡谷 → 新潟",
+   "en": "Kurobe Gorge → Niigata",
+   "sub": "Gorge trolley, Kajika lunch, drive to Niigata, museum light-up",
+   "mode": "driving",
+   "hotel": "niigata",
    "items": [
     {
+     "id": "i95",
+     "time": "08:30",
+     "title": "Check out · Yamanoha; car and bags stay at the inn until ~13:30",
+     "kind": "travel",
+     "how": "Yamanoha → trolley Unazuki Sta, ~5 min walk\nCar stays in Yamanoha guest parking (if not allowed: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
+     "notes": "08:30 Check out (breakfast first); leave the car and bags at the inn\n08:45 Walk to the trolley station; collect tickets by ~09:00\n09:21 Trolley up → 10:39 Keyakidaira; 11:04 down → 12:23 Unazuki\n~12:30 Lunch at Kajika\n~13:30 Collect car and bags; drive to Niigata (~3 h with one stop)\n~16:55 Northern Culture Museum light-up\n~18:15 Niigata Daiichi Hotel\n19:00 Inakaya",
+     "places": [
+      "yamanoha"
+     ],
+     "action": "★ Ask Yamanoha to keep the car + bags until ~13:30 (☎ 0765-62-1311)"
+    },
+    {
      "id": "i36",
-     "time": "08:17–11:20",
+     "time": "09:21–12:23",
      "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
      "kind": "visit",
-     "how": "Unazuki 08:17 → Keyakidaira 09:33; Keyakidaira 10:01 → Unazuki 11:20 (timetable 1 Oct–23 Nov 2026)\n~5 min walk from Yamanoha; car stays parked (if driving: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
-     "notes": "07:55 Leave Yamanoha\n08:00 Collect tickets at Unazuki Sta\n08:17 Depart (~76 min each way)\n09:33 Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), so mainly the ride\n10:01 Return (or 10:43 → 12:02 for longer at the top; the 10:43 has no Relax car)\n11:20 Unazuki\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600 each way) is worth it in the Nov cold. Fare ¥2,480 each way, no senior discount\nIf the trolley is suspended (heavy rain or rockfall): do the Uozu option below in the morning if clear; otherwise the Electric Memorial Hall, the roofed footbath and the onsen",
+     "how": "Unazuki 09:21 → Keyakidaira 10:39; Keyakidaira 11:04 → Unazuki 12:23 (timetable 1 Oct–23 Nov 2026; Relax car on both)\n~5 min walk from Yamanoha",
+     "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), 25 min at the top, so mainly the ride. The 10:43 down is too tight (20 min minimum stop); the next Relax car down (12:28 → 13:46) is too late for the drive\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600 each way) is worth it in the Nov cold. Fare ¥2,480 each way, no senior discount\nIf the trolley is suspended (heavy rain or rockfall): free Kurobe River Electric Memorial Hall next to the station (07:30–18:00) and the free roofed footbath Omokage in Unazuki Park (06:00–22:00; bring a towel), then lunch and drive",
      "places": [
       "unazuki_stn",
       "keyakidaira"
      ],
-     "action": "★ Book the trolley now, phone only: ☎ 0765-62-1011 (09:00–16:30); ask for the Relax car"
+     "action": "★ Change the booking from 08:17 to 09:21 up / 11:04 down, Relax car both ways: ☎ 0765-62-1011 (09:00–16:30)"
     },
     {
      "id": "i76",
-     "time": "~11:45",
+     "time": "~12:30–13:20",
      "title": "Lunch · Kajika (kamameshi + oden)",
      "kind": "food",
      "how": "Kajika (河鹿), 330-19 Unazuki-onsen, Kurobe, Toyama (☎ 0765-62-1505)\n~1 min walk from Unazuki-Onsen Sta",
-     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue (Sun fine). No driving today; rest before the long drive to Niigata\nIf clear: swap for the Uozu option below (lunch at Komasa Sushi)",
+     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue (Sun fine). Then back to Yamanoha (~5 min walk) for the car",
      "places": [
       "kajika"
      ]
     },
     {
-     "id": "i77",
-     "time": "~13:00–15:30",
-     "title": "Stroll · Yamabiko Promenade → Unazuki Dam viewpoint",
-     "kind": "visit",
-     "how": "Yamabiko Promenade (やまびこ遊歩道), start ~2 min walk from the trolley's Unazuki Sta; ~1 km to the Unazuki Dam viewpoint\nKurobe River Electric Memorial Hall (黒部川電気記念館), next to the trolley station (☎ 0765-62-1334)\nFootbath Omokage, Unazuki Park, ~5 min walk from Unazuki-Onsen Sta",
-     "notes": "Unazuki's colour usually peaks mid-Nov, so this is likely the best foliage of the trip. The path follows the old rail bed (gradient unverified, but gentle by design). From the old Yamabiko Bridge you get the classic view of the trolley crossing the red Shin-Yamabiko Bridge; EH & BY can turn there. Open to 'late Nov' (2025 pattern). Then the free Electric Memorial Hall (07:30–18:00) and the free roofed footbath (06:00–22:00; bring a towel)\nIf heavy rain: skip the walk; Memorial Hall + roofed footbath + onsen instead",
+     "id": "i96",
+     "time": "~13:30–16:45",
+     "title": "Transit · Unazuki → Niigata (drive)",
+     "kind": "travel",
+     "how": "Unazuki → Kurobe IC (~20 min) → Hokuriku Expwy → Niigata-Chūō IC, ~230 km of expressway, ~3 h incl. one stop (est.)\nBreak: Yoneyama SA (Niigata-bound), ~113 km from Kurobe IC",
+     "notes": "~13:30 Drive off\n~13:50 Kurobe IC\n~15:10 Yoneyama SA: toilets + Sea of Japan view, 15 min\n~16:30 Sunset; the last ~15 min are after dark\n~16:45 Niigata-Chūō IC; Northern Culture Museum ~10 min on\nRotate drivers; ETC for tolls. All drive times are estimates from expressway km",
      "places": [
-      "yamabiko",
-      "kurobe_denki"
-     ]
-    },
-    {
-     "id": "i90",
-     "time": "11:45–16:21",
-     "title": "Optional (if clear) · Uozu by train: Komasa Sushi + Buried Forest Museum + Tateyama view",
-     "kind": "visit",
-     "how": "Toyama Chihō Railway (Chitetsu) local, Sun/holiday timetable: Unazuki-Onsen 11:45 → Shin-Uozu 12:30 (¥1,080; ¥970 by IC card)\nKomasa Sushi (小政寿司), 1-6-9 Kamimuragi, Uozu, Toyama (☎ 0765-22-5383); ~5 min walk from Uozu Sta (beside Chitetsu Shin-Uozu)\nUozu Buried Forest Museum (魚津埋没林博物館), 814 Shakadō, Uozu 〒937-0067 (☎ 0765-22-1049); taxi from Komasa ~10 min (est.)\nBack: Dentetsu-Uozu 15:26 → Unazuki-Onsen 16:21 (¥1,200)",
-     "notes": "Replaces the Kajika lunch and the promenade on a clear day; no driving\n11:45 Train from Unazuki-Onsen → 12:30 Shin-Uozu; walk to Komasa\nKomasa: Toyama Bay sushi (Tabelog 3.47); lunch daily 11:30–14:00 (L.O. 13:30), irregular closures, so phone ahead\n~13:45 Taxi to the Buried Forest Museum (¥640, 09:00–17:00, last entry 16:30, open daily to 30 Nov): ancient tree stumps preserved underwater. On a clear day the waterfront beside it has the classic view of the Tateyama range rising across Toyama Bay\n15:26 Train back from Dentetsu-Uozu → 16:21 Unazuki-Onsen (55 min). Next: 16:26 → 17:25\nTimes from Chitetsu's own route search (holiday service), checked 2 Oct 2026",
-     "places": [
-      "komasa",
-      "uozu_forest"
+      "yoneyama",
+      "hoppo"
      ],
-     "action": "★ If going: phone Komasa the day before (☎ 0765-22-5383)"
+     "action": "Refuel; ETC card for tolls",
+     "mode": "driving"
     },
     {
-     "id": "i38",
-     "time": "~18:30",
-     "title": "Onsen + dinner · Yamanoha",
-     "kind": "food",
-     "how": "Yamanoha",
-     "notes": "Included",
+     "id": "i97",
+     "time": "~16:55–17:45",
+     "title": "Maple light-up · Northern Culture Museum (Hoppō Bunka Hakubutsukan)",
+     "kind": "visit",
+     "how": "Northern Culture Museum (北方文化博物館), 2-15-25 Sōmi, Kōnan-ku, Niigata (☎ 025-385-2001); ~10 min from Niigata-Chūō IC (est.); 400 free car spaces\nMC not checked: set the nav by phone number\nOn to Niigata Daiichi Hotel, ~25 min (est.)",
+     "notes": "The Itō family's landowner mansion and garden. Autumn light-up 14–15 Nov 2026 only, 16:00–19:00 (last entry 18:45); ¥800; open daily in Nov\nIf wet or running late: skip it and go straight to the hotel (~17:10)",
      "places": [
-      "yamanoha"
+      "hoppo"
      ]
+    },
+    {
+     "id": "i44",
+     "time": "~18:15",
+     "title": "Check in · Niigata Daiichi Hotel (2 nt)",
+     "kind": "stay",
+     "how": "Drive Northern Culture Museum → Niigata, ~25 min (est.)\nNiigata Daiichi Hotel, 1-3-12 Hanazono, Chūō-ku, Niigata 〒950-0086 (☎ 025-243-1111)\n~2 min walk from JR Niigata Sta Bandai Exit; indoor hotel garage ~¥1,200 / night, 72 spaces, no reservations, height limit 1.58 m (Jalan says 1.50 m); taller cars go to a partner car park (up to 2 m)\nMC 32 877 298*72",
+     "notes": "Breakfast incl.; drop luggage, then taxi to Furumachi (~18:50). The car stays in the hotel garage both nights (~¥1,200 / night)",
+     "places": [
+      "niigata"
+     ],
+     "action": "Future payment (UOB) · ★ Add the 15 Nov night (night 2 cost is an estimate) · ★ Check the Nissan car's height (hotel garage max 1.58 m; no reservations)"
+    },
+    {
+     "id": "i45",
+     "time": "19:00",
+     "title": "Dinner · Wappa-meshi Inakaya (Niigata's own dish)",
+     "kind": "food",
+     "how": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~10 min by taxi from Niigata Daiichi Hotel",
+     "notes": "Tabelog 3.45; where Niigata's wappa-meshi (rice steamed in a cedar box with seafood on top) began in 1956. Salmon-ikura wappa set ¥1,980; nodoguro wappa and noppe (Niigata vegetable stew) also on the menu; ~¥3k pp. Non-smoking; tatami, irori and table seats. Dinner from 17:00 (to 21:00 per Gurunavi, 22:30 per the city tourism site); closed Tue per Gurunavi, or only 31 Dec–1 Jan per the tourism site, so Sun is open either way.",
+     "places": [
+      "inakaya"
+     ],
+     "mode": "transit",
+     "action": "★ Reserve Sun 15 Nov 19:00 for 3 (Gurunavi online / ☎ 025-223-1266); ask for a table, not tatami"
     }
    ]
   },
@@ -1480,40 +1524,41 @@
    "label": "16 Nov",
    "ja": "新潟",
    "en": "Niigata",
-   "sub": "Drive: Yahiko maples and light-up, Niigata",
+   "sub": "Pia Bandai market, Yahiko maples and light-up, Marui sushi",
    "mode": "driving",
    "hotel": "niigata",
    "items": [
     {
      "id": "i39",
-     "time": "09:15",
-     "title": "Check out · Yamanoha; drive Unazuki → Niigata",
-     "kind": "travel",
-     "how": "Hokuriku Expwy, ~4 h of driving (estimate from expressway km posts) plus the stops below. Sunset ~16:30",
-     "notes": "09:15 Depart (leisurely onsen morning)\n~11:00 Yoneyama SA (drive ~1 h 45); lunch to ~11:45. The 30 min spare is buffer, or leave Yamanoha later\n~13:10 Yahiko Park + Shrine (incl. optional ropeway)\n~17:00 Momijidani light-up\n~17:20 Drive to Niigata (~1 h, after dark)\n~18:20 Niigata Daiichi Hotel; park, check in, short rest\n~19:15 Taxi to Inakaya (~10 min) for a 19:30 booking\nTakada Castle Park dropped (turret closed Mondays). Rotate drivers; ETC for tolls. All drive times are estimates",
+     "time": "~09:45",
+     "title": "Day out · Niigata → Pia Bandai → Yahiko → Niigata (car)",
+     "kind": "visit",
+     "how": "Niigata Daiichi → Pia Bandai, ~10 min; Pia Bandai → Yahiko, ~45–50 km, ~1 h via Niigata-Nishi IC → Hokuriku Expwy → Sanjō-Tsubame IC (est.); back the same way, ~1 h after dark",
+     "notes": "Slow morning; breakfast at the hotel\n~09:45 Drive to Pia Bandai\n~10:00–11:30 Fish market + early sushi lunch\n~11:45 Drive to Yahiko (~1 h)\n~12:45 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~19:15 Taxi to Marui (~10 min) for 19:30\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
-      "yamanoha"
-     ],
-     "action": "Refuel; ETC card for tolls"
+      "niigata",
+      "pia_bandai",
+      "yahiko_park"
+     ]
     },
     {
      "id": "i41",
-     "time": "~11:00",
-     "title": "Lunch · Yoneyama SA (Niigata-bound)",
-     "kind": "food",
-     "how": "Drive Unazuki → Kurobe IC (~20 min) → Jōetsu JCT → Yoneyama SA (~113 km), ~1 h 45 (est.); on the Hokuriku Expwy",
-     "notes": "Echigontei kaisendon + the cult saba sandwich. Earlier option: Nadachidanihama SA (tare-katsudon)",
+     "time": "~10:00–11:30",
+     "title": "Market + lunch · Pia Bandai (Minato no Marché)",
+     "kind": "visit",
+     "how": "Minato no Marché Pia Bandai (みなとのマルシェ ピアBandai), 2 Bandaijima, Chūō-ku, Niigata (☎ 025-249-2560); 141 car spaces, first 90 min free\nMC not checked: set the nav by phone number",
+     "notes": "Niigata's seafood market: fresh fish, Niigata rice and local produce under one roof; free entry. 09:00–21:00, no fixed closed day (shop hours vary). Early lunch: Benkei kaiten sushi (Sado fish) or seafood bowls at Minato Shokudō; shop hours not checked, so phone the market",
      "places": [
-      "yoneyama"
+      "pia_bandai"
      ]
     },
     {
      "id": "i42",
-     "time": "~13:10–17:20",
+     "time": "~12:45–17:20",
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
-     "how": "Drive via Nagaoka JCT → Sanjō-Tsubame IC, ~1 h 25 (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
-     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00 from ~30 Oct, per Weathernews, not an official source); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up, leave ~16:00 and reach Niigata early (dinner stays at 19:30)",
+     "how": "Drive Pia Bandai → Yahiko, ~1 h (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
+     "notes": "Momijidani maple valley: the 2026 forecast says best from ~14 Nov (Weathernews). Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov 2026, per the Niigata tourism site); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500 in 2022). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up, leave ~16:00 and rest at the hotel (dinner stays at 19:30)",
      "places": [
       "yahiko_park",
       "yahiko_shrine"
@@ -1521,52 +1566,28 @@
     },
     {
      "id": "i43",
-     "time": "~15:00",
+     "time": "~14:00",
      "title": "Optional · Mt Yahiko Ropeway (not the hike)",
      "kind": "visit",
      "how": "Yahiko Ropeway (Sanroku base); no car access: free shuttle from behind the shrine every ~15 min (3 min ride) or ~15 min walk\nMC 190 129 226*37 (shrine-side car park, 50 cars)",
-     "notes": "Only if there is daylight left: Sea of Japan and Sado Island views. Ropeway 09:00–16:40 (Apr–Nov, 2025 pattern), ¥1,500 return\nIf clear: worth it for the Sado views. Skip in rain, low cloud or high wind",
+     "notes": "Sea of Japan and Sado Island views. Ropeway 09:00–16:40 (Apr–Nov, 2025 pattern), ¥1,500 return\nIf clear: worth it for the Sado views. Skip in rain, low cloud or high wind",
      "places": [
       "ropeway"
      ],
      "action": "★ Confirm no maintenance closure on 16 Nov: ☎ 0256-94-4141"
     },
     {
-     "id": "i44",
-     "time": "~18:20",
-     "title": "Check in · Niigata Daiichi Hotel (1 nt)",
-     "kind": "stay",
-     "how": "Drive Yahiko → Niigata, ~1 h (est.)\nNiigata Daiichi Hotel, 1-3-12 Hanazono, Chūō-ku, Niigata 〒950-0086 (☎ 025-243-1111)\n~2 min walk from JR Niigata Sta Bandai Exit; indoor hotel garage ~¥1,200 / night, 72 spaces, no reservations, height limit 1.58 m (Jalan says 1.50 m); taller cars go to a partner car park (up to 2 m)\nMC 32 877 298*72",
-     "notes": "Breakfast incl.; drop luggage and rest, then taxi to Furumachi (~19:15)",
-     "places": [
-      "niigata"
-     ],
-     "action": "Future payment (UOB) · ★ Check the Nissan car's height (hotel garage max 1.58 m; no reservations)"
-    },
-    {
-     "id": "i45",
+     "id": "i98",
      "time": "19:30",
-     "title": "Dinner · Wappa-meshi Inakaya (Niigata's own dish)",
+     "title": "Dinner · Sushi Kappō Marui (Niigata local fish)",
      "kind": "food",
-     "how": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~10 min by taxi from Niigata Daiichi Hotel",
-     "notes": "Tabelog 3.45; where Niigata's wappa-meshi (rice steamed in a cedar box with seafood on top) began in 1956. Salmon-ikura wappa set ¥1,980; nodoguro wappa and noppe (Niigata vegetable stew) also on the menu; ~¥3k pp. Non-smoking; tatami, irori and table seats. Dinner from 17:00 (to 21:00 per Gurunavi, 22:30 per the city tourism site); closed Tue per Gurunavi, or only 31 Dec–1 Jan per the tourism site, so Mon is open either way. Backup: Sushi Kappō Marui, 8-1411 Higashibori-dōri, a block away (Tabelog 3.55; order à la carte, not a course: 'Kiwami' 10-piece local-fish nigiri ¥4,950, nodoguro shioyaki at market price, ¥510 cover; irregular closures; ☎ 025-228-0101)",
+     "how": "Sushi Kappō Marui (鮨・割烹 丸伊), 8-1411 Higashibori-dōri, Chūō-ku, Niigata (☎ 025-228-0101); ~10 min by taxi from Niigata Daiichi Hotel",
+     "notes": "Tabelog 3.55; order à la carte, not a course: 'Kiwami' 10-piece local-fish nigiri ¥4,950, nodoguro shioyaki at market price, ¥510 cover. Irregular closures, so confirm Mon 16 Nov when booking\nAfterwards: riverside stroll through Furumachi old town to Bandai Bridge (flat, low-key)",
      "places": [
-      "inakaya"
+      "marui"
      ],
-     "mode": "transit",
-     "action": "★ Reserve 19:30 for 3 (Gurunavi online / ☎ 025-223-1266); ask for a table, not tatami"
-    },
-    {
-     "id": "i46",
-     "time": "~21:00",
-     "title": "Riverside stroll · Furumachi old town + Bandai Bridge",
-     "kind": "visit",
-     "how": "Furumachi / Bandai, Niigata",
-     "notes": "Flat, walkable, low-key",
-     "places": [
-      "bandai"
-     ],
-     "mode": "walking"
+     "action": "★ Reserve Mon 16 Nov 19:30 for 3: ☎ 025-228-0101",
+     "mode": "transit"
     }
    ]
   },
@@ -2120,11 +2141,25 @@
  ],
  "todo": [
   {
-   "id": "t01",
-   "task": "Book Kurobe Gorge trolley: 15 Nov, Unazuki 08:17 ↔ Keyakidaira (capacity-limited, just reopened); ask for the Relax car",
-   "how": "☎ 0765-62-1011 (phone only for Keyakidaira, 09:00–16:30)",
+   "id": "t28",
+   "task": "Change Kurobe Gorge trolley booking: 15 Nov 08:17 → 09:21 up, 11:04 down (Relax car both ways)",
+   "how": "☎ 0765-62-1011 (phone only, 09:00–16:30)",
    "by": "Now (most urgent)",
-   "done": true
+   "done": false
+  },
+  {
+   "id": "t29",
+   "task": "Yamanoha: cancel night 2 (Sun 15 Nov; check the fee first) and ask them to keep the car + bags until ~13:30 on 15 Nov",
+   "how": "Booking holder (Agoda / hotel) · Yamanoha ☎ 0765-62-1311",
+   "by": "Now",
+   "done": false
+  },
+  {
+   "id": "t30",
+   "task": "Niigata Daiichi Hotel: add the 15 Nov night (same rooms), so the stay is 15–17 Nov",
+   "how": "Agoda change dates, or a separate 1-night booking · hotel ☎ 025-243-1111",
+   "by": "Now (check availability)",
+   "done": false
   },
   {
    "id": "t20",
@@ -2163,9 +2198,16 @@
   },
   {
    "id": "t07",
-   "task": "Book Wappa-meshi Inakaya: Mon 16 Nov dinner at 19:30, 3 adults; ask for a table, not tatami",
+   "task": "Book Wappa-meshi Inakaya: Sun 15 Nov dinner at 19:00, 3 adults; ask for a table, not tatami",
    "how": "Gurunavi online / ☎ 025-223-1266",
-   "by": "By late Oct",
+   "by": "Now",
+   "done": false
+  },
+  {
+   "id": "t31",
+   "task": "Book Sushi Kappō Marui: Mon 16 Nov dinner at 19:30, 3 adults; confirm it is not a closure day",
+   "how": "☎ 025-228-0101",
+   "by": "Now",
    "done": false
   },
   {
@@ -2254,9 +2296,9 @@
   },
   {
    "id": "t15",
-   "task": "Pay Yamanoha night 2 (S$569.22) at the hotel",
-   "how": "At Yamanoha",
-   "by": "14–16 Nov",
+   "task": "Check the Nissan car's height for the Niigata Daiichi garage (max 1.58 m, 1.50 m per Jalan; no reservations; taller cars go to a partner car park)",
+   "how": "Nissan ☎ 026-268-1123 / hotel ☎ 025-243-1111",
+   "by": "Before 15 Nov (when reconfirming the hotel)",
    "done": false
   },
   {
@@ -2264,13 +2306,6 @@
    "task": "Confirm Yahiko Ropeway: no maintenance closure on 16 Nov (optional stop)",
    "how": "☎ 0256-94-4141",
    "by": "Before 16 Nov",
-   "done": false
-  },
-  {
-   "id": "t17",
-   "task": "Check the Nissan car's height for the Niigata Daiichi garage (max 1.58 m, 1.50 m per Jalan; no reservations; taller cars go to a partner car park)",
-   "how": "Nissan ☎ 026-268-1123 / hotel ☎ 025-243-1111",
-   "by": "Before 16 Nov (when reconfirming the hotel)",
    "done": false
   },
   {
