@@ -1,39 +1,47 @@
-# Hourly sync: Google Sheet → iPhone app
+# Sheet → app sync
 
 The Google Sheet **"Japan Nov 2026"** (id `1DEfa1xDX_tnHuwyS_R9OV_8LuLdtXnTj2Oz0VeofrMY`, tab `Sheet1`) is the single source of truth.
 `data/trip.json` is the app's copy of it, plus things the sheet doesn't hold: place coordinates, Japanese names, map codes,
-day headings, the hotel each night, and Google Maps travel modes. The scheduled routine keeps the two in step.
+day headings, the hotel each night, and Google Maps travel modes.
 
-## Steps
+## How it runs (automatic, since 1 Nov 2026)
 
-1. Clone this repo. Run `python3 tools/sync.py state` and read `sheetRevision`.
-2. Read the sheet's Drive `modifiedTime` (Google Drive `get_file_metadata`, `excludeContentSnippets: true`).
-   If it equals `sheetRevision`, stop. Nothing changed, so do not commit.
-3. Read the sheet with **exactly** this call, so the result is large enough to be saved to a file:
-   Google Sheets `get_spreadsheet`, with these arguments:
-   - `spreadsheetId` 1DEfa1xDX_tnHuwyS_R9OV_8LuLdtXnTj2Oz0VeofrMY
-   - `includeGridData: true`
-   - `ranges: ["Sheet1!A1:L200"]`
-   - `fields: ["sheets.data.rowData.values.formattedValue", "sheets.data.rowData.values.userEnteredValue"]`
+1. **Apps Script in the sheet** (`tools/sheet-push.gs`, pasted into Extensions → Apps Script, "Trip app" menu).
+   On every edit in the sheet, and every minute to catch edits made through the Sheets API, it reads columns A–F and L
+   (cost columns and the notes block under TOTALS are left out) and, if they changed, writes `data/sheet.json` to `main`
+   with the GitHub Contents API. Token: a fine-grained PAT (Contents read/write on this repo only) kept in the script's
+   user properties, never in the code or the repo.
+2. **GitHub Action** `.github/workflows/sync.yml` runs on that push:
+   `python3 tools/autosync.py data/sheet.json` → `node tools/build.js` → commit `data/ index.html sw.js manifest` → push
+   → request a Pages build. The phone app updates ~1–2 min after the edit (when the phone is online and the app reopens).
+3. `tools/autosync.py` wraps `sync.py auto` and settles its review points without judgement:
+   - new or renamed stops get an existing place with the same name, else a new place from the row's name and first
+     address line, with no coordinates (the app falls back to a Google Maps search);
+   - a new check-in row sets that night's hotel (and "(n nt)" nights);
+   - more than 8 stops removed at once is refused (workflow fails, GitHub emails Jonan, nothing applied);
+   - a snapshot whose revision is already in `data/sync-state.json` is skipped, so a push of other files never rolls the app back.
+   Places it adds are listed under `"review"` in `data/sync-state.json` for a person to tidy.
 
-   The tool reports the path of the saved file. If it comes back inline instead, write that JSON to a file.
-4. Run `python3 tools/sync.py auto <saved file> <modifiedTime> > /tmp/patch.json`. It matches sheet rows to stops and to-dos and writes every text change as ops. Then read its `"review"` list:
-   - **NEW STOP**: fill that op's `"places"` (rules below) and add any `place.add` ops before it.
-   - **RENAMED STOP**: the row is now a different place. Point `"places"` at the right place (add it if new).
-   - **REMOVED STOP**: check the row is really gone from the sheet and wasn't just renamed beyond recognition. If it was renamed, swap the delete+add for an `item.set` on the old id.
-   - If a check-in row changed, add the `day.set` hotel ops.
-   - Then set `"reviewed": true`. If `review` is empty, apply it as is.
-5. Run `python3 tools/sync.py apply /tmp/patch.json`, then `node tools/build.js`. If `ops` was empty, still apply it, so that `sheetRevision` advances.
-6. Commit `data/ index.html sw.js manifest.webmanifest` with a message listing what changed, and push to `main`.
-   Pages publishes within a couple of minutes.
-7. Only when ops were applied: refresh the view-only Claude-app copy.
-   - Run `node tools/build.js --artifact /tmp/japan-artifact.html`.
-   - Publish it with the Artifact tool to https://claude.ai/artifact/28vtak4L17FNue2WPbvhC6 . Read that URL first, then use `capabilities: {}` so it stays view-only.
-   - Skip this step if the Artifact tool is unavailable.
+## The Claude-app copy (artifact)
+
+GitHub can't publish the Artifact https://claude.ai/artifact/28vtak4L17FNue2WPbvhC6 . The hourly Claude routine
+refreshes it: `git pull`, `node tools/build.js --artifact /tmp/japan-artifact.html`, read the artifact, compare its
+trip-data with `data/trip.json`, and publish with `capabilities: {}` only if they differ.
+
+## Tidying `review` items (Claude, when asked or in the routine)
+
+For each place under `"review"` in `data/sync-state.json`, add `ja`, `addr` (Japanese, with 〒), `tel`, `mc`, and
+`lat`/`lng` only if sure (official site or Google Maps), with a `place.set` patch via `python3 tools/sync.py apply`.
+Wrong coordinates are worse than none. Then remove the item from `"review"`, `node tools/build.js`, commit and push.
+
+## Rules for hand edits
+
+- Change the itinerary in the sheet, not in `data/trip.json`. The app follows within minutes.
+- Don't hand-sync with `sync.py auto` any more; if the app looks stale, use the sheet's **Trip app → Push to app now**.
+- `sync.py apply` is still the only way to edit `data/trip.json` (places, modes, day headings). Never edit `index.html` by hand.
+- Don't touch `contacts`, `title` or `travellers`. Never delete places.
 
 ## Sheet layout → app fields
-
-Columns:
 
 | Sheet column | App field |
 |---|---|
@@ -44,26 +52,5 @@ Columns:
 | F Remarks | `notes` |
 | L Payment / Action | `action` |
 
-- Ignore the cost columns (G, H, J, K) and the booking column (I).
-- Rows end at the TOTALS row. Notes rows follow it.
-- The TO-DO block comes after "TO-DO / BOOKINGS":
-  - column A ✔ (TRUE/FALSE) → `done`
-  - B → `task`
-  - E → `how`
-  - F → `by`
-- Copy text **verbatim**, keeping line breaks as `\n`. The app shows `how` and `notes` line by line. Times like `05:55` at the start of a notes line become a timeline.
-
-## Rules
-
-- Stops keep their `id`. Match sheet rows to stops by day and order, then by title.
-- If a row moved to another day, use `item.move` rather than delete + add, so its place links survive.
-- A **new row** needs places so its Directions and taxi buttons work:
-  - Reuse an existing place id when the row is at a place already in `data/trip.json`.
-  - Otherwise use `place.add` with `en`, `ja` (Japanese name), `addr` (Japanese address with 〒 if known), `tel` and `mc` (from the sheet if given).
-  - Add `lat`/`lng` only if you are sure of them, for example from the official site or Google Maps.
-  - With no coordinates, the app falls back to a Google Maps search on the name and address. That is acceptable; wrong coordinates are not.
-- **Check-in rows**: if a new "Check in · X" row replaces a hotel, `day.set` that night's `hotel`, and the following nights' too, until the next check-in.
-- **Deleted rows**: use `item.delete`. Never delete places.
-- Don't touch `contacts`, `title` or `travellers`. Don't edit `index.html` by hand; `tools/build.js` writes it.
-- If the patch is rejected, fix the patch rather than editing `trip.json` by hand.
-- If you're unsure what a change means, apply the plain reading. Mention it in the commit message.
+Rows end at the TOTALS row. The TO-DO block comes after "TO-DO / BOOKINGS": A ✔ (TRUE/FALSE) → `done`, B → `task`,
+E → `how`, F → `by`. Text is copied verbatim; line breaks become `\n`, and times at the start of a notes line become a timeline.

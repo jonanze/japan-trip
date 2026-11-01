@@ -1,0 +1,52 @@
+# Sheet → app: the Apps Script in the Google Sheet (tools/sheet-push.gs) writes data/sheet.json on every edit.
+# This applies it to data/trip.json, rebuilds the app and asks GitHub Pages to publish it.
+name: Sync sheet to app
+on:
+  push:
+    branches: [main]
+    paths: ['data/sheet.json', 'data/trip.json', 'tools/**', '.github/workflows/sync.yml']
+  workflow_dispatch:
+concurrency:
+  group: sync
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pages: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply sheet snapshot
+        id: apply
+        run: |
+          if [ -f data/sheet.json ]; then
+            python3 tools/autosync.py data/sheet.json > /tmp/summary.txt
+          else
+            echo "no sheet snapshot yet" > /tmp/summary.txt
+          fi
+          cat /tmp/summary.txt
+          { echo '### Changes'; sed 's/^/- /' /tmp/summary.txt; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Build app
+        run: node tools/build.js
+      - name: Commit and push
+        id: push
+        run: |
+          git config user.name "trip-sync[bot]"
+          git config user.email "trip-sync@users.noreply.github.com"
+          git add data/trip.json data/sync-state.json index.html sw.js manifest.webmanifest
+          if git diff --cached --quiet; then echo "nothing to commit"; echo "pushed=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          python3 -c "l=open('/tmp/summary.txt').readline().strip(); print('App sync: ' + (l[:66] + '…' if len(l) > 68 else l))" > /tmp/msg.txt
+          { echo; cat /tmp/summary.txt; } >> /tmp/msg.txt
+          git commit -q -F /tmp/msg.txt
+          for i in 1 2 3; do
+            git push origin HEAD:main && break
+            git pull -q --rebase origin main
+          done
+          echo "pushed=yes" >> "$GITHUB_OUTPUT"
+      - name: Publish to GitHub Pages
+        if: steps.push.outputs.pushed == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages build request failed; the next push will publish"
