@@ -1437,7 +1437,7 @@
      "title": "Check out · Yamanoha; car and bags stay at the inn until ~13:30",
      "kind": "travel",
      "how": "Yamanoha → trolley Unazuki Sta, ~5 min walk\nCar stays in Yamanoha guest parking (if not allowed: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
-     "notes": "08:30 Check out (breakfast first); leave the car and bags at the inn\n08:45 Walk to the trolley station; collect tickets by ~09:00\n09:21 Trolley up → 10:39 Keyakidaira; 11:04 down → 12:23 Unazuki\n~12:30 Lunch at Kajika\n~13:30 Collect car and bags; drive to Niigata (~3 h with one stop)\n~16:55 Northern Culture Museum light-up\n~18:15 Niigata Daiichi Hotel\n19:30 Inakaya",
+     "notes": "08:30 Check out (breakfast first); leave the car and bags at the inn\n08:45 Walk to the trolley station; pay and check in at the ticket counter by 09:00 (≥20 min before departure)\n09:21 Trolley up → 10:39 Keyakidaira; 11:04 down → 12:23 Unazuki\n~12:30 Lunch at Kajika\n~13:30 Collect car and bags; drive to Niigata (~3 h with one stop)\n~16:55 Northern Culture Museum light-up\n~18:15 Niigata Daiichi Hotel\n19:30 Inakaya",
      "places": [
       "yamanoha"
      ],
@@ -1448,13 +1448,13 @@
      "time": "09:21–12:23",
      "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
      "kind": "visit",
-     "how": "Unazuki 09:21 → Keyakidaira 10:39; Keyakidaira 11:04 → Unazuki 12:23 (timetable 1 Oct–23 Nov 2026; Relax car on both)\n~5 min walk from Yamanoha",
-     "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), 25 min at the top, so mainly the ride. The 10:43 down is too tight (20 min minimum stop); the next Relax car down (12:28 → 13:46) is too late for the drive\nFull line reopened 1 Oct 2026 after the quake. Windowed Relax car (+¥600 each way) is worth it in the Nov cold. Fare ¥2,480 each way, no senior discount\nIf the trolley is suspended (heavy rain or rockfall): free Kurobe River Electric Memorial Hall next to the station (07:30–18:00) and the free roofed footbath Omokage in Unazuki Park (06:00–22:00; bring a towel), then lunch and drive",
+     "how": "Unazuki 09:21 → Keyakidaira 10:39 (Regular car; Relax was full); Keyakidaira 11:04 → Unazuki 12:23 (Relax car) (timetable 1 Oct–23 Nov 2026)\nBooked by EH; pay on the day at the Unazuki Sta ticket counter\n~5 min walk from Yamanoha",
+     "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), 25 min at the top, so mainly the ride. The 10:43 down is too tight (20 min minimum stop); the next Relax car down (12:28 → 13:46) is too late for the drive\nUp in the Regular car: open-sided benches, no windows, so cold and windy for 78 min in mid-Nov. Hat, gloves, warm layer, maybe a blanket from the inn. Ask at the counter on the day whether a Relax seat has freed up\nDown in the windowed Relax car. Fare ¥2,480 each way + Relax ¥600 one way = ¥5,560 pp; no senior discount\nFull line reopened 1 Oct 2026 after the quake\nIf the trolley is suspended (heavy rain or rockfall): free Kurobe River Electric Memorial Hall next to the station (07:30–18:00) and the free roofed footbath Omokage in Unazuki Park (06:00–22:00; bring a towel), then lunch and drive",
      "places": [
       "unazuki_stn",
       "keyakidaira"
      ],
-     "action": "★ Change the booking from 08:17 to 09:21 up / 11:04 down, Relax car both ways: ☎ 0765-62-1011 (09:00–16:30)"
+     "action": "✓ Changed by EH: 09:21 up (Regular), 11:04 down (Relax). ★ Pay ¥16,680 for 3 at the Unazuki counter by 09:00 (≥20 min before; cash or card)"
     },
     {
      "id": "i76",
@@ -2142,10 +2142,10 @@
  "todo": [
   {
    "id": "t28",
-   "task": "Change Kurobe Gorge trolley booking: 15 Nov 08:17 → 09:21 up, 11:04 down (Relax car both ways); if the 09:21 Relax seats are gone, keep the 08:17",
+   "task": "Change Kurobe Gorge trolley booking: 15 Nov 08:17 → 09:21 up, 11:04 down (done by EH: Regular up as Relax was full, Relax down)",
    "how": "☎ 0765-62-1011 (phone only, 09:00–16:30)",
    "by": "Now (most urgent)",
-   "done": false
+   "done": true
   },
   {
    "id": "t29",
