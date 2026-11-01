@@ -1063,7 +1063,7 @@
       "shinshima",
       "kkbus"
      ],
-     "action": "✓ Paid by EH (¥9,300 for 3). ★ EH: print the e-ticket (a phone screen is also accepted)"
+     "action": "✓ Paid by EH (¥9,300 for 3); e-ticket printed (EH carries it)"
     },
     {
      "id": "i12",
@@ -1188,7 +1188,7 @@
       "shinshima",
       "mmstn"
      ],
-     "action": "✓ Paid by EH (¥11,430 for 3). ★ EH: print the e-ticket (a phone screen is also accepted)"
+     "action": "✓ Paid by EH (¥11,430 for 3); e-ticket printed (EH carries it)"
     },
     {
      "id": "i20",
@@ -1213,7 +1213,7 @@
       "ogato_pickup"
      ],
      "mode": "walking",
-     "action": "★ Reserve both shuttle legs now (booking required; the only way up); limited seats, first-come"
+     "action": "✓ Both shuttle legs reserved"
     },
     {
      "id": "i22",
@@ -1272,7 +1272,7 @@
       "ogato",
       "mmstn"
      ],
-     "action": "★ Reserve the down shuttle with the up leg (now)"
+     "action": "✓ Reserved with the up leg"
     },
     {
      "id": "i25",
@@ -1407,7 +1407,7 @@
      "places": [
       "yamanoha"
      ],
-     "action": "Night 1 paid (Agoda) · ★ Cancel night 2 (15 Nov); check the fee first"
+     "action": "Paid (Agoda)"
     },
     {
      "id": "i35",
@@ -1441,7 +1441,7 @@
      "places": [
       "yamanoha"
      ],
-     "action": "★ Ask Yamanoha to keep the car + bags until ~13:30 (☎ 0765-62-1311)"
+     "action": "✓ Yamanoha keeps the car + bags until ~13:30"
     },
     {
      "id": "i36",
@@ -1502,7 +1502,7 @@
      "places": [
       "niigata"
      ],
-     "action": "Future payment (UOB) · ★ Add the 15 Nov night (night 2 cost is an estimate) · ★ Check the Nissan car's model and height (garage max 1.50–1.58 m; no reservations); if taller, get the partner car park's name and address from the hotel now"
+     "action": "Future payment (UOB); night 2 cost is an estimate"
     },
     {
      "id": "i45",
@@ -2141,34 +2141,6 @@
  ],
  "todo": [
   {
-   "id": "t28",
-   "task": "Change Kurobe Gorge trolley booking: 15 Nov 09:21 up (Regular), 11:04 down (Relax)",
-   "how": "☎ 0765-62-1011 (phone only, 09:00–16:30)",
-   "by": "Now (most urgent)",
-   "done": true
-  },
-  {
-   "id": "t29",
-   "task": "Yamanoha: cancel night 2 (Sun 15 Nov; check the fee first) and ask them to keep the car + bags until ~13:30 on 15 Nov",
-   "how": "Booking holder (Agoda / hotel) · Yamanoha ☎ 0765-62-1311",
-   "by": "Now",
-   "done": false
-  },
-  {
-   "id": "t30",
-   "task": "Niigata Daiichi Hotel: add the 15 Nov night (same rooms), so the stay is 15–17 Nov",
-   "how": "Agoda change dates, or a separate 1-night booking · hotel ☎ 025-243-1111",
-   "by": "Now (check availability)",
-   "done": false
-  },
-  {
-   "id": "t32",
-   "task": "Reserve Ōgatō Hotel shuttle, both legs (12 Nov up 13:45, 13 Nov down 11:15); booking required, the only way up",
-   "how": "☎ 0263-50-8765 (10:00–19:00)",
-   "by": "Now",
-   "done": false
-  },
-  {
    "id": "t20",
    "task": "Book Fujiya Gohonjin: Fri 13 Nov ~17:30 dinner (3 adults); confirm it isn't a wedding-closure day",
    "how": "☎ 026-232-1241 / Toreta online (weekday seats)",
@@ -2181,41 +2153,6 @@
    "how": "☎ 0256-64-3770",
    "by": "Now",
    "done": false
-  },
-  {
-   "id": "t34",
-   "task": "Ask Nissan for the car model and height for the Niigata Daiichi garage (max 1.50–1.58 m; no reservations); if taller, get the partner car park's name and address from the hotel",
-   "how": "Nissan ☎ 026-268-1123 / hotel ☎ 025-243-1111",
-   "by": "Now",
-   "done": false
-  },
-  {
-   "id": "t35",
-   "task": "Cancel the February Agoda pay-at-hotel bookings that aren't in this plan (Richmond Matsumoto 9 Nov, JAL City Nagano 13–15 Nov, Metropolitan Kawasaki 19–21 Nov), or confirm they're wanted",
-   "how": "Agoda Manage my booking (Feb 2026 confirmation emails)",
-   "by": "By 7 Nov (Richmond 100% from 8 Nov)",
-   "done": false
-  },
-  {
-   "id": "t03",
-   "task": "Verify Ōgatō Hotel ¥41,237 payment went through (was due 14 Jun 2026)",
-   "how": "Card statement / Ōgatō Hotel ☎ 0263-50-8765",
-   "by": "ASAP (due date passed)",
-   "done": true
-  },
-  {
-   "id": "t04",
-   "task": "Reserve Azusa 13 seats: 9 Nov, Shinjuku 10:00 → Matsumoto 12:37 (3 adults, Car 8 14-A/B/C); change to Azusa 9 on the day only if at Shinjuku by ~08:35",
-   "how": "JR-EAST Train Reservation (eki-net, EH's account); EH collects tickets at a JR ticket machine at Shinjuku",
-   "by": "Opens 9 Oct, 10:00 JST",
-   "done": true
-  },
-  {
-   "id": "t05",
-   "task": "Reserve Kamikochi buses (Alpico): 10 Nov Shin-Shimashima 10:05 up; 12 Nov Kamikochi 10:40 down",
-   "how": "JapanBusOnline",
-   "by": "Opens ≈10 Oct and ≈12 Oct, 00:00 JST (1 month ahead)",
-   "done": true
   },
   {
    "id": "t06",
@@ -2281,27 +2218,6 @@
    "done": false
   },
   {
-   "id": "t09",
-   "task": "Get International Driving Permits for all drivers",
-   "how": "AA Singapore (arrange before you fly)",
-   "by": "Before 8 Nov",
-   "done": true
-  },
-  {
-   "id": "t27",
-   "task": "EH: print both Kamikochi bus e-tickets (10 Nov up, 12 Nov down) and carry them",
-   "how": "JapanBusOnline e-ticket emails",
-   "by": "Before 8 Nov",
-   "done": false
-  },
-  {
-   "id": "t10",
-   "task": "Confirm Nissan rental car (Nagano pickup 14 Nov) and request an ETC card",
-   "how": "Nissan Rent a Car ☎ 026-268-1123",
-   "by": "~7 Nov (1 week before)",
-   "done": true
-  },
-  {
    "id": "t12",
    "task": "Arrange suitcase forwarding: Dormy Inn sends on 10 Nov with delivery date 13 Nov, morning slot (午前中); Chateraise Hotel Nagano holds them until check-in",
    "how": "Dormy ☎ 0263-33-5489 / Chateraise ☎ 026-219-2440 (Yamato TA-Q-BIN at the front desk)",
@@ -2321,13 +2237,6 @@
    "how": "☎ 0256-94-4141",
    "by": "Before 16 Nov",
    "done": false
-  },
-  {
-   "id": "t18",
-   "task": "Niigata Daiichi Hotel: future payment on UOB card (S$105.35 + S$72.26)",
-   "how": "Agoda booking",
-   "by": "Check the due date",
-   "done": true
   },
   {
    "id": "t23",
