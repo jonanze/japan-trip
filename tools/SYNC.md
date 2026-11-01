@@ -13,7 +13,7 @@ day headings, the hotel each night, and Google Maps travel modes.
    user properties, never in the code or the repo.
 2. **GitHub Action** `.github/workflows/sync.yml` runs on that push:
    `python3 tools/autosync.py data/sheet.json` → `node tools/build.js` → commit `data/ index.html sw.js manifest` → push
-   → request a Pages build. The phone app updates ~1–2 min after the edit (when the phone is online and the app reopens).
+   (the push itself starts the Pages deploy). The phone app updates ~1–2 min after the edit (when the phone is online and the app reopens).
 3. `tools/autosync.py` wraps `sync.py auto` and settles its review points without judgement:
    - new or renamed stops get an existing place with the same name, else a new place from the row's name and first
      address line, with no coordinates (the app falls back to a Google Maps search);
