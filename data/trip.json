@@ -955,7 +955,7 @@
      "title": "Transit · Haneda → Shinjuku → Matsumoto (Ltd Exp Azusa 13)",
      "kind": "travel",
      "how": "Airport Limousine bus T2 06:55 → Shinjuku Sta West Exit (Keiō Dept Store), ¥1,400 pp, ~07:30 timetabled (up to ~08:00 in Monday traffic)\nLtd Exp Azusa 13 (booked): Shinjuku 10:00 → Matsumoto 12:37, Car 8 seats 14-A/B/C (fare + reserved seat, ¥6,730 pp)",
-     "notes": "06:55 Bus from T2; bags under the bus\n~07:30–08:00 Shinjuku West Exit; 5–10 min walk to the JR gates\nEH: change to Azusa 9 (09:00 → 11:39) in the eki-net app before collecting tickets, or at a reserved-seat machine (one free change, if seats remain). Azusa 5 (08:00 → 10:37) only if at the gates by ~07:45\nEH collects the paper tickets at a JR ticket machine (QR or pickup code in the eki-net email); coffee or breakfast near the gates\n10:00 Depart Azusa 13 (Car 8), or 09:00 if on Azusa 9\n12:37 Matsumoto (11:39 on Azusa 9); 5 min walk to Dormy Inn",
+     "notes": "06:55 Bus from T2; bags under the bus\n~07:30–08:00 Shinjuku West Exit; 5–10 min walk to the JR gates\nEH collects the Azusa 13 paper tickets at a JR ticket machine (QR or pickup code in the eki-net email); coffee or breakfast near the gates, on the platform by 09:50\n10:00 Depart Azusa 13 (Car 8)\n12:37 Matsumoto; 5 min walk to Dormy Inn",
      "places": [
       "shinjuku",
       "mmstn"
