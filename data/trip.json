@@ -894,15 +894,6 @@
    "lng": "",
    "mc": "",
    "tel": "025-249-2560"
-  },
-  "kamikochi_shokudo": {
-   "en": "Kamikochi Shokudō",
-   "ja": "",
-   "addr": "Kamikochi Shokudō (上高地食堂), Kamikochi Bus Terminal bldg (上高地観光センター); 5 min from the lodge",
-   "lat": "",
-   "lng": "",
-   "mc": "",
-   "tel": ""
   }
  },
  "days": [
@@ -1079,7 +1070,7 @@
      "how": "Kamikochi Shokudō (上高地食堂), Kamikochi Bus Terminal bldg (上高地観光センター); 5 min from the lodge",
      "notes": "Straight off the bus. Open to 15 Nov (daily hours unverified). Backup: Hotel Shirakabasō restaurant at Kappa Bridge (meals to 15 Nov). Buy snacks and water for the walk here: no food at Myōjin",
      "places": [
-      "kamikochi_shokudo"
+      "kkbus"
      ]
     },
     {
