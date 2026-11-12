@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "10 Nov 2026",
+ "updated": "12 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -1185,11 +1185,11 @@
    "items": [
     {
      "id": "i19",
-     "time": "10:00–12:36",
+     "time": "09:00–11:22",
      "title": "Check out · The Parklodge Kamikochi; transit Kamikochi → Matsumoto",
      "kind": "travel",
-     "how": "Alpico bus + Kamikochi Line through ticket (booked, JapanBusOnline e-ticket): Kamikochi Bus Terminal 10:40 → Shin-Shimashima 11:45; train Shin-Shimashima 12:07 → Matsumoto 12:36",
-     "notes": "07:30 Breakfast; last look at Kappa Bridge\n10:00 Check out (pack for one ryokan night)\n10:15 Walk 5 min to the Bus Terminal; join the reserved queue by ~10:20; show the e-ticket (printed copy)\n10:40 Bus (~65 min)\n11:45 Shin-Shimashima; toilets, then the train (fare is in the through ticket; show the e-ticket if asked) (22 min)\n12:07 Train (~30 min)\n12:36 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 10:40 is missed: 11:25 bus → 12:30 Shin-Shimashima → 12:48 train → 13:17 Matsumoto. Skip the sit-down lunch, buy a bento and go straight to the shuttle (28 min spare)\nRoad closures: heavy rain temporarily closes the road to Kamikochi (kamikochi.org posts advisories). Check kamikochi.org the evening of 11 Nov. If a closure is threatened, take the earliest bus that runs and phone Ōgatō Hotel (☎ 0263-50-8765), since its 13:45 shuttle is the only one of the day",
+     "how": "Alpico bus + Kamikochi Line through ticket (booked, JapanBusOnline e-ticket): Kamikochi Bus Terminal 09:30 → Shin-Shimashima 10:35; train Shin-Shimashima 10:53 → Matsumoto 11:22",
+     "notes": "~07:00 Breakfast; last look at Kappa Bridge\n09:00 Check out (pack for one ryokan night)\n09:05 Walk 5 min to the Bus Terminal; join the reserved queue by ~09:10; show the e-ticket (printed copy)\n09:30 Bus (~65 min)\n10:35 Shin-Shimashima; toilets, then the train (fare is in the through ticket; show the e-ticket if asked) (18 min)\n10:53 Train (~29 min)\n11:22 Matsumoto; through the JR concourse to the Castle Exit (お城口)\nIf the 09:30 is missed: ask at the Bus Terminal counter for the 10:40 (→ 11:45 Shin-Shimashima → 12:07 train → 12:36 Matsumoto) or the 11:25 (→ 12:30 → 12:48 → 13:17; buy a bento and go straight to the shuttle)\nRoad closures: heavy rain temporarily closes the road to Kamikochi (kamikochi.org posts advisories). If a closure is threatened, take the earliest bus that runs and phone Ōgatō Hotel (☎ 0263-50-8765), since its 13:45 shuttle is the only one of the day",
      "places": [
       "kkbus",
       "shinshima",
@@ -1199,11 +1199,11 @@
     },
     {
      "id": "i20",
-     "time": "12:45–13:20",
+     "time": "~11:35–12:15",
      "title": "Lunch · Iidaya-ken (station-front soba)",
      "kind": "food",
      "how": "Hotel Iidaya 1F, 1-2-3 Chūō, Matsumoto; 1 min from the Castle Exit",
-     "notes": "Ticket machine, hot bowl in ~5 min, L.O. 13:45 (est. 1920, Tabelog 3.44; sanzoku-yaki topping). Leave by 13:20. Zero-risk alt: an Ekiben Azusa bento from inside the gates, eaten later",
+     "notes": "Ticket machine, hot bowl in ~5 min, L.O. 13:45 (est. 1920, Tabelog 3.44; sanzoku-yaki topping). Opening time unverified; if not open yet, Kurekino, station bldg 1F (all-day soba)\nThen ~1 h free: day packs in the station coin lockers; Nakamachi cafés or Kaiundō (see 9 Nov), or Matsumoto City Museum of Art (Kusama Yayoi), 4-2-22 Chūō, ~12 min walk (closed Mon; hours and fee unverified)\n13:25 At the shuttle waiting area",
      "places": [
       "iidaya"
      ],
