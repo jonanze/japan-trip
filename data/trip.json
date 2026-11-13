@@ -1456,7 +1456,8 @@
      "how": "Unazuki 13:32 → Keyakidaira 14:54; Keyakidaira 15:19 → Unazuki 16:35 (both open car only)\nWalk-up: buy same-day tickets at the Unazuki Sta counter (from 07:40); online booking closes 15:00 the day before\n~3 min walk from Yamanoha",
      "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted); ≥20 min at the top, so mainly the ride.\nOpen car: open-sided benches, no windows; dry today but windy in the gorge, so bring a warm layer\nIf at the counter by ~12:30: 12:50 up (Relax car) → 14:12; 14:37 down (Relax) → 15:54\nIf 13:32 is full: 14:14 up (Relax) → 15:36; 16:01 down (Relax) → 17:16, the last ~35 min after sunset\nFare ¥2,480 each way pp; Relax car +¥600 per ride; no senior discount\nIf all sold out: ride EH's 15 Nov 09:21 booking instead",
      "places": [
-      "unazuki_keyakidaira"
+      "unazuki_stn",
+      "keyakidaira"
      ],
      "action": "★ Buy at the Unazuki counter on arrival (cash or card)"
     },
@@ -1510,7 +1511,7 @@
      "how": "Michi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
      "notes": "Pick boiled benizuwai (~¥1–3k per crab; 2–3 between three) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
      "places": [
-      "crab_at_kaniya_yokocho_s"
+      "nou"
      ]
     },
     {
