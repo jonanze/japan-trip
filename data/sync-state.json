@@ -1,5 +1,9 @@
 {
- "sheetRevision": "2026-11-13T05:40:00.000Z",
- "syncedAt": "2026-11-13T05:48:46Z",
- "ops": 2
+ "sheetRevision": "2026-11-13T06:00:00.000Z",
+ "syncedAt": "2026-11-13T05:57:58Z",
+ "ops": 5,
+ "review": [
+  "place midori_nagano_rest_repac (\"MIDORI Nagano; rest + repack\") added without coordinates",
+  "place miyota_shinshu_beef (\"Miyota (Shinshū beef)\") added without coordinates"
+ ]
 }

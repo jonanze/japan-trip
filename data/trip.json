@@ -903,6 +903,24 @@
    "lng": "",
    "mc": "",
    "tel": "026-232-5786"
+  },
+  "midori_nagano_rest_repac": {
+   "en": "MIDORI Nagano; rest + repack",
+   "ja": "",
+   "addr": "MIDORI Nagano (JR Nagano Sta building); ~8 min walk from the hotel",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "miyota_shinshu_beef": {
+   "en": "Miyota (Shinshū beef)",
+   "ja": "",
+   "addr": "Miyota, MIDORI Nagano 3F (JR Nagano Sta building); ~8 min walk from the hotel",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1330,29 +1348,27 @@
     },
     {
      "id": "i28",
-     "time": "~14:40",
-     "title": "Late lunch (oyaki) + Zenkō-ji",
+     "time": "~15:00–17:30",
+     "title": "Late lunch · MIDORI Nagano; rest + repack",
      "kind": "food",
-     "how": "Bus: walk through Nagano Sta to the Zenkō-ji Exit (善光寺口) bus pool (~8 min from the hotel); Alpico Zenkō-ji line (or Gururin-gō) to Zenkōji-Daimon (善光寺大門), ~10 min; or walk up Chūō-dōri, ~30 min\nOgawa no Shō oyaki, Patio Daimon, by the Zenkōji-Daimon stop (next to Fujiya)\nZenkō-ji, 491 Motoyoshi-chō, Nagano 〒380-0851",
-     "notes": "14:40 Walk from the hotel to the Zenkō-ji Exit bus pool; first bus to Zenkōji-Daimon\n~15:00 Oyaki at Ogawa no Shō (until 17:00), 1–2 each; take them to go if past 15:15\n~15:10 Walk up the approach to the main hall (~10 min)\n~15:20 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Naijin-ken ticket ¥800 (inner hall, okaidan and museum)\n16:15–17:30 Shops on the way back down: Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, before the 08:00 checkout",
+     "how": "MIDORI Nagano (JR Nagano Sta building); ~8 min walk from the hotel",
+     "notes": "~15:00 Light late lunch in the station building\n~15:45 Back to the hotel: rest, and repack for the driving days (car pickup 08:00 tomorrow)",
      "places": [
-      "late_lunch_oyaki_zenko_j",
-      "zenkoji"
+      "midori_nagano_rest_repac"
      ],
      "mode": "driving"
     },
     {
      "id": "i29",
-     "time": "17:30",
-     "title": "Dinner · Fujiya Gohonjin (Western, 1925 hotel building)",
+     "time": "~18:00",
+     "title": "Dinner · Miyota (Shinshū beef)",
      "kind": "food",
-     "how": "THE FUJIYA GOHONJIN (藤屋御本陳), 80 Daimon-chō, Nagano 〒380-0841 (☎ 026-232-1241); on Chūō-dōri at the foot of the Zenkō-ji approach\nBack: bus from Zenkōji-Daimon to Nagano Sta (~10 min), then ~8 min walk to the hotel; or walk down Chūō-dōri, ~30 min",
-     "notes": "Tabelog 3.61. Dinner course 'Wisteria' ¥9,800; weekday dinner from 17:30, L.O. 20:00. It sometimes closes for weddings, so confirm Fri 13 Nov when booking. Backup: Miyota, MIDORI Nagano 3F (Tabelog 3.48, L.O. 21:30; Shinshū beef sets)",
+     "how": "Miyota, MIDORI Nagano 3F (JR Nagano Sta building); ~8 min walk from the hotel",
+     "notes": "Tabelog 3.48, L.O. 21:30; Shinshū beef sets. Early night after",
      "places": [
-      "fujiya"
+      "miyota_shinshu_beef"
      ],
-     "mode": "walking",
-     "action": "★ Reserve now: ☎ 026-232-1241 or Toreta online (weekday seats)"
+     "mode": "walking"
     }
    ]
   },
@@ -2159,8 +2175,8 @@
  "todo": [
   {
    "id": "t20",
-   "task": "Book Fujiya Gohonjin: Fri 13 Nov ~17:30 dinner (3 adults); confirm it isn't a wedding-closure day",
-   "how": "☎ 026-232-1241 / Toreta online (weekday seats)",
+   "task": "Cancel tonight's Fujiya Gohonjin dinner (13 Nov, 3 adults), if it was booked",
+   "how": "☎ 026-232-1241",
    "by": "Now",
    "done": false
   },
