@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "12 Nov 2026",
+ "updated": "13 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -1283,11 +1283,11 @@
     },
     {
      "id": "i25",
-     "time": "~13:05–13:45",
+     "time": "~12:15–12:50",
      "title": "Lunch · Moriyoshi by onion (yōshoku)",
      "kind": "food",
      "how": "Kokufu Bldg 1F, 2-1-21 Fukashi, Matsumoto; 3 min from the station, next to Dormy Inn",
-     "notes": "Mingei Restaurant Moriyoshi by onion: old-school Matsumoto yōshoku (hamburg, katsu, croquettes) served teishoku-fast; lunch 11:30–15:00, L.O. 14:30, closed Tue (Fri fine). Leave by 13:45 for the 14:06 train. If the shuttle gets in after ~13:20, skip the sit-down: buy an ekiben inside the JR gates and eat on the train. Backup: Matsumoto Karaage Center, station bldg 4F (if skipped on 9 Nov)",
+     "notes": "Mingei Restaurant Moriyoshi by onion: old-school Matsumoto yōshoku (hamburg, katsu, croquettes) served teishoku-fast; lunch 11:30–15:00. Leave by 12:50 for the 13:06 train. Short on time: skip the sit-down, buy an ekiben inside the JR gates and eat on the train. Backup: Matsumoto Karaage Center, station bldg 4F",
      "places": [
       "moriyoshi"
      ],
@@ -1295,24 +1295,24 @@
     },
     {
      "id": "i26",
-     "time": "14:06–15:00",
-     "title": "Transit · Matsumoto → Nagano (Ltd Exp Shinano 11)",
+     "time": "13:06–~14:00",
+     "title": "Transit · Matsumoto → Nagano (Ltd Exp Shinano 9)",
      "kind": "travel",
-     "how": "JR Ltd Exp Shinano 11 (Shinonoi Line): Matsumoto 14:06 → Nagano 15:00",
-     "notes": "13:50 JR ticket machine: fare + reserved seat (or book on eki-net)\n14:06 Depart\n15:00 Nagano; East (Higashi) Exit for the hotel\nShinano leaves Matsumoto at :06 past each hour. If the shuttle is early and you eat fast, the 13:06 reaches Nagano ~14:00 and gives an extra hour at Zenkō-ji",
+     "how": "JR Ltd Exp Shinano 9 (Shinonoi Line): Matsumoto 13:06 → Nagano ~14:00",
+     "notes": "12:50 JR ticket machine: fare + reserved seat\n13:06 Depart\n~14:00 Nagano; East (Higashi) Exit for the hotel\nIf you'd rather leave at once: 12:30 local to Nagano (no reserved seats; slower, arrival not checked). Missed the 13:06: Shinano 11, 14:06 → 15:00",
      "places": [
       "mmstn",
       "nagano_stn"
      ],
-     "action": "★ Reserve Shinano 11 seats on eki-net (open now)"
+     "action": "★ Buy Shinano 9 seats at the JR ticket machine"
     },
     {
      "id": "i27",
-     "time": "~15:10",
+     "time": "~14:10",
      "title": "Check in · Chateraise Hotel Nagano (1 nt)",
      "kind": "stay",
      "how": "Chateraise Hotel Nagano, 1-1 Nanase, Nagano 〒380-0922 (☎ 026-219-2440)\n5 min walk from JR Nagano Sta East (Higashi) Exit",
-     "notes": "Breakfast incl.; central base. The forwarded suitcases should be waiting at the front desk. Drop day packs and go straight to Zenkō-ji (inner hall and okaidan close 16:15); check in properly afterwards",
+     "notes": "Breakfast incl.; central base. The forwarded suitcases should be waiting at the front desk. Drop day packs (room may not be ready before the official check-in time) and go to Zenkō-ji; check in properly afterwards",
      "places": [
       "chateraise"
      ],
@@ -1321,11 +1321,11 @@
     },
     {
      "id": "i28",
-     "time": "~15:25",
+     "time": "~14:25",
      "title": "Zenkō-ji",
      "kind": "visit",
      "how": "Zenkō-ji, 491 Motoyoshi-chō, Nagano 〒380-0851\nTaxi from the hotel ~10 min (or ~25 min walk)",
-     "notes": "15:15 Taxi from the hotel\n15:25 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Naijin-ken ticket ¥800 (inner hall, okaidan and museum)\n16:15–17:30 Shops on the approach, on the way down to dinner: Ogawa no Shō oyaki, Patio Daimon (Tabelog 3.47, until 17:00) · Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, before the 08:00 checkout",
+     "notes": "14:15 Taxi from the hotel\n14:25 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Naijin-ken ticket ¥800 (inner hall, okaidan and museum)\n16:15–17:30 Shops on the approach, on the way down to dinner: Ogawa no Shō oyaki, Patio Daimon (Tabelog 3.47, until 17:00) · Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, before the 08:00 checkout",
      "places": [
       "zenkoji"
      ],
@@ -2163,8 +2163,8 @@
   },
   {
    "id": "t06",
-   "task": "Reserve seats: Shinano 11 (13 Nov, Matsumoto 14:06 → Nagano 15:00) and Hakutaka 568 (18 Nov, Nagano 16:20 → Tokyo 17:52)",
-   "how": "JR-EAST Train Reservation (eki-net)",
+   "task": "Reserve seats: Shinano 9 (13 Nov, Matsumoto 13:06 → Nagano ~14:00) and Hakutaka 568 (18 Nov, Nagano 16:20 → Tokyo 17:52)",
+   "how": "JR ticket machine (today) / JR-EAST Train Reservation (eki-net)",
    "by": "Now",
    "done": false
   },
