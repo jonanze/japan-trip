@@ -905,20 +905,20 @@
    "tel": "026-232-5786"
   },
   "midori_nagano_rest_repac": {
-   "en": "MIDORI Nagano; rest + repack",
-   "ja": "",
-   "addr": "MIDORI Nagano (JR Nagano Sta building); ~8 min walk from the hotel",
-   "lat": "",
-   "lng": "",
+   "en": "MIDORI Nagano (JR Nagano Sta building)",
+   "ja": "MIDORI長野",
+   "addr": "〒380-8543 長野県長野市南千歳1-22-6 MIDORI長野",
+   "lat": 36.644023,
+   "lng": 138.189021,
    "mc": "",
    "tel": ""
   },
   "miyota_shinshu_beef": {
-   "en": "Miyota (Shinshū beef)",
-   "ja": "",
-   "addr": "Miyota, MIDORI Nagano 3F (JR Nagano Sta building); ~8 min walk from the hotel",
-   "lat": "",
-   "lng": "",
+   "en": "Miyota soba, MIDORI Nagano 3F",
+   "ja": "食楽彩々 そば処 みよ田 MIDORI長野",
+   "addr": "〒380-8543 長野県長野市南千歳1-22-6 MIDORI長野3F",
+   "lat": 36.644023,
+   "lng": 138.189021,
    "mc": "",
    "tel": ""
   }
@@ -1366,7 +1366,7 @@
      "how": "Miyota, MIDORI Nagano 3F (JR Nagano Sta building); ~8 min walk from the hotel",
      "notes": "Tabelog 3.48, L.O. 21:30; Shinshū beef sets. Early night after",
      "places": [
-      "miyota_shinshu_beef"
+      "miyota_n"
      ],
      "mode": "walking"
     }
