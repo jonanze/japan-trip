@@ -894,6 +894,15 @@
    "lng": "",
    "mc": "",
    "tel": "025-249-2560"
+  },
+  "late_lunch_oyaki_zenko_j": {
+   "en": "Late lunch (oyaki) + Zenkō-ji",
+   "ja": "",
+   "addr": "Ogawa no Shō oyaki, Patio Daimon, at the foot of the Zenkō-ji approach (next to Fujiya)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1308,11 +1317,11 @@
     },
     {
      "id": "i27",
-     "time": "~14:10",
+     "time": "~14:30",
      "title": "Check in · Chateraise Hotel Nagano (1 nt)",
      "kind": "stay",
      "how": "Chateraise Hotel Nagano, 1-1 Nanase, Nagano 〒380-0922 (☎ 026-219-2440)\n5 min walk from JR Nagano Sta East (Higashi) Exit",
-     "notes": "Breakfast incl.; central base. The forwarded suitcases should be waiting at the front desk. Drop day packs (room may not be ready before the official check-in time) and go to Zenkō-ji; check in properly afterwards",
+     "notes": "Breakfast incl.; central base. The forwarded suitcases should be waiting at the front desk",
      "places": [
       "chateraise"
      ],
@@ -1321,13 +1330,13 @@
     },
     {
      "id": "i28",
-     "time": "~14:25",
-     "title": "Zenkō-ji",
-     "kind": "visit",
-     "how": "Zenkō-ji, 491 Motoyoshi-chō, Nagano 〒380-0851\nTaxi from the hotel ~10 min (or ~25 min walk)",
-     "notes": "14:15 Taxi from the hotel\n14:25 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Naijin-ken ticket ¥800 (inner hall, okaidan and museum)\n16:15–17:30 Shops on the approach, on the way down to dinner: Ogawa no Shō oyaki, Patio Daimon (Tabelog 3.47, until 17:00) · Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, before the 08:00 checkout",
+     "time": "~14:45",
+     "title": "Late lunch (oyaki) + Zenkō-ji",
+     "kind": "food",
+     "how": "Ogawa no Shō oyaki, Patio Daimon, at the foot of the Zenkō-ji approach (next to Fujiya)\nZenkō-ji, 491 Motoyoshi-chō, Nagano 〒380-0851\nTaxi from the hotel ~10 min",
+     "notes": "14:35 Taxi from the hotel to Patio Daimon\n14:45 Late light lunch: oyaki at Ogawa no Shō (until 17:00), 1–2 each\n15:05 Walk up the approach to the main hall (~10 min)\n15:15 Main hall: inner sanctuary + okaidan underground corridor (touch the 'key to paradise'). Both close 16:15; San-mon gate 16:00. Naijin-ken ticket ¥800 (inner hall, okaidan and museum)\n16:15–17:30 Shops on the way back down: Yawataya Isogorō shichimi main store (custom blends, until 18:30)\nIf missed: the inner hall opens before the morning service on 14 Nov, before the 08:00 checkout",
      "places": [
-      "zenkoji"
+      "late_lunch_oyaki_zenko_j"
      ],
      "mode": "driving"
     },
