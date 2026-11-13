@@ -1743,7 +1743,7 @@
      "title": "Check out · Rankeisou; drive → Togakushi → Nagano (return car)",
      "kind": "travel",
      "how": "Sanjō-Tsubame IC → Hokuriku and Jōshin'etsu Expwys → Shinano-machi IC → Togakushi, ~185 km / ~2 h 50 of driving; then the Bird Line down to Nagano, ~50 min (estimates)",
-     "notes": "09:00 Check out (early breakfast)\n~09:40 Sanjō-Tsubame IC\n~11:00 Arai PA (上り): toilet + snack stop, 15 min\n~11:40 Shinano-machi IC\n~12:10 Togakushi soba lunch, Soba no Mi\n~13:00–14:30 Togakushi Okusha\n~14:35 Drive down the Bird Line (~50 min)\n~15:25 Refuel near Nagano Sta\n~15:40 Return car\n16:20 Shinkansen Hakutaka 568\n~40 min of buffer; off the mountain road before sunset (~16:35)\nIf the Togakushi road is wet-icy or snowy: skip Togakushi; lunch at Roadside Station Arai (walk in from Arai PA 上り: Himi Kitokito kaiten sushi or Shokudō Misa miso ramen), then straight to Nagano (~1 h 05)\nSnow check: this route and the icy-road fallback both cross Myōkō on the Jōshin'etsu Expwy. If NEXCO East shows a winter-tyre rule (冬用タイヤ規制) there at 07:00 and the car has normal tyres, wait at Rankeisou for it to lift and phone Nissan (☎ 026-268-1123) for options",
+     "notes": "09:00 Check out (early breakfast)\n~09:40 Sanjō-Tsubame IC\n~11:00 Arai PA (上り): toilet + snack stop, 15 min\n~11:40 Shinano-machi IC\n~12:10 Togakushi soba lunch, Soba no Mi\n~13:00–14:30 Togakushi Okusha\n~14:35 Drive down the Bird Line (~50 min)\n~15:25 Refuel at ENEOS ① near Nissan (☎ 026-226-2454)\n~15:40 Return car\n16:20 Shinkansen Hakutaka 568\n~40 min of buffer; off the mountain road before sunset (~16:35)\nIf the Togakushi road is wet-icy or snowy: skip Togakushi; lunch at Roadside Station Arai (walk in from Arai PA 上り: Himi Kitokito kaiten sushi or Shokudō Misa miso ramen), then straight to Nagano (~1 h 05)\nSnow check: this route and the icy-road fallback both cross Myōkō on the Jōshin'etsu Expwy. If NEXCO East shows a winter-tyre rule (冬用タイヤ規制) there at 07:00 and the car has normal tyres, wait at Rankeisou for it to lift and phone Nissan (☎ 026-268-1123) for options",
      "places": [
       "rankeisou"
      ]
@@ -1773,15 +1773,15 @@
     },
     {
      "id": "i54",
-     "time": "~15:40",
-     "title": "Return rental car · Nissan Nagano",
+     "time": "~15:25–15:40",
+     "title": "Return rental car · Nissan Nagano (refuel at ENEOS first)",
      "kind": "travel",
-     "how": "Drive Togakushi → Nagano Sta via the Bird Line, ~22 km / ~50 min (est.)\nNissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123)",
-     "notes": "Refuel before return; ~5 min walk to the Shinkansen gates",
+     "how": "Drive Togakushi → Nagano Sta via the Bird Line, ~22 km / ~50 min (est.)\nRefuel: ENEOS (① on Nissan's gas-station map), near the store; ☎ 026-226-2454, 07:00–21:00; set the nav by phone number\nNissan Rent a Car, Nagano Sta East Exit, 2227 Kurita, Nagano (☎ 026-268-1123)",
+     "notes": "~15:25 Fill up at ENEOS ①, then return the car by ~15:40; ~5 min walk to the Shinkansen gates",
      "places": [
       "nissan"
      ],
-     "action": "Refuel before return"
+     "action": "Refuel at ENEOS ① (☎ 026-226-2454) before return"
     },
     {
      "id": "i55",
