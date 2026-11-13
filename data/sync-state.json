@@ -1,5 +1,9 @@
 {
- "sheetRevision": "2026-11-13T06:00:00.000Z",
- "syncedAt": "2026-11-13T06:47:52Z",
- "ops": 3
+ "sheetRevision": "2026-11-13T22:59:05.000Z",
+ "syncedAt": "2026-11-13T22:59:24Z",
+ "ops": 16,
+ "review": [
+  "place crab_at_kaniya_yokocho_s (\"Crab at Kaniya Yokochō stalls, Marine Dream Nou\") added without coordinates",
+  "place unazuki_keyakidaira (\"Unazuki ↔ Keyakidaira\") added without coordinates"
+ ]
 }

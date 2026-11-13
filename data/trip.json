@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "13 Nov 2026",
+ "updated": "14 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -921,6 +921,24 @@
    "lng": 138.189021,
    "mc": "",
    "tel": ""
+  },
+  "crab_at_kaniya_yokocho_s": {
+   "en": "Crab at Kaniya Yokochō stalls, Marine Dream Nou",
+   "ja": "",
+   "addr": "Michi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "unazuki_keyakidaira": {
+   "en": "Unazuki ↔ Keyakidaira",
+   "ja": "",
+   "addr": "",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1387,7 +1405,7 @@
      "title": "Check out · Chateraise Hotel Nagano; pick up rental car",
      "kind": "travel",
      "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123); open 08:00–20:00 until 30 Nov",
-     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:40 Naena Falls car park\n~10:40 Back at the car\n~11:50 Marine Dream Nou, crab lunch\n~12:50 Drive on (~65–70 min)\n~14:00 Yamanoha\n~2 h 45 of driving (estimate). Bring International Driving Permits\nIf Naena's road or path is closed by snow or icy: Plan B is Obuse (Optional row below); then crab ~13:30 and Yamanoha ~15:40\nSnow check: Naena, the Obuse plan B and the drive to Nou all use the Jōshin'etsu Expwy across the Nagano–Niigata border at Myōkō, and normal tyres on snow are illegal. ~11 Nov: if snow is forecast for Myōkō on 14 or 18 Nov, ask Nissan for a studless-tyre car. On the morning, check NEXCO East traffic info for a winter-tyre rule (冬用タイヤ規制)",
+     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:40 Naena Falls car park\n10:40 Leave Naena (firm)\n~12:30 Yamanoha: park, leave the bags\n~12:35 Unazuki Sta counter: buy trolley tickets (walk-up)\n~12:40 Lunch at Kajika\n13:32 Trolley up; back 16:35\n~16:45 Check in; onsen + dinner\n~3 h of driving (estimate). Bring International Driving Permits\nIf Naena's road or path is closed by snow or icy: skip it, drive straight to Unazuki (~2 h 20, est.) and take the 12:50 trolley\nSnow check: Naena and the drive west use the Jōshin'etsu Expwy across the Nagano–Niigata border at Myōkō, and normal tyres on snow are illegal. On the morning, check NEXCO East traffic info for a winter-tyre rule (冬用タイヤ規制)",
      "places": [
       "nissan"
      ],
@@ -1400,7 +1418,7 @@
      "title": "Waterfall walk · Naena Falls (Naena-no-taki)",
      "kind": "visit",
      "how": "Drive Nagano Sta → Suzaka-Nagano-Higashi IC → Jōshin'etsu Expwy → Myōkō-Kōgen IC → ~15 min of local road, ~1 h 10 in all (est.)\nNaena Falls (苗名滝), Suginosawa, Myōkō, Niigata; free car park (~100 spaces)\nMC 469 046 579*87 (car park)",
-     "notes": "One of Japan's 100 best waterfalls: a 55 m drop over a basalt-column wall. Car park → viewpoint ~15 min each way on a built path with two narrow suspension bridges, steps and wet rock; EH & BY can stop at the first bridge. Free; toilets may be shut late in the season. Foliage peaked in late Oct, so expect bare trees by 14 Nov. The ~1.5 km access road and the path close once snow settles (not ploughed; no fixed 2026 date). Early frost makes the bridges and rock slick: turn back if icy\nIf closed, snowy or icy: Obuse (Optional row below)",
+     "notes": "One of Japan's 100 best waterfalls: a 55 m drop over a basalt-column wall. Car park → viewpoint ~15 min each way on a built path with two narrow suspension bridges, steps and wet rock; EH & BY can stop at the first bridge. Free; toilets may be shut late in the season. Foliage peaked in late Oct, so expect bare trees by 14 Nov. The ~1.5 km access road and the path close once snow settles (not ploughed; no fixed 2026 date). Early frost makes the bridges and rock slick: turn back if icy\nLeave by 10:40 to make the 13:32 trolley\nIf closed, snowy or icy: skip it and drive straight to Unazuki for the 12:50 trolley",
      "places": [
       "naena_p",
       "naena"
@@ -1408,39 +1426,39 @@
      "action": "★ Day before: confirm the road and path are open (Myōkō-Kōgen tourist office ☎ 0255-86-3911)"
     },
     {
-     "id": "i89",
-     "time": "~08:30–12:00",
-     "title": "Optional (if Naena is closed or icy) · Obuse: Hokusai-kan + chestnut lunch",
-     "kind": "visit",
-     "how": "Drive Nagano Sta → Obuse, ~19 km / 30–40 min on local roads (est.)\nHokusai-kan (北斎館), 485 Obuse, Obuse-machi, Nagano 〒381-0201 (☎ 026-247-5206); East Town car park ¥200 first hour\nChikufūdō Obuse Honten (竹風堂 小布施本店), 973 Obuse, Obuse-machi (☎ 026-247-2569)\nMC not checked: set the nav by phone number",
-     "notes": "Plan B for 14 Nov if Naena's road or path is closed by snow or icy; replaces the Naena row, and the crab at Nou becomes a snack after lunch\n~09:00 Hokusai-kan (09:00–17:00, last entry 16:30; ¥1,800 during the 'EXPOSITION HOKUSAI' special exhibition, 24 Oct 2026–17 Jan 2027; wheelchairs at the desk): Hokusai's late paintings and festival-float ceilings; indoor and flat\n~10:30 Short stroll on the chestnut-wood paths of the old town\n~11:00 Lunch at Chikufūdō: chestnut okowa sets (dining from 10:00, L.O. 17:30 in winter; prices not checked)\n~12:00 Drive on: Obuse PA Smart IC (ETC card only) → Jōshin'etsu Expwy → Jōetsu JCT → Nou IC, ~95 km / ~1 h 20 (est.): crab ~13:30, Yamanoha ~15:40",
-     "places": [
-      "hokusai",
-      "chikufudo"
-     ]
-    },
-    {
-     "id": "i33",
-     "time": "~11:50–12:50",
-     "title": "Lunch · Crab at Kaniya Yokochō stalls, Marine Dream Nou",
-     "kind": "food",
-     "how": "Drive Naena → Myōkō-Kōgen IC (~15 min) → Jōshin'etsu Expwy → Jōetsu JCT → Hokuriku Expwy → Nou IC, ~70 km / ~1 h 10 in all (est.)\nMichi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
-     "notes": "Lunch today: pick boiled benizuwai (~¥1–3k per crab; 2–3 between three) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
-     "places": [
-      "nou"
-     ]
-    },
-    {
      "id": "i34",
-     "time": "~14:00",
+     "time": "~12:30",
      "title": "Check in · Yamanoha (1 nt)",
      "kind": "stay",
-     "how": "Drive Marine Dream Nou → Nou IC → Kurobe IC (Hokuriku Expwy) → Unazuki, ~72 km / ~65–70 min (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
-     "notes": "Breakfast + dinner incl.; onsen. Early arrival (check-in time not checked): onsen before dinner",
+     "how": "Drive Naena → Myōkō-Kōgen IC → Jōshin'etsu Expwy → Jōetsu JCT → Hokuriku Expwy → Kurobe IC → Unazuki, ~140 km / ~1 h 50 (est.)\nYamanoha, 352-7 Unazuki-onsen, Kurobe, Toyama 〒938-0282 (☎ 0765-62-1311)\nFree guest parking; 3 min walk from Unazuki-Onsen Sta\nMC 220 235 644*67",
+     "notes": "Breakfast + dinner incl.; onsen. ~12:30 park and leave the bags (check-in time not checked); check in properly after the trolley (~16:45)",
      "places": [
       "yamanoha"
      ],
      "action": "Paid (Agoda)"
+    },
+    {
+     "id": "i100",
+     "time": "~12:40–13:15",
+     "title": "Lunch · Kajika (kamameshi + oden)",
+     "kind": "food",
+     "how": "Kajika (河鹿), 330-19 Unazuki-onsen, Kurobe, Toyama (☎ 0765-62-1505)\n~1 min walk from Unazuki-Onsen Sta",
+     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue. Buy the trolley tickets first; order as soon as you sit and be at the trolley gate by ~13:20",
+     "places": [
+      "kajika"
+     ]
+    },
+    {
+     "id": "i101",
+     "time": "13:32–16:35",
+     "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
+     "kind": "visit",
+     "how": "Unazuki 13:32 → Keyakidaira 14:54; Keyakidaira 15:19 → Unazuki 16:35 (both open car only)\nWalk-up: buy same-day tickets at the Unazuki Sta counter (from 07:40); online booking closes 15:00 the day before\n~3 min walk from Yamanoha",
+     "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted); ≥20 min at the top, so mainly the ride.\nOpen car: open-sided benches, no windows; dry today but windy in the gorge, so bring a warm layer\nIf at the counter by ~12:30: 12:50 up (Relax car) → 14:12; 14:37 down (Relax) → 15:54\nIf 13:32 is full: 14:14 up (Relax) → 15:36; 16:01 down (Relax) → 17:16, the last ~35 min after sunset\nFare ¥2,480 each way pp; Relax car +¥600 per ride; no senior discount\nIf all sold out: ride EH's 15 Nov 09:21 booking instead",
+     "places": [
+      "unazuki_keyakidaira"
+     ],
+     "action": "★ Buy at the Unazuki counter on arrival (cash or card)"
     },
     {
      "id": "i35",
@@ -1466,47 +1484,42 @@
    "items": [
     {
      "id": "i95",
-     "time": "08:30",
-     "title": "Check out · Yamanoha; car and bags stay at the inn until ~13:30",
-     "kind": "travel",
-     "how": "Yamanoha → trolley Unazuki Sta, ~5 min walk\nCar stays in Yamanoha guest parking (if not allowed: MC 220 235 406*32, Times station-front car park ~¥1,000 / 6 h)",
-     "notes": "08:30 Check out (breakfast first); leave the car and bags at the inn\n08:45 Walk to the trolley station; pay and check in at the ticket counter by 09:00 (≥20 min before departure)\n09:21 Trolley up → 10:39 Keyakidaira; 11:04 down → 12:23 Unazuki\n~12:30 Lunch at Kajika\n~13:30 Collect car and bags; drive to Niigata (~3 h with one stop)\n~16:55 Northern Culture Museum light-up\n~18:15 Niigata Daiichi Hotel\n19:30 Inakaya",
+     "time": "~08:00–10:00",
+     "title": "Breakfast + morning onsen · Yamanoha",
+     "kind": "food",
+     "how": "Yamanoha",
+     "notes": "Slow start\n~10:00 Check out; drive to Nou (~65–70 min)\n~11:10 Marine Dream Nou, crab lunch\n~12:10 Drive on to Niigata (~2 h 10 with one stop)\n~14:30 Northern Culture Museum; stay for the light-up from 16:00\n~16:30 Drive to the hotel (~25 min)\n~17:00 Niigata Daiichi Hotel\n19:30 Inakaya",
      "places": [
       "yamanoha"
-     ],
-     "action": "✓ Yamanoha keeps the car + bags until ~13:30"
+     ]
     },
     {
      "id": "i36",
-     "time": "09:21–12:23",
-     "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
-     "kind": "visit",
-     "how": "Unazuki 09:21 → Keyakidaira 10:39 (Regular car); Keyakidaira 11:04 → Unazuki 12:23 (Relax car)\nBooked; pay on the day at the Unazuki Sta ticket counter\n~5 min walk from Yamanoha",
-     "notes": "~78 min each way. Keyakidaira: station plaza, rooftop and visitor centre only (access restricted), 25 min at the top, so mainly the ride.\nUp in the Regular car: open-sided benches, no windows, so cold and windy for 78 min in mid-Nov. Hat, gloves, warm layer, maybe a blanket from the inn. Ask at the counter on the day whether a Relax seat has freed up\nDown in the windowed Relax car. Fare ¥2,480 each way + Relax ¥600 one way = ¥5,560 pp; no senior discount\nIf the trolley is suspended (heavy rain or rockfall): free Kurobe River Electric Memorial Hall next to the station (07:30–18:00) and the free roofed footbath Omokage in Unazuki Park (06:00–22:00; bring a towel), then lunch and drive",
-     "places": [
-      "unazuki_stn",
-      "keyakidaira"
-     ],
-     "action": "✓ Booked. ★ Pay ¥16,680 for 3 at the Unazuki counter by 09:00 (≥20 min before; cash or card)"
+     "time": "~10:00",
+     "title": "Check out · Yamanoha; drive → Nou",
+     "kind": "travel",
+     "how": "Unazuki → Kurobe IC → Hokuriku Expwy (Niigata-bound) → Nou IC, ~72 km / ~65–70 min (est.)",
+     "notes": "Rotate drivers; ETC for tolls",
+     "places": []
     },
     {
      "id": "i76",
-     "time": "~12:30–13:20",
-     "title": "Lunch · Kajika (kamameshi + oden)",
+     "time": "~11:10–12:10",
+     "title": "Lunch · Crab at Kaniya Yokochō stalls, Marine Dream Nou",
      "kind": "food",
-     "how": "Kajika (河鹿), 330-19 Unazuki-onsen, Kurobe, Toyama (☎ 0765-62-1505)\n~1 min walk from Unazuki-Onsen Sta",
-     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue (Sun fine). Then back to Yamanoha (~5 min walk) for the car",
+     "how": "Michi-no-Eki Marine Dream Nou, 3596-2 Nou-Kodomari, Itoigawa 〒949-1351 (☎ 025-566-3456)\nMC 707 090 264*60",
+     "notes": "Pick boiled benizuwai (~¥1–3k per crab; 2–3 between three) from the 7 fishing-family stalls; try Hōjumaru (known to add a free bonus crab). They crack it and you eat at the free tables. Stalls close 17:00 from Nov and sell out. Sit-down alt inside: Banya (crab-tempura teishoku ~¥2.6k)",
      "places": [
-      "kajika"
+      "crab_at_kaniya_yokocho_s"
      ]
     },
     {
      "id": "i96",
-     "time": "~13:30–16:45",
-     "title": "Transit · Unazuki → Niigata (drive)",
+     "time": "~12:10–14:20",
+     "title": "Transit · Nou → Niigata (drive)",
      "kind": "travel",
-     "how": "Unazuki → Kurobe IC (~20 min) → Hokuriku Expwy → Niigata-Chūō IC, ~230 km of expressway, ~3 h incl. one stop (est.)\nBreak: Yoneyama SA (Niigata-bound), ~113 km from Kurobe IC",
-     "notes": "~13:30 Drive off\n~13:50 Kurobe IC\n~15:10 Yoneyama SA: toilets + Sea of Japan view, 15 min\n~16:30 Sunset; the last ~15 min are after dark\n~16:45 Niigata-Chūō IC; Northern Culture Museum ~10 min on\nRotate drivers; ETC for tolls. All drive times are estimates from expressway km",
+     "how": "Nou IC → Hokuriku Expwy → Niigata-Chūō IC, ~170 km of expressway, ~2 h 10 incl. one stop (est.)\nBreak: Yoneyama SA (Niigata-bound)",
+     "notes": "~12:10 Drive off\n~12:50 Yoneyama SA: toilets + Sea of Japan view, 15 min\n~14:20 Niigata-Chūō IC; Northern Culture Museum ~10 min on\nRotate drivers; ETC for tolls. All drive times are estimates from expressway km",
      "places": [
       "yoneyama",
       "hoppo"
@@ -1516,18 +1529,18 @@
     },
     {
      "id": "i97",
-     "time": "~16:55–17:45",
-     "title": "Maple light-up · Northern Culture Museum (Hoppō Bunka Hakubutsukan)",
+     "time": "~14:30–16:30",
+     "title": "Mansion + maple light-up · Northern Culture Museum (Hoppō Bunka Hakubutsukan)",
      "kind": "visit",
      "how": "Northern Culture Museum (北方文化博物館), 2-15-25 Sōmi, Kōnan-ku, Niigata (☎ 025-385-2001); ~10 min from Niigata-Chūō IC (est.); 400 free car spaces\nMC not checked: set the nav by phone number\nOn to Niigata Daiichi Hotel, ~25 min (est.)",
-     "notes": "The Itō family's landowner mansion and garden. Autumn light-up 14–15 Nov 2026 only, 16:00–19:00 (last entry 18:45); ¥800; open daily in Nov\nIf wet or running late: skip it and go straight to the hotel (~17:10)",
+     "notes": "The Itō family's landowner mansion and garden; the house rooms are indoors. Autumn light-up 14–15 Nov 2026 only, 16:00–19:00 (last entry 18:45); ¥800; open daily in Nov. Daytime ticket and whether it covers the light-up not checked: ask at the gate\nIf very wet: see the house, skip the wait for the light-up and go to the hotel early",
      "places": [
       "hoppo"
      ]
     },
     {
      "id": "i44",
-     "time": "~18:15",
+     "time": "~17:00",
      "title": "Check in · Niigata Daiichi Hotel (2 nt)",
      "kind": "stay",
      "how": "Drive Northern Culture Museum → Niigata, ~25 min (est.)\nNiigata Daiichi Hotel, 1-3-12 Hanazono, Chūō-ku, Niigata 〒950-0086 (☎ 025-243-1111)\n~2 min walk from JR Niigata Sta Bandai Exit; indoor hotel garage ~¥1,200 / night, 72 spaces, no reservations, height limit 1.50–1.58 m (sources differ); taller cars go to a partner car park (up to 2 m)\nMC 32 877 298*72",
@@ -2220,6 +2233,13 @@
    "task": "Book Ushikozou: Wed 18 Nov 19:00 dinner, 3 adults (table away from the smoking area)",
    "how": "Tabelog online / ☎ 050-5456-4317",
    "by": "Now",
+   "done": false
+  },
+  {
+   "id": "t37",
+   "task": "EH: cancel the 15 Nov Kurobe trolley booking (09:21 up / 11:04 down, 3 people) once today's walk-up tickets are bought",
+   "how": "Confirmation page in EH's booking email / ☎ 0765-62-1011 (09:00–16:30)",
+   "by": "14 Nov",
    "done": false
   },
   {
