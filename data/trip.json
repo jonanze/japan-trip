@@ -1405,7 +1405,7 @@
      "title": "Check out · Chateraise Hotel Nagano; pick up rental car",
      "kind": "travel",
      "how": "Nissan Rent a Car, Nagano Sta East Exit (☎ 026-268-1123); open 08:00–20:00 until 30 Nov",
-     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:40 Naena Falls car park\n10:40 Leave Naena\n~12:30 Yamanoha: park, leave the bags\n~12:35 Unazuki Sta counter: trolley tickets for 14:14\n~13:35 Lunch at Kajika\n14:14 Trolley up; back 17:16\n~17:25 Check in; onsen + dinner\n~3 h of driving (estimate). Bring International Driving Permits",
+     "notes": "08:00 Check out; walk to Nissan\n08:30 Drive off\n~09:40 Naena Falls car park\n10:40 Leave Naena\n~12:30 Yamanoha: park, leave the bags\n~12:35 Unazuki Sta counter: trolley tickets for 14:14\n14:14 Trolley up; back 17:16\n~17:25 Check in; onsen + dinner\n~3 h of driving (estimate). Bring International Driving Permits",
      "places": [
       "nissan"
      ],
@@ -1438,17 +1438,6 @@
      "action": "Paid (Agoda)"
     },
     {
-     "id": "i100",
-     "time": "~13:35–14:05",
-     "title": "Lunch · Kajika (kamameshi + oden)",
-     "kind": "food",
-     "how": "Kajika (河鹿), 330-19 Unazuki-onsen, Kurobe, Toyama (☎ 0765-62-1505)\n~1 min walk from Unazuki-Onsen Sta",
-     "notes": "Tabelog 3.44, the best-rated lunch in Unazuki; counter and tatami seating. Lunch 11:00–14:00, closed Tue. Order something quick and be at the trolley gate by ~14:05",
-     "places": [
-      "kajika"
-     ]
-    },
-    {
      "id": "i101",
      "time": "14:14–17:16",
      "title": "Kurobe Gorge Railway (trolley) · Unazuki ↔ Keyakidaira",
@@ -1459,7 +1448,7 @@
       "unazuki_stn",
       "keyakidaira"
      ],
-     "action": "✓ Tickets bought (14:14 up, 16:01 down)"
+     "action": "✓ Done (14:14 up, 16:01 down)"
     },
     {
      "id": "i35",
