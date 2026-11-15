@@ -1,5 +1,9 @@
 {
- "sheetRevision": "2026-11-14T09:33:06.000Z",
- "syncedAt": "2026-11-14T09:33:24Z",
- "ops": 3
+ "sheetRevision": "2026-11-15T10:25:20.000Z",
+ "syncedAt": "2026-11-15T10:25:37Z",
+ "ops": 11,
+ "review": [
+  "place teradomari_fish_market_s (\"Teradomari Fish Market Street (Sakana no Ameyoko)\") added without coordinates",
+  "place wappa_meshi_yoshidaya_ya (\"Wappa-meshi Yoshidaya (Yahiko)\") added without coordinates"
+ ]
 }
