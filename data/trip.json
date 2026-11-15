@@ -993,6 +993,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "wappa_meshi_inakaya_niig": {
+   "en": "Wappa-meshi Inakaya (Niigata's own dish)",
+   "ja": "",
+   "addr": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~30 min walk from Niigata Daiichi Hotel over Bandai Bridge (est.), or ~7 min drive; no own parking, coin car parks nearby",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1611,7 +1620,7 @@
      "title": "Day out · Niigata → Yahiko → Niigata (car)",
      "kind": "visit",
      "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Sanjō-Tsubame IC → Yahiko, ~45–50 km, ~1 h (est.); back the same way, ~1 h after dark",
-     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Pia Bandai; dinner at Benkei, then hotel ~10 min\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:30 Walk to Inakaya, Furumachi (~30 min, est.), or drive ~7 min and use a coin car park\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1655,13 +1664,13 @@
     },
     {
      "id": "i98",
-     "time": "~18:20",
-     "title": "Dinner · Benkei kaiten sushi, Pia Bandai",
+     "time": "~19:00",
+     "title": "Dinner · Wappa-meshi Inakaya (Niigata's own dish)",
      "kind": "food",
-     "how": "Kaiten-zushi Benkei Pia Bandai (廻転寿司弁慶 新潟ピア万代店), 2-4 Bandaijima, Chūō-ku, Niigata; Pia Bandai car park (141 spaces, first 90 min free); ~10 min drive to Niigata Daiichi Hotel (est.)\nMC not checked: set the nav to Pia Bandai (☎ 025-249-2560)",
-     "notes": "Tabelog 3.56 (~1,900 reviews): Niigata's best-known conveyor sushi, Sado and local fish. Walk-in; expect a short queue. Shop hours not confirmed (Pia Bandai is open to 21:00)\nIf you'd rather sit longer: Wappa-meshi Inakaya, Furumachi (Tabelog 3.45; table seats; 17:00–21:00, closed Tue; no own parking, coin car parks nearby)",
+     "how": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~30 min walk from Niigata Daiichi Hotel over Bandai Bridge (est.), or ~7 min drive; no own parking, coin car parks nearby",
+     "notes": "Tabelog 3.45; where Niigata's wappa-meshi (rice steamed in a cedar box with seafood on top) began in 1956. Salmon-ikura wappa set ¥1,980; nodoguro wappa and noppe (Niigata vegetable stew) also on the menu; ~¥3k pp. Walk-in; ask for a table (tatami, irori and table seats). Dinner 17:00–21:00; closed Tue",
      "places": [
-      "benkei_kaiten_sushi_pia_"
+      "wappa_meshi_inakaya_niig"
      ],
      "mode": "transit"
     }
