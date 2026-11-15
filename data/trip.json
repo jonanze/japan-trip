@@ -957,6 +957,24 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "sushi_tsumugi_iwamuro_on": {
+   "en": "Sushi Tsumugi (Iwamuro Onsen)",
+   "ja": "",
+   "addr": "Sushi Tsumugi Niigata (鮨つむぎ 新潟), Hōhō hotel 1F, 340 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 080-5941-1615); hotel car park",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "yahiko_hotel_okura_niiga": {
+   "en": "Yahiko, Hotel Okura Niigata (tempura / teppanyaki)",
+   "ja": "",
+   "addr": "Yahiko (弥彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1571,11 +1589,11 @@
    "items": [
     {
      "id": "i39",
-     "time": "~10:00",
-     "title": "Day out · Niigata → Teradomari → Yahiko → Niigata (car)",
+     "time": "~10:45",
+     "title": "Day out · Niigata → Iwamuro → Yahiko → Niigata (car)",
      "kind": "visit",
-     "how": "Niigata Daiichi → Route 402 coast road → Teradomari, ~60 km, ~1 h 15 (est.); Teradomari → Yahiko, ~12 km, ~20 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC → Hokuriku Expwy → Niigata-Nishi IC, ~1 h after dark (est.)",
-     "notes": "Slow morning; breakfast at the hotel\n~10:00 Drive out along the coast road (Route 402)\n~11:15–12:45 Teradomari Fish Market Street, lunch\n~12:45 Drive to Yahiko (~20 min)\n~13:15 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:30 Dinner at Yoshidaya, Yahiko\n~18:45 Drive back to Niigata (~1 h, after dark)\n~19:45 Hotel; park\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Maki-Katahigashi IC → Iwamuro Onsen, ~45 min (est.); Iwamuro → Yahiko, ~15 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC, ~1 h after dark (est.)",
+     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Iwamuro Onsen (~45 min)\n~11:30 Lunch at Sushi Tsumugi\n~12:45 Drive to Yahiko (~15 min)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:40 Walk to Hotel Okura Niigata (~20 min) for 19:00\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1584,22 +1602,23 @@
     },
     {
      "id": "i41",
-     "time": "~11:15–12:45",
-     "title": "Lunch · Teradomari Fish Market Street (Sakana no Ameyoko)",
+     "time": "~11:30–12:45",
+     "title": "Lunch · Sushi Tsumugi (Iwamuro Onsen)",
      "kind": "food",
-     "how": "Teradomari Fish Market Street (寺泊魚の市場通り), Shimo-Aramachi, Teradomari, Nagaoka, on Route 402 (☎ 0258-75-3363, tourism association); 800 free car spaces\nMC not checked: set the nav by name",
-     "notes": "Seafood market street on the Sea of Japan; open daily 08:30–17:00. Sit-down lunch upstairs: Kaisen Chaya Shio no Hana (2F Kakujō main store, 11:00–16:00; whole-crab ramen, crab-ikura don) or Shokudō Marunaka (2F Teradomari Chūō Suisan, 11:00–15:00; chirashi, sashimi sets). Hama-yaki skewers (grilled fish, squid, scallops) at Kinpachi, 08:30–17:00. Monday hours of each eatery not checked",
+     "how": "Sushi Tsumugi Niigata (鮨つむぎ 新潟), Hōhō hotel 1F, 340 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 080-5941-1615); hotel car park\nMC not checked: set the nav by name",
+     "notes": "Omakase sushi counter (10 seats), Niigata fish. Lunch 11:00–14:00; closed Wed. Lunch omakase ~¥3,500 (unverified). Cancellation 50% from the day before, 100% on the day",
      "places": [
-      "teradomari_fish_market_s"
-     ]
+      "sushi_tsumugi_iwamuro_on"
+     ],
+     "action": "★ Book online for 3 at 11:30: restaurant.ikyu.com/148531"
     },
     {
      "id": "i42",
-     "time": "~13:15–17:20",
+     "time": "~13:00–17:20",
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
-     "how": "Drive Teradomari → Yahiko, ~20 min (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
-     "notes": "Momijidani maple valley: forecast best from ~14 Nov. Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up; dinner at Yoshidaya from 17:00",
+     "how": "Drive Iwamuro → Yahiko, ~15 min (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
+     "notes": "Momijidani maple valley: forecast best from ~14 Nov. Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up and rest at the hotel before dinner",
      "places": [
       "yahiko_park",
       "yahiko_shrine"
@@ -1619,15 +1638,15 @@
     },
     {
      "id": "i98",
-     "time": "~17:30",
-     "title": "Dinner · Wappa-meshi Yoshidaya (Yahiko)",
+     "time": "19:00",
+     "title": "Dinner · Yahiko, Hotel Okura Niigata (tempura / teppanyaki)",
      "kind": "food",
-     "how": "Wappa-meshi to Kappō Yoshidaya (わっぱ飯と割烹の吉田屋), 941-2 Yahiko, Yahiko-mura (☎ 0256-94-2020); 6 free car spaces; a few minutes' drive from Momijidani (est.)\nMC not checked: set the nav by phone number",
-     "notes": "Niigata's wappa-meshi (rice steamed in a cedar box; salmon and ikura on top) from ¥1,760; also squid menchi and crab cream croquettes. Dinner from 17:00, closes ~20:30–21:00; irregular closures. No online booking\nAfter: drive back to Niigata Daiichi Hotel, ~1 h (est.)",
+     "how": "Yahiko (弥彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
+     "notes": "Hotel Japanese restaurant: counter tempura, teppanyaki of Niigata beef, kaiseki. Dinner hours and prices not listed online",
      "places": [
-      "wappa_meshi_yoshidaya_ya"
+      "yahiko_hotel_okura_niiga"
      ],
-     "action": "★ Reserve Mon 16 Nov 17:30 for 3 and confirm open: ask the Niigata Daiichi front desk to phone ☎ 0256-94-2020",
+     "action": "★ Book online for 3 at 19:00: tablecheck.com/en/okura-niigata-yahiko",
      "mode": "transit"
     }
    ]
@@ -2204,8 +2223,8 @@
   },
   {
    "id": "t31",
-   "task": "Book Yoshidaya (Yahiko): Mon 16 Nov dinner at 17:30, 3 adults; confirm it is open",
-   "how": "Niigata Daiichi front desk phones ☎ 0256-94-2020 (no online booking)",
+   "task": "Book online: Sushi Tsumugi lunch Mon 16 Nov 11:30 and Hotel Okura Yahiko dinner 19:00, 3 adults",
+   "how": "Ikyu (restaurant.ikyu.com/148531) · TableCheck (tablecheck.com/en/okura-niigata-yahiko)",
    "by": "Now",
    "done": false
   },
