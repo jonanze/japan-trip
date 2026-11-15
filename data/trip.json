@@ -975,6 +975,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "hananari_tei_kaiseki_yum": {
+   "en": "Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)",
+   "ja": "",
+   "addr": "Hananari-tei (花なり亭), Ryokan Yumotoya, 91-1 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 0256-82-2015); 100 free car spaces",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1593,7 +1602,7 @@
      "title": "Day out · Niigata → Iwamuro → Yahiko → Niigata (car)",
      "kind": "visit",
      "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Maki-Katahigashi IC → Iwamuro Onsen, ~45 min (est.); Iwamuro → Yahiko, ~15 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC, ~1 h after dark (est.)",
-     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Iwamuro Onsen (~45 min)\n~11:30 Lunch at Sushi Tsumugi\n~12:45 Drive to Yahiko (~15 min)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:40 Walk to Hotel Okura Niigata (~20 min) for 19:00\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Iwamuro Onsen (~45 min)\n~11:30 Lunch at Hananari-tei (Yumotoya)\n~12:45 Drive to Yahiko (~15 min)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:40 Walk to Hotel Okura Niigata (~20 min) for 19:00\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1603,14 +1612,14 @@
     {
      "id": "i41",
      "time": "~11:30–12:45",
-     "title": "Lunch · Sushi Tsumugi (Iwamuro Onsen)",
+     "title": "Lunch · Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)",
      "kind": "food",
-     "how": "Sushi Tsumugi Niigata (鮨つむぎ 新潟), Hōhō hotel 1F, 340 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 080-5941-1615); hotel car park\nMC not checked: set the nav by name",
-     "notes": "Omakase sushi counter (10 seats), Niigata fish. Lunch 11:00–14:00; closed Wed. Lunch omakase ~¥3,500 (unverified). Cancellation 50% from the day before, 100% on the day",
+     "how": "Hananari-tei (花なり亭), Ryokan Yumotoya, 91-1 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 0256-82-2015); 100 free car spaces\nMC not checked: set the nav by phone number",
+     "notes": "Onsen-ryokan restaurant: Niigata seafood and rice kaiseki, ~¥2,000–3,000 pp. 60 seats incl. 2 private rooms. Lunch 11:30–14:30 (LO 14:00); closed Wed. Cancellation 50% from the day before, 100% on the day",
      "places": [
-      "sushi_tsumugi_iwamuro_on"
+      "hananari_tei_kaiseki_yum"
      ],
-     "action": "★ Book online for 3 at 11:30: restaurant.ikyu.com/148531"
+     "action": "★ Book online for 3 at 11:30 (ask for a private room): restaurant.ikyu.com/115835"
     },
     {
      "id": "i42",
@@ -1639,14 +1648,14 @@
     {
      "id": "i98",
      "time": "19:00",
-     "title": "Dinner · Yahiko, Hotel Okura Niigata (tempura / teppanyaki)",
+     "title": "Dinner · Yahiko, Hotel Okura Niigata (Japanese)",
      "kind": "food",
-     "how": "Yahiko (弥彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
-     "notes": "Hotel Japanese restaurant: counter tempura, teppanyaki of Niigata beef, kaiseki. Dinner hours and prices not listed online",
+     "how": "Yahiko (和食や彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
+     "notes": "Hotel Japanese restaurant overlooking the Shinano River: kaiseki, tempura, teppanyaki of Niigata beef. Dinner hours and prices not listed online",
      "places": [
       "yahiko_hotel_okura_niiga"
      ],
-     "action": "★ Book online for 3 at 19:00: tablecheck.com/en/okura-niigata-yahiko",
+     "action": "★ Book online for 3 at 19:00, request a table (not the counter): tablecheck.com/en/okura-niigata-yahiko",
      "mode": "transit"
     }
    ]
@@ -2223,8 +2232,8 @@
   },
   {
    "id": "t31",
-   "task": "Book online: Sushi Tsumugi lunch Mon 16 Nov 11:30 and Hotel Okura Yahiko dinner 19:00, 3 adults",
-   "how": "Ikyu (restaurant.ikyu.com/148531) · TableCheck (tablecheck.com/en/okura-niigata-yahiko)",
+   "task": "Book online: Hananari-tei lunch Mon 16 Nov 11:30 (private room) and Hotel Okura Yahiko dinner 19:00 (table), 3 adults",
+   "how": "Ikyu (restaurant.ikyu.com/115835) · TableCheck (tablecheck.com/en/okura-niigata-yahiko)",
    "by": "Now",
    "done": false
   },
