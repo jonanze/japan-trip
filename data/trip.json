@@ -993,6 +993,15 @@
    "lng": "",
    "mc": "",
    "tel": "025-223-1266"
+  },
+  "kitchen_kayama_western_h": {
+   "en": "Kitchen Kayama (Western: hamburg steak, oregano chicken)",
+   "ja": "",
+   "addr": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1611,7 +1620,7 @@
      "title": "Day out · Niigata → Yahiko → Niigata (car)",
      "kind": "visit",
      "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Sanjō-Tsubame IC → Yahiko, ~45–50 km, ~1 h (est.); back the same way, ~1 h after dark",
-     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:30 Walk to Inakaya, Furumachi (~30 min, est.), or drive ~7 min and use a coin car park\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1655,13 +1664,13 @@
     },
     {
      "id": "i98",
-     "time": "~19:00",
-     "title": "Dinner · Wappa-meshi Inakaya (Niigata's own dish)",
+     "time": "~18:45",
+     "title": "Dinner · Kitchen Kayama (Western: hamburg steak, oregano chicken)",
      "kind": "food",
-     "how": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~30 min walk from Niigata Daiichi Hotel over Bandai Bridge (est.), or ~7 min drive; no own parking, coin car parks nearby",
-     "notes": "Tabelog 3.45; where Niigata's wappa-meshi (rice steamed in a cedar box with seafood on top) began in 1956. Salmon-ikura wappa set ¥1,980; nodoguro wappa and noppe (Niigata vegetable stew) also on the menu; ~¥3k pp. Walk-in; ask for a table (tatami, irori and table seats). Dinner 17:00–21:00; closed Tue",
+     "how": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
+     "notes": "Tabelog 3.38; spacious local yōshoku: hamburg steak with fried egg ~¥1,500, oregano chicken on a sizzling plate, tare-katsudon, omurice; ~¥2–3k pp. 44 seats incl. tables and rooms. Walk-in. Closed Tue and Wed; dinner hours not confirmed. Smoking is allowed inside",
      "places": [
-      "wappa_meshi_inakaya_niig"
+      "kitchen_kayama_western_h"
      ],
      "mode": "transit"
     }
