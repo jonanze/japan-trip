@@ -996,21 +996,21 @@
   },
   "kitchen_kayama_western_h": {
    "en": "Kitchen Kayama (Western: hamburg steak, oregano chicken)",
-   "ja": "",
-   "addr": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
+   "ja": "キッチン 加山",
+   "addr": "新潟県新潟市中央区八千代1-2-10",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "025-247-0967"
   },
   "kitchen_kayama_western_s": {
    "en": "Kitchen Kayama (Western: steak, cheese fondue, hamburg)",
-   "ja": "",
-   "addr": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
+   "ja": "キッチン 加山",
+   "addr": "新潟県新潟市中央区八千代1-2-10",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "025-247-0967"
   }
  },
  "days": [
