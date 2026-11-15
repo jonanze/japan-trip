@@ -1002,6 +1002,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "kitchen_kayama_western_s": {
+   "en": "Kitchen Kayama (Western: steak, cheese fondue, hamburg)",
+   "ja": "",
+   "addr": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1665,12 +1674,12 @@
     {
      "id": "i98",
      "time": "~18:45",
-     "title": "Dinner · Kitchen Kayama (Western: hamburg steak, oregano chicken)",
+     "title": "Dinner · Kitchen Kayama (Western: steak, cheese fondue, hamburg)",
      "kind": "food",
-     "how": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front",
-     "notes": "Tabelog 3.38; spacious local yōshoku: hamburg steak with fried egg ~¥1,500, oregano chicken on a sizzling plate, tare-katsudon, omurice; ~¥2–3k pp. 44 seats incl. tables and rooms. Walk-in. Closed Tue and Wed; dinner hours not confirmed. Smoking is allowed inside",
+     "how": "Kitchen Kayama (キッチン 加山), 1-2-10 Yachiyo, Chūō-ku, Niigata (☎ 025-247-0967); ~10 min walk from Niigata Daiichi Hotel (est.); 3 car spaces in front\nkitchen-kayama.com",
+     "notes": "Tabelog 3.38; yōshoku since 1979, big portions: steak and cheese fondue (signatures), hamburg steak with fried egg ~¥1,500, oregano chicken, omurice; ~¥2–3k pp. 44 seats incl. tables and rooms. Dinner is walk-in (bookings are for lunch only). Closed Tue and Wed; check the business-day calendar on the website for closures. Smoking is allowed inside",
      "places": [
-      "kitchen_kayama_western_h"
+      "kitchen_kayama_western_s"
      ],
      "mode": "transit"
     }

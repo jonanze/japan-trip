@@ -1,8 +1,9 @@
 {
- "sheetRevision": "2026-11-15T11:10:36.000Z",
- "syncedAt": "2026-11-15T11:10:44Z",
- "ops": 3,
+ "sheetRevision": "2026-11-15T11:12:36.000Z",
+ "syncedAt": "2026-11-15T11:12:45Z",
+ "ops": 2,
  "review": [
-  "place kitchen_kayama_western_h (\"Kitchen Kayama (Western: hamburg steak, oregano chicken)\") added without coordinates"
+  "place kitchen_kayama_western_h (\"Kitchen Kayama (Western: hamburg steak, oregano chicken)\") added without coordinates",
+  "place kitchen_kayama_western_s (\"Kitchen Kayama (Western: steak, cheese fondue, hamburg)\") added without coordinates"
  ]
 }
