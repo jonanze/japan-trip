@@ -942,53 +942,53 @@
   },
   "teradomari_fish_market_s": {
    "en": "Teradomari Fish Market Street (Sakana no Ameyoko)",
-   "ja": "",
-   "addr": "Teradomari Fish Market Street (寺泊魚の市場通り), Shimo-Aramachi, Teradomari, Nagaoka, on Route 402 (☎ 0258-75-3363, tourism association); 800 free car spaces",
+   "ja": "寺泊魚の市場通り",
+   "addr": "新潟県長岡市寺泊下荒町（国道402号沿い）",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "0258-75-3363"
   },
   "wappa_meshi_yoshidaya_ya": {
    "en": "Wappa-meshi Yoshidaya (Yahiko)",
-   "ja": "",
-   "addr": "Wappa-meshi to Kappō Yoshidaya (わっぱ飯と割烹の吉田屋), 941-2 Yahiko, Yahiko-mura (☎ 0256-94-2020); 6 free car spaces; a few minutes' drive from Momijidani (est.)",
+   "ja": "割烹お食事 吉田屋",
+   "addr": "新潟県西蒲原郡弥彦村弥彦941-2",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "0256-94-2020"
   },
   "sushi_tsumugi_iwamuro_on": {
    "en": "Sushi Tsumugi (Iwamuro Onsen)",
-   "ja": "",
-   "addr": "Sushi Tsumugi Niigata (鮨つむぎ 新潟), Hōhō hotel 1F, 340 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 080-5941-1615); hotel car park",
+   "ja": "鮨つむぎ 新潟",
+   "addr": "新潟県新潟市西蒲区岩室温泉340 ホテル1F",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "080-5941-1615"
   },
   "yahiko_hotel_okura_niiga": {
    "en": "Yahiko, Hotel Okura Niigata (tempura / teppanyaki)",
-   "ja": "",
-   "addr": "Yahiko (弥彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
+   "ja": "弥彦 ホテルオークラ新潟",
+   "addr": "新潟県新潟市中央区川端町6-53 ホテルオークラ新潟",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "025-224-6130"
   },
   "hananari_tei_kaiseki_yum": {
    "en": "Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)",
-   "ja": "",
-   "addr": "Hananari-tei (花なり亭), Ryokan Yumotoya, 91-1 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 0256-82-2015); 100 free car spaces",
+   "ja": "花なり亭 湯元屋",
+   "addr": "新潟県新潟市西蒲区岩室温泉91-1 湯元屋",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "0256-82-2015"
   },
   "benkei_kaiten_sushi_pia_": {
    "en": "Benkei kaiten sushi, Pia Bandai",
-   "ja": "",
-   "addr": "Kaiten-zushi Benkei Pia Bandai (廻転寿司弁慶 新潟ピア万代店), 2-4 Bandaijima, Chūō-ku, Niigata; Pia Bandai car park (141 spaces, first 90 min free); ~10 min drive to Niigata Daiichi Hotel (est.)",
+   "ja": "廻転寿司弁慶 新潟ピア万代店",
+   "addr": "新潟県新潟市中央区万代島2-4 ピアBandai",
    "lat": "",
    "lng": "",
    "mc": "",
@@ -996,12 +996,12 @@
   },
   "wappa_meshi_inakaya_niig": {
    "en": "Wappa-meshi Inakaya (Niigata's own dish)",
-   "ja": "",
-   "addr": "Wappa-meshi Inakaya Furumachi Honten (わっぱ飯 田舎家), 9-1457 Furumachi-dōri, Chūō-ku, Niigata (☎ 025-223-1266); ~30 min walk from Niigata Daiichi Hotel over Bandai Bridge (est.), or ~7 min drive; no own parking, coin car parks nearby",
+   "ja": "わっぱ飯 田舎家",
+   "addr": "新潟県新潟市中央区古町通9-1457",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "025-223-1266"
   }
  },
  "days": [
