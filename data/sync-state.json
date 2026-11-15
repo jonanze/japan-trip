@@ -1,5 +1,9 @@
 {
- "sheetRevision": "2026-11-15T11:12:36.000Z",
- "syncedAt": "2026-11-15T11:47:38Z",
- "ops": 2
+ "sheetRevision": "2026-11-15T21:40:40.000Z",
+ "syncedAt": "2026-11-15T21:40:48Z",
+ "ops": 7,
+ "review": [
+  "place eneos_niigata_chuo_ss (\"ENEOS Niigata Chūō SS\") added without coordinates",
+  "place sakata_lagoon_sakata_koe (\"Sakata lagoon (Sakata-kōen)\") added without coordinates"
+ ]
 }

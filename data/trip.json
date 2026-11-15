@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "15 Nov 2026",
+ "updated": "16 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -1011,6 +1011,24 @@
    "lng": "",
    "mc": "",
    "tel": "025-247-0967"
+  },
+  "eneos_niigata_chuo_ss": {
+   "en": "ENEOS Niigata Chūō SS",
+   "ja": "",
+   "addr": "ENEOS Niigata Chūō SS (ENEOS 新潟中央SS), 10-1729-2 Higashibori-dōri, Chūō-ku, Niigata (☎ 025-223-0953); on a main road, easy in and out; ~10 min drive from the hotel (est.)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
+  },
+  "sakata_lagoon_sakata_koe": {
+   "en": "Sakata lagoon (Sakata-kōen)",
+   "ja": "",
+   "addr": "Sakata (佐潟), 5404-1 Akatsuka, Nishi-ku, Niigata; free car park (140–200 spaces)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1625,11 +1643,11 @@
    "items": [
     {
      "id": "i39",
-     "time": "~10:45",
-     "title": "Day out · Niigata → Yahiko → Niigata (car)",
+     "time": "~06:50",
+     "title": "Day out · Niigata → Sakata → Yahiko → Niigata (car)",
      "kind": "visit",
-     "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Sanjō-Tsubame IC → Yahiko, ~45–50 km, ~1 h (est.); back the same way, ~1 h after dark",
-     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "how": "Niigata Daiichi → refuel → Sakata, ~35–40 min west of the city (est.); Sakata → Yahiko via Maki, ~40 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC → Hokuriku Expwy, ~1 h after dark (est.)",
+     "notes": "Early start\n~06:50 Leave the hotel garage; refuel on the way out\n~07:40–08:40 Sakata lagoon: swans (they fly out to the fields during the morning)\n~08:45 Drive to Yahiko (~40 min)\n~09:30 Yahiko Shrine, Momijidani; ropeway if clear\n~11:30 Lunch at Yoshidaya (walk-in)\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1637,8 +1655,30 @@
      ]
     },
     {
+     "id": "i102",
+     "time": "~06:55",
+     "title": "Refuel · ENEOS Niigata Chūō SS",
+     "kind": "visit",
+     "how": "ENEOS Niigata Chūō SS (ENEOS 新潟中央SS), 10-1729-2 Higashibori-dōri, Chūō-ku, Niigata (☎ 025-223-0953); on a main road, easy in and out; ~10 min drive from the hotel (est.)\nMC not checked: set the nav by phone number",
+     "notes": "Opening hours not confirmed\nIf closed: ENEOS Dr.Drive Self Kurosaki IC Takasuke (黒埼IC高助), self-service, on the way west",
+     "places": [
+      "eneos_niigata_chuo_ss"
+     ]
+    },
+    {
+     "id": "i103",
+     "time": "~07:40–08:40",
+     "title": "Swans · Sakata lagoon (Sakata-kōen)",
+     "kind": "visit",
+     "how": "Sakata (佐潟), 5404-1 Akatsuka, Nishi-ku, Niigata; free car park (140–200 spaces)\nMC not checked: set the nav by name (佐潟)",
+     "notes": "Ramsar wetland: ~4,000 Bewick's swans in early Nov (peak ~7,000 mid–late Jan). They leave to feed in the rice fields during the day and return at dusk, so come early. No feeding. The Waterfowl & Wetland Centre (indoor viewing) is closed on Mondays",
+     "places": [
+      "sakata_lagoon_sakata_koe"
+     ]
+    },
+    {
      "id": "i41",
-     "time": "~11:45–12:45",
+     "time": "~11:30–12:30",
      "title": "Lunch · Wappa-meshi Yoshidaya (Yahiko)",
      "kind": "food",
      "how": "Kappō Oshokuji Yoshidaya (割烹お食事 吉田屋), 941-2 Yahiko, Yahiko-mura (☎ 0256-94-2020); own car park (6 cars); near the shrine approach, ~10 min walk from Yahiko Sta\nMC not checked: set the nav by phone number",
@@ -1649,10 +1689,10 @@
     },
     {
      "id": "i42",
-     "time": "~13:00–17:20",
+     "time": "~09:30–11:30, 12:30–17:20",
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
-     "how": "Yoshidaya → Yahiko Park, a few minutes (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
+     "how": "Drive Sakata → Yahiko, ~40 min (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
      "notes": "Momijidani maple valley: forecast best from ~14 Nov. Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up and rest at the hotel before dinner",
      "places": [
       "yahiko_park",
