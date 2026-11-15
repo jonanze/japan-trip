@@ -984,6 +984,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "benkei_kaiten_sushi_pia_": {
+   "en": "Benkei kaiten sushi, Pia Bandai",
+   "ja": "",
+   "addr": "Kaiten-zushi Benkei Pia Bandai (廻転寿司弁慶 新潟ピア万代店), 2-4 Bandaijima, Chūō-ku, Niigata; Pia Bandai car park (141 spaces, first 90 min free); ~10 min drive to Niigata Daiichi Hotel (est.)",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1599,10 +1608,10 @@
     {
      "id": "i39",
      "time": "~10:45",
-     "title": "Day out · Niigata → Iwamuro → Yahiko → Niigata (car)",
+     "title": "Day out · Niigata → Yahiko → Niigata (car)",
      "kind": "visit",
-     "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Maki-Katahigashi IC → Iwamuro Onsen, ~45 min (est.); Iwamuro → Yahiko, ~15 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC, ~1 h after dark (est.)",
-     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Iwamuro Onsen (~45 min)\n~11:30 Lunch at Hananari-tei (Yumotoya)\n~12:45 Drive to Yahiko (~15 min)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:40 Walk to Hotel Okura Niigata (~20 min) for 19:00\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "how": "Niigata Daiichi → Niigata-Nishi IC → Hokuriku Expwy → Sanjō-Tsubame IC → Yahiko, ~45–50 km, ~1 h (est.); back the same way, ~1 h after dark",
+     "notes": "Slow morning; breakfast at the hotel\n~10:45 Drive to Yahiko (~1 h)\n~11:45 Lunch at Yoshidaya (walk-in)\n~13:00 Yahiko Shrine, Momijidani; ropeway if clear\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Pia Bandai; dinner at Benkei, then hotel ~10 min\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
       "pia_bandai",
@@ -1611,22 +1620,21 @@
     },
     {
      "id": "i41",
-     "time": "~11:30–12:45",
-     "title": "Lunch · Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)",
+     "time": "~11:45–12:45",
+     "title": "Lunch · Wappa-meshi Yoshidaya (Yahiko)",
      "kind": "food",
-     "how": "Hananari-tei (花なり亭), Ryokan Yumotoya, 91-1 Iwamuro Onsen, Nishikan-ku, Niigata (☎ 0256-82-2015); 100 free car spaces\nMC not checked: set the nav by phone number",
-     "notes": "Onsen-ryokan restaurant: Niigata seafood and rice kaiseki, ~¥2,000–3,000 pp. 60 seats incl. 2 private rooms. Lunch 11:30–14:30 (LO 14:00); closed Wed. Cancellation 50% from the day before, 100% on the day",
+     "how": "Kappō Oshokuji Yoshidaya (割烹お食事 吉田屋), 941-2 Yahiko, Yahiko-mura (☎ 0256-94-2020); own car park (6 cars); near the shrine approach, ~10 min walk from Yahiko Sta\nMC not checked: set the nav by phone number",
+     "notes": "Walk-in. Wappa-meshi sets (salmon and ikura) from ¥1,760, squid menchi, sashimi; ~¥2–3k pp. 40 seats incl. tatami and private rooms. Lunch ~10:30–14:30; irregular closures\nIf closed: Hananari-tei kaiseki at Ryokan Yumotoya, 91-1 Iwamuro Onsen (~15 min from Yahiko; 11:30–14:30, closed Wed, 2 private rooms, 100 free car spaces)",
      "places": [
-      "hananari_tei_kaiseki_yum"
-     ],
-     "action": "★ Book online for 3 at 11:30 (ask for a private room): restaurant.ikyu.com/115835"
+      "wappa_meshi_yoshidaya_ya"
+     ]
     },
     {
      "id": "i42",
      "time": "~13:00–17:20",
      "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
      "kind": "visit",
-     "how": "Drive Iwamuro → Yahiko, ~15 min (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
+     "how": "Yoshidaya → Yahiko Park, a few minutes (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
      "notes": "Momijidani maple valley: forecast best from ~14 Nov. Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up and rest at the hotel before dinner",
      "places": [
       "yahiko_park",
@@ -1647,15 +1655,14 @@
     },
     {
      "id": "i98",
-     "time": "19:00",
-     "title": "Dinner · Yahiko, Hotel Okura Niigata (Japanese)",
+     "time": "~18:20",
+     "title": "Dinner · Benkei kaiten sushi, Pia Bandai",
      "kind": "food",
-     "how": "Yahiko (和食や彦), Hotel Okura Niigata, 6-53 Kawabata-chō, Chūō-ku, Niigata (☎ 025-224-6130); ~20 min walk from Niigata Daiichi Hotel along the river (est.)",
-     "notes": "Hotel Japanese restaurant overlooking the Shinano River: kaiseki, tempura, teppanyaki of Niigata beef. Dinner hours and prices not listed online",
+     "how": "Kaiten-zushi Benkei Pia Bandai (廻転寿司弁慶 新潟ピア万代店), 2-4 Bandaijima, Chūō-ku, Niigata; Pia Bandai car park (141 spaces, first 90 min free); ~10 min drive to Niigata Daiichi Hotel (est.)\nMC not checked: set the nav to Pia Bandai (☎ 025-249-2560)",
+     "notes": "Tabelog 3.56 (~1,900 reviews): Niigata's best-known conveyor sushi, Sado and local fish. Walk-in; expect a short queue. Shop hours not confirmed (Pia Bandai is open to 21:00)\nIf you'd rather sit longer: Wappa-meshi Inakaya, Furumachi (Tabelog 3.45; table seats; 17:00–21:00, closed Tue; no own parking, coin car parks nearby)",
      "places": [
-      "yahiko_hotel_okura_niiga"
+      "benkei_kaiten_sushi_pia_"
      ],
-     "action": "★ Book online for 3 at 19:00, request a table (not the counter): tablecheck.com/en/okura-niigata-yahiko",
      "mode": "transit"
     }
    ]
@@ -2227,13 +2234,6 @@
    "id": "t06",
    "task": "Reserve seats: Shinano 9 (13 Nov, Matsumoto 13:06 → Nagano ~14:00) and Hakutaka 568 (18 Nov, Nagano 16:20 → Tokyo 17:52)",
    "how": "JR ticket machine (today) / JR-EAST Train Reservation (eki-net)",
-   "by": "Now",
-   "done": false
-  },
-  {
-   "id": "t31",
-   "task": "Book online: Hananari-tei lunch Mon 16 Nov 11:30 (private room) and Hotel Okura Yahiko dinner 19:00 (table), 3 adults",
-   "how": "Ikyu (restaurant.ikyu.com/115835) · TableCheck (tablecheck.com/en/okura-niigata-yahiko)",
    "by": "Now",
    "done": false
   },

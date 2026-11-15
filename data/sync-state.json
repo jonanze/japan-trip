@@ -1,12 +1,13 @@
 {
- "sheetRevision": "2026-11-15T10:35:57.000Z",
- "syncedAt": "2026-11-15T10:36:06Z",
- "ops": 5,
+ "sheetRevision": "2026-11-15T10:38:52.000Z",
+ "syncedAt": "2026-11-15T10:39:00Z",
+ "ops": 6,
  "review": [
   "place teradomari_fish_market_s (\"Teradomari Fish Market Street (Sakana no Ameyoko)\") added without coordinates",
   "place wappa_meshi_yoshidaya_ya (\"Wappa-meshi Yoshidaya (Yahiko)\") added without coordinates",
   "place sushi_tsumugi_iwamuro_on (\"Sushi Tsumugi (Iwamuro Onsen)\") added without coordinates",
   "place yahiko_hotel_okura_niiga (\"Yahiko, Hotel Okura Niigata (tempura / teppanyaki)\") added without coordinates",
-  "place hananari_tei_kaiseki_yum (\"Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)\") added without coordinates"
+  "place hananari_tei_kaiseki_yum (\"Hananari-tei kaiseki, Yumotoya (Iwamuro Onsen)\") added without coordinates",
+  "place benkei_kaiten_sushi_pia_ (\"Benkei kaiten sushi, Pia Bandai\") added without coordinates"
  ]
 }
