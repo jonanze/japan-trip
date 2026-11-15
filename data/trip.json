@@ -886,15 +886,6 @@
    "mc": "",
    "tel": "025-385-2001"
   },
-  "pia_bandai": {
-   "en": "Minato no Marché Pia Bandai",
-   "ja": "みなとのマルシェ ピアBandai",
-   "addr": "新潟県新潟市中央区万代島2",
-   "lat": "",
-   "lng": "",
-   "mc": "",
-   "tel": "025-249-2560"
-  },
   "late_lunch_oyaki_zenko_j": {
    "en": "Ogawa no Shō oyaki (Patio Daimon)",
    "ja": "小川の庄 大門店（ぱてぃお大門）",
@@ -976,15 +967,6 @@
    "mc": "",
    "tel": "0256-82-2015"
   },
-  "benkei_kaiten_sushi_pia_": {
-   "en": "Benkei kaiten sushi, Pia Bandai",
-   "ja": "廻転寿司弁慶 新潟ピア万代店",
-   "addr": "新潟県新潟市中央区万代島2-4 ピアBandai",
-   "lat": "",
-   "lng": "",
-   "mc": "",
-   "tel": ""
-  },
   "wappa_meshi_inakaya_niig": {
    "en": "Wappa-meshi Inakaya (Niigata's own dish)",
    "ja": "わっぱ飯 田舎家",
@@ -1014,17 +996,17 @@
   },
   "eneos_niigata_chuo_ss": {
    "en": "ENEOS Niigata Chūō SS",
-   "ja": "",
-   "addr": "ENEOS Niigata Chūō SS (ENEOS 新潟中央SS), 10-1729-2 Higashibori-dōri, Chūō-ku, Niigata (☎ 025-223-0953); on a main road, easy in and out; ~10 min drive from the hotel (est.)",
+   "ja": "ENEOS 新潟中央SS",
+   "addr": "新潟県新潟市中央区東堀通10番町1729-2",
    "lat": "",
    "lng": "",
    "mc": "",
-   "tel": ""
+   "tel": "025-223-0953"
   },
   "sakata_lagoon_sakata_koe": {
    "en": "Sakata lagoon (Sakata-kōen)",
-   "ja": "",
-   "addr": "Sakata (佐潟), 5404-1 Akatsuka, Nishi-ku, Niigata; free car park (140–200 spaces)",
+   "ja": "佐潟",
+   "addr": "新潟県新潟市西区赤塚5404-1",
    "lat": "",
    "lng": "",
    "mc": "",
@@ -1637,7 +1619,7 @@
    "label": "16 Nov",
    "ja": "新潟",
    "en": "Niigata",
-   "sub": "Pia Bandai market, Yahiko maples and light-up, Marui sushi",
+   "sub": "Sakata swans, Yahiko maples and light-up, Kitchen Kayama",
    "mode": "driving",
    "hotel": "niigata",
    "items": [
@@ -1650,7 +1632,7 @@
      "notes": "Early start\n~06:50 Leave the hotel garage; refuel on the way out\n~07:40–08:40 Sakata lagoon: swans (they fly out to the fields during the morning)\n~08:45 Drive to Yahiko (~40 min)\n~09:30 Yahiko Shrine, Momijidani; ropeway if clear\n~11:30 Lunch at Yoshidaya (walk-in)\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers; ETC for tolls. All drive times are estimates",
      "places": [
       "niigata",
-      "pia_bandai",
+      "sakata_lagoon_sakata_koe",
       "yahiko_park"
      ]
     },
