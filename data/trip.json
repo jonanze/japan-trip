@@ -1628,8 +1628,8 @@
      "time": "~06:50",
      "title": "Day out · Niigata → Sakata → Yahiko → Niigata (car)",
      "kind": "visit",
-     "how": "Niigata Daiichi → refuel → Sakata, ~35–40 min west of the city (est.); Sakata → Yahiko via Maki, ~40 min (est.); Yahiko → Niigata via Sanjō-Tsubame IC → Hokuriku Expwy, ~1 h after dark (est.)",
-     "notes": "Early start\n~06:50 Leave the hotel garage; refuel on the way out\n~07:40–08:40 Sakata lagoon: swans (they fly out to the fields during the morning)\n~08:45 Drive to Yahiko (~40 min)\n~09:30 Yahiko Shrine, Momijidani; ropeway if clear\n~11:30 Lunch at Yoshidaya (walk-in)\n17:00 Momijidani light-up\n~17:20 Drive back (~1 h, after dark)\n~18:20 Hotel; park\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers; ETC for tolls. All drive times are estimates",
+     "how": "Niigata Daiichi → refuel → Sakata, ~35–40 min west of the city (est.); Sakata → Yahiko via Maki, ~40 min (est.); Yahiko → coast road north (Echigo Nanaura Sunset Line) → Uchino → Niigata, ~1 h 15 plus stops (est.)",
+     "notes": "Early start\n~06:50 Leave the hotel garage; refuel on the way out\n~07:40–08:40 Sakata lagoon: swans (they fly out to the fields during the morning)\n~08:45 Drive to Yahiko (~40 min)\n~09:30 Yahiko Shrine\n~11:30 Lunch at Yoshidaya (walk-in)\n~12:30 Momijidani maple valley walk\n~13:45 Drive back along the coast (Echigo Nanaura Sunset Line), pull-outs on the way\n~15:45 Hotel; park and rest\n~18:35 Walk to Kitchen Kayama (~10 min)\nRotate drivers. All drive times are estimates",
      "places": [
       "niigata",
       "sakata_lagoon_sakata_koe",
@@ -1671,11 +1671,11 @@
     },
     {
      "id": "i42",
-     "time": "~09:30–11:30, 12:30–17:20",
-     "title": "Yahiko Park (Momijidani) + Yahiko Shrine; stay for the light-up",
+     "time": "~09:30–11:30, 12:30–13:45",
+     "title": "Yahiko Shrine + Yahiko Park (Momijidani maple valley)",
      "kind": "visit",
      "how": "Drive Sakata → Yahiko, ~40 min (est.)\nYahiko Park, Yahiko-mura (☎ 0256-94-3154)\nMC 190 099 444*47\nYahiko Shrine, 2887-2 Yahiko (☎ 0256-94-2001), next to the park",
-     "notes": "Momijidani maple valley: forecast best from ~14 Nov. Stay for the light-up from 17:00 (17:00–21:00, 31 Oct–30 Nov); sunset is ~16:32, so bring an extra layer for the wait. Parking near Momijidani is paid during the light-up (~¥500). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)\nIf wet: shrine + a short look at Momijidani, skip the wait for the light-up and rest at the hotel before dinner",
+     "notes": "Shrine in the morning; Momijidani maple valley after lunch, a short walk from the shrine (forecast best from ~14 Nov). Chrysanthemum Festival at the shrine 1–24 Nov (shrine car parks paid during the festival). Cedar-lined approach. Snack: Bunsuidō panda-yaki (Tabelog 3.49, open Mon, sells out)",
      "places": [
       "yahiko_park",
       "yahiko_shrine"
@@ -1683,15 +1683,12 @@
     },
     {
      "id": "i43",
-     "time": "~14:00",
-     "title": "Optional · Mt Yahiko Ropeway (not the hike)",
-     "kind": "visit",
-     "how": "Yahiko Ropeway (Sanroku base); no car access: free shuttle from behind the shrine every ~15 min (3 min ride) or ~15 min walk\nMC 190 129 226*37 (shrine-side car park, 50 cars)",
-     "notes": "Sea of Japan and Sado Island views. Ropeway 09:00–16:40 (Apr–Nov), ¥1,500 return\nIf clear: worth it for the Sado views. Skip in rain, low cloud or high wind",
-     "places": [
-      "ropeway"
-     ],
-     "action": "★ Confirm no maintenance closure on 16 Nov: ☎ 0256-94-4141"
+     "time": "~13:45–15:45",
+     "title": "Transit · Yahiko → Echigo Nanaura Sunset Line → Niigata (coast drive)",
+     "kind": "travel",
+     "how": "Yahiko → coast road (Route 402) north along the Echigo Nanaura Sunset Line (sea cliffs, pull-outs) → Kakudahama → Uchino → Niigata Daiichi Hotel, ~1 h 15 driving (est.)",
+     "notes": "Scenic Sea of Japan coast road with cliff pull-outs; stop where it looks good\n~15:45 Hotel; park and rest before dinner",
+     "places": []
     },
     {
      "id": "i98",
@@ -2338,13 +2335,6 @@
    "task": "Snow check: Myōkō forecast for 14 and 18 Nov; if snow is forecast, ask Nissan for a studless-tyre car",
    "how": "tenki.jp (Myōkō) · Nissan ☎ 026-268-1123",
    "by": "~11 Nov",
-   "done": false
-  },
-  {
-   "id": "t16",
-   "task": "Confirm Yahiko Ropeway: no maintenance closure on 16 Nov (optional stop)",
-   "how": "☎ 0256-94-4141",
-   "by": "Before 16 Nov",
    "done": false
   },
   {
