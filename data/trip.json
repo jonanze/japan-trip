@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "16 Nov 2026",
+ "updated": "18 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -1011,6 +1011,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "trattoria_tavola_italian": {
+   "en": "Trattoria Tavola (Italian)",
+   "ja": "",
+   "addr": "Trattoria Tavola (トラットリア・ターヴォラ), Atre Kawasaki 4F, 26-1 Ekimae-honchō, Kawasaki-ku, Kawasaki",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1869,7 +1878,7 @@
      "title": "Check in · JR-East Hotel Mets Kawasaki (3 nt)",
      "kind": "stay",
      "how": "JR Tōkaidō Line Tokyo → Kawasaki, ~18 min\nJR-East Hotel Mets Kawasaki, 72-2 Horikawa-chō, Saiwai-ku, Kawasaki 〒212-0013 (☎ 044-540-1100)\n1 min from JR Kawasaki Sta Central Exit (West)",
-     "notes": "~17:55 Change at Tokyo to the Tōkaidō Line platforms; ~18:30 hotel, then Ushikozou at 19:00. Breakfast incl.; commuter base; bags stored. 2 rooms × 3 nights",
+     "notes": "~17:55 Change at Tokyo to the Tōkaidō Line platforms; ~18:30 hotel, then dinner at Trattoria Tavola ~19:00. Breakfast incl.; commuter base; bags stored. 2 rooms × 3 nights",
      "places": [
       "mets"
      ],
@@ -1879,15 +1888,14 @@
     {
      "id": "i57",
      "time": "~19:00",
-     "title": "Dinner · Ushikozou (A5 wagyu yakiniku)",
+     "title": "Dinner · Trattoria Tavola (Italian)",
      "kind": "food",
-     "how": "Ushikozou (うしこぞう), 1F, 5-10 Ogawa-chō, Kawasaki-ku, Kawasaki (☎ 050-5456-4317)\n~4 min walk from JR Kawasaki Sta, east side (same street as Santsuru)",
-     "notes": "Tabelog 3.52. A5 wagyu cuts and horumon grilled at the table, ~¥5–6k pp at dinner. Wed 17:00–23:00 (L.O. 22:30); open year-round. Smoking is heated tobacco only, in a designated area, so ask for a table away from it. Backup: Matsu no Ki (Tabelog 3.69, Sichuan, 6-11 Miyamoto-chō; closed Mon and Tue) or Sansan-nana tsukemen (open daily until 23:00)",
+     "how": "Trattoria Tavola (トラットリア・ターヴォラ), Atre Kawasaki 4F, 26-1 Ekimae-honchō, Kawasaki-ku, Kawasaki\n~5 min walk from Mets through the JR Kawasaki Sta concourse to the east side (Atre is station-connected)",
+     "notes": "Neapolitan pizza and pasta, ~¥2–3k pp at dinner. 11:00–23:00 (L.O. 22:00), open daily. 78 seats, mostly tables plus sofa seats; non-smoking. Walk-in",
      "places": [
-      "ushikozou"
+      "trattoria_tavola_italian"
      ],
-     "mode": "walking",
-     "action": "★ Reserve 19:00 for 3: Tabelog online or ☎ 050-5456-4317"
+     "mode": "walking"
     }
    ]
   },
@@ -2278,13 +2286,6 @@
    "id": "t21",
    "task": "Book Gyokusendō copper workshop tour: Tue 17 Nov 10:00, 3 people (mention older visitors)",
    "how": "☎ 0256-62-2015 / online form (gyokusendo.com/openfactory)",
-   "by": "Now",
-   "done": false
-  },
-  {
-   "id": "t24",
-   "task": "Book Ushikozou: Wed 18 Nov 19:00 dinner, 3 adults (table away from the smoking area)",
-   "how": "Tabelog online / ☎ 050-5456-4317",
    "by": "Now",
    "done": false
   },
