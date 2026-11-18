@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "18 Nov 2026",
+ "updated": "19 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -1020,6 +1020,15 @@
    "lng": "",
    "mc": "",
    "tel": ""
+  },
+  "marufuku_coffee": {
+   "en": "Marufuku Coffee (丸福珈琲店)",
+   "ja": "",
+   "addr": "Marufuku Coffee Kawasaki Azalea, Kawasaki Azalea B1F (underground mall, JR Kawasaki Sta east side), Ekimae-honchō, Kawasaki-ku",
+   "lat": "",
+   "lng": "",
+   "mc": "",
+   "tel": ""
   }
  },
  "days": [
@@ -1909,23 +1918,45 @@
    "hotel": "mets",
    "items": [
     {
+     "id": "i104",
+     "time": "07:30–08:20",
+     "title": "Breakfast · Marufuku Coffee (丸福珈琲店)",
+     "kind": "food",
+     "how": "Marufuku Coffee Kawasaki Azalea, Kawasaki Azalea B1F (underground mall, JR Kawasaki Sta east side), Ekimae-honchō, Kawasaki-ku\n~3 min from Mets through the station concourse, under cover all the way",
+     "notes": "Old-style kissaten; morning sets to 11:00 (toast, curry toast, mini sandwich), ~¥700–900. Opens 07:30 (Sun–Thu to 21:00). 44 seats with tables; walk-in",
+     "places": [
+      "marufuku_coffee"
+     ]
+    },
+    {
+     "id": "i105",
+     "time": "~09:15–09:55",
+     "title": "Stroll · Jingū Gaien ginkgo avenue",
+     "kind": "visit",
+     "how": "Jingū Gaien Ichō Namiki, Kita-Aoyama 1-chōme, Minato-ku, Tokyo\nJR Kawasaki → Shimbashi (Tōkaidō Line, ~17 min), then Ginza Line Shimbashi → Gaien-mae (~11 min); exit 4a, ~5 min walk",
+     "notes": "08:30 Leave the hotel; Tōkaidō Line is rush-hour packed toward Tokyo (Green Car by Suica if you want a seat)\n~08:55 Shimbashi, change to the Ginza Line\n~09:10 Gaien-mae\n~300 m avenue of ginkgo trees, flat, free, open any time; quiet in the morning. Forecast best from ~29 Nov, so expect it only partly yellow",
+     "places": [
+      "gaien"
+     ]
+    },
+    {
      "id": "i58",
-     "time": "~09:15–10:45",
+     "time": "~10:10–11:15",
      "title": "Meiji Jingū",
      "kind": "visit",
-     "how": "JR Kawasaki → Shinagawa (Tōkaidō Line) → Harajuku (Yamanote Line), ~40 min with the change\nMeiji Jingū, 1-1 Yoyogi-Kamizonochō, Shibuya-ku, Tokyo 〒151-8557\nMain hall ~10 min walk from the gates",
-     "notes": "08:30 Leave the hotel; ~09:15 Harajuku. Forested shrine walk in the city; ~1.5 h. Add the Inner Garden (Gyoen, ¥500, 09:00–16:00 in Nov; gentle paths with rest shelters) on the way to the main hall: quieter than the main approach. Mid-Nov brings Shichi-go-san families; a Thursday is moderate",
+     "how": "Ginza Line Gaien-mae → Omotesandō (1 stop), change to the Chiyoda Line → Meiji-jingūmae 〈Harajuku〉 (1 stop), ~15 min\nMeiji Jingū, 1-1 Yoyogi-Kamizonochō, Shibuya-ku, Tokyo 〒151-8557\nMain hall ~10 min walk from the gates",
+     "notes": "Forested shrine walk in the city; ~1 h. Add the Inner Garden (Gyoen, ¥500, 09:00–16:00 in Nov; gentle paths with rest shelters) on the way to the main hall: quieter than the main approach. Mid-Nov brings Shichi-go-san families; a Thursday is moderate. Leave by ~11:15 for lunch",
      "places": [
       "meiji"
      ]
     },
     {
      "id": "i59",
-     "time": "~11:15",
+     "time": "~11:30",
      "title": "Lunch · Tonkatsu Maisen Aoyama Honten",
      "kind": "food",
      "how": "4-8-5 Jingūmae, Shibuya-ku; 3 min from Omotesandō exit A2, ~10 min walk from Meiji Jingū",
-     "notes": "The famous former-bathhouse tonkatsu (Tabelog 3.44, 200+ seats so the queue turns fast; easiest before 11:30 or after 13:30; weekday seat reservations ☎ 050-3188-5802). Backup: Harajuku Gyōza Rō (Tabelog 3.49, cash only)",
+     "notes": "The famous former-bathhouse tonkatsu (Tabelog 3.44, 200+ seats so the queue turns fast; arrive before the noon rush). Backup: Harajuku Gyōza Rō (Tabelog 3.49, cash only)",
      "places": [
       "maisen"
      ],
@@ -1945,24 +1976,13 @@
     },
     {
      "id": "i81",
-     "time": "~14:30–15:30",
+     "time": "~14:30–16:50",
      "title": "Stroll · Omotesandō and Cat Street",
      "kind": "visit",
      "how": "Omotesandō avenue, Cat Street (Jingūmae)",
-     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then the Ginza Line from Omotesandō to Shimbashi for Midori (~15 min, est.)\nIf wet: Omotesandō Hills instead (indoor, same avenue)",
+     "notes": "Easy, flat shopping street. Café: BREAD, ESPRESSO & (3-4-9 Jingūmae, Tabelog 3.60; the mou toast; until 19:00, irregular holidays). Alt: Aoyama Flower Market GREEN HOUSE (tea inside the flower shop, open daily). Then the Ginza Line from Omotesandō to Shimbashi for Midori (~15 min, est.); leave ~17:00\nIf wet: Omotesandō Hills instead (indoor, same avenue)",
      "places": [
       "bread"
-     ]
-    },
-    {
-     "id": "i82",
-     "time": "~15:30–16:30",
-     "title": "Optional · Jingū Gaien ginkgo avenue",
-     "kind": "visit",
-     "how": "Jingū Gaien Ichō Namiki, Kita-Aoyama 1-chōme, Minato-ku, Tokyo; Ginza Line Omotesandō → Gaien-mae (1 stop), then ~5 min walk\nThen to Midori: Ginza Line Gaien-mae → Shimbashi, ~15 min (est.)",
-     "notes": "~300 m avenue of ginkgo trees, flat, free, open any time. Forecast best from ~29 Nov, so on 19 Nov expect it only partly yellow",
-     "places": [
-      "gaien"
      ]
     },
     {
