@@ -1,9 +1,14 @@
 {
- "sheetRevision": "2026-11-20T22:09:33.000Z",
- "syncedAt": "2026-11-20T22:09:42Z",
- "ops": 4,
+ "sheetRevision": "2026-11-20T22:20:56.000Z",
+ "syncedAt": "2026-11-20T22:21:04Z",
+ "ops": 17,
  "review": [
   "place trattoria_tavola_italian (\"Trattoria Tavola (Italian)\") added without coordinates",
-  "place marufuku_coffee (\"Marufuku Coffee (丸福珈琲店)\") added without coordinates"
+  "place marufuku_coffee (\"Marufuku Coffee (丸福珈琲店)\") added without coordinates",
+  "place kawasaki_daishi_heiken_j (\"Kawasaki Daishi (Heiken-ji) + Nakamise-dōri\") added without coordinates",
+  "place shinshuen_chinese_garden (\"Shinshūen Chinese garden\") added without coordinates",
+  "place lazona_kawasaki_plaza_4f (\"LAZONA Kawasaki Plaza 4F (walk-in)\") added without coordinates",
+  "place cafe_sit_kawasui_aquariu (\"café sit + KAWASUI aquarium (pick 1–2)\") added without coordinates",
+  "place kawasaki_walk_in (\"Kawasaki (walk-in)\") added without coordinates"
  ]
 }
