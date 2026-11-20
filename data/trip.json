@@ -2,7 +2,7 @@
  "v": 1,
  "title": "Japan Nov 2026",
  "travellers": "Jonan · EH & BY",
- "updated": "19 Nov 2026",
+ "updated": "21 Nov 2026",
  "places": {
   "changi": {
    "en": "Changi Airport Terminal 2",
@@ -2153,7 +2153,7 @@
      "title": "Check out · JR-East Hotel Mets Kawasaki",
      "kind": "travel",
      "how": "Kawasaki",
-     "notes": "Check out early and leave the luggage at the hotel; collect it ~21:30 before the taxi to Haneda",
+     "notes": "Check out early and leave the luggage at the hotel; collect it ~21:30 before Keikyū to Haneda",
      "places": [
       "mets"
      ],
@@ -2220,20 +2220,19 @@
     },
     {
      "id": "i71",
-     "time": "21:00–~22:05",
-     "title": "Transit · Ginza → Kawasaki (bags) → taxi to Haneda T2",
+     "time": "21:00–~22:20",
+     "title": "Transit · Ginza → Kawasaki (bags) → Keikyū to Haneda T2",
      "kind": "travel",
-     "how": "JR Shimbashi → Kawasaki (Tōkaidō Line, ~15 min); collect bags at Mets; taxi Mets → Haneda Airport T2 (~20–25 min)",
-     "notes": "21:00 Leave Shiseido Parlour; 5 min walk to JR Shimbashi\n~21:25 Kawasaki; collect bags at Mets\n~21:40 Pre-booked large taxi from the hotel\n~22:05 Haneda T2, about 2 h 20 before the 00:25 flight\nCost: metered ~¥6–8k per car incl. the 22:00+ late-night surcharge (estimate). A standard taxi may not take 3 adults + 3 big suitcases, so book a wagon/jumbo: fixed-fare jumbo from Kawasaki-ku is ¥20,000 incl. tolls (rakurakutaxi.jp, book ≥24 h ahead)\nFallback: Keikyū Kawasaki → Haneda Airport T1·T2 Sta, ~20–25 min",
+     "how": "JR Shimbashi → Kawasaki (Tōkaidō Line, ~15 min); collect bags at Mets; walk ~5 min to Keikyū Kawasaki Sta\nKeikyū Kawasaki → Haneda Airport T1·T2 Sta (direct, or change at Keikyū Kamata), ~20–25 min (est.)",
+     "notes": "21:00 Leave Shiseido Parlour; 5 min walk to JR Shimbashi\n~21:25 Kawasaki; collect bags at Mets\n~21:40 Walk to Keikyū Kawasaki with the bags (use the lifts)\n~21:50 Keikyū to Haneda Airport T1·T2 Sta; follow signs to T2 international departures\n~22:20 Haneda T2, about 2 h before the 00:25 flight",
      "places": [
       "mets",
       "haneda_t2"
-     ],
-     "action": "★ Book a large taxi for 21:40 (Mets front desk, or a fixed-fare jumbo ≥24 h ahead)"
+     ]
     },
     {
      "id": "i72",
-     "time": "~22:05",
+     "time": "~22:20",
      "title": "Arrive Haneda T2 · ANA check-in",
      "kind": "travel",
      "how": "Haneda Airport T2, international area",
@@ -2363,13 +2362,6 @@
    "task": "Optional: buy Kabuki-za hitomakumi (single-act) seats for Sat 21 Nov; check act times first (published ~1 Nov)",
    "how": "e-tix.jp/shochiku_makumi (credit card, max 4)",
    "by": "Fri 20 Nov, 12:00 JST",
-   "done": false
-  },
-  {
-   "id": "t19",
-   "task": "Book a large taxi: 21 Nov ~21:40, Mets Kawasaki → Haneda T2 (3 adults + suitcases)",
-   "how": "Mets front desk ☎ 044-540-1100, or fixed-fare jumbo via rakurakutaxi.jp (¥20,000 incl. tolls)",
-   "by": "By 20 Nov (≥24 h ahead)",
    "done": false
   }
  ],
