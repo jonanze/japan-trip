@@ -2205,23 +2205,12 @@
      "action": "★ Ask the desk to hold the bags until ~21:00"
     },
     {
-     "id": "i86",
-     "time": "~11:10–12:45",
-     "title": "Kawasaki Daishi (Heiken-ji) + Nakamise-dōri",
-     "kind": "visit",
-     "how": "~5 min walk from Mets to Keikyū Kawasaki Sta; Keikyū Daishi Line → Kawasaki-Daishi Sta (~5 min, est.), then ~10 min flat walk via Nakamise-dōri\nKawasaki Daishi Heiken-ji, Daishi-machi, Kawasaki-ku",
-     "notes": "Large temple with flat grounds; goma fire rituals daily. On Nakamise-dōri, watch the tontoko-ame candy being chopped. Kuzumochi (the local sweet) at Sumiyoshi in front of the gate (08:30–17:00; 2 pieces ¥850)",
-     "places": [
-      "kawasaki_daishi_heiken_j"
-     ]
-    },
-    {
      "id": "i92",
-     "time": "~12:45–13:15",
-     "title": "Daishi Park · Shinshūen Chinese garden",
+     "time": "~11:10–12:45",
+     "title": "Park · Daishi Park + Shinshūen Chinese garden",
      "kind": "visit",
-     "how": "Daishi Park (大師公園), Kawasaki-ku; short walk from the temple (est.); ~10 min walk from Keikyū Kawasaki-Daishi Sta\nBack: Keikyū Kawasaki-Daishi → Keikyū Kawasaki, then ~5 min walk to the JR West Exit",
-     "notes": "Free park with lawns and canals. Shinshūen garden (Chinese style, autumn colour) 09:00–16:00, closed Mon (Sat fine)",
+     "how": "~5 min walk from Mets to Keikyū Kawasaki Sta; Keikyū Daishi Line → Kawasaki-Daishi Sta (~5 min, est.), then ~10 min flat walk\nDaishi Park (大師公園), Kawasaki-ku\nBack: Keikyū Kawasaki-Daishi → Keikyū Kawasaki, then ~5 min walk to the JR West Exit",
+     "notes": "Free park: wide lawns ringed by canals, plenty of room to sit. Shinshūen (Chinese-style garden, autumn colour) 09:00–16:00, closed Mon (Sat fine). Kawasaki Daishi temple is a short walk away if you want a look (est.)",
      "places": [
       "shinshuen_chinese_garden"
      ]
